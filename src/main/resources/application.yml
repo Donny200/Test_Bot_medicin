@@ -1,16 +1,39 @@
-telegram:
-  bot:
-    username: TestForMedicine_bot
-    token: 8356880757:AAHQJyz-UMYv0E2BR7L-m1XazBA9cqzfZ-A
-  test:
-    price: 5000
-
 spring:
+  application:
+    name: test-bot
+
   datasource:
     url: jdbc:postgresql://localhost:5432/medicin_test_bot
     username: postgres
     password: doniyor2007
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+# Конфигурация Telegram бота
+telegram:
+  bot:
+    username: TestForMedicine_bot
+    token: 8356880757:AAHQJyz-UMYv0E2BR7L-m1XazBA9cqzfZ-A
+
+# Конфигурация платежей
+payment:
+  subscription-price: 100000
+  card-number: "5614 6820 0690 9925"
+  card-owner: "Xudayarov Doniyorbek"
+  telegram-username: "@zdzddx"
+
+server:
+  port: 8080
+
+logging:
+  level:
+    uz.pdp.test_bot: DEBUG
+    org.telegram: INFO

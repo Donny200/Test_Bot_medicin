@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 public class PaymentConfig {
-    private double subscriptionPrice = 1000.0;
+    private double subscriptionPrice = 100000;
     private String cardNumber = "5614 6820 0690 9925";
     private String cardOwner = "Xudayarov Doniyorbek";
-    private String telegramUsername = "@your_username"; // Укажите ваш Telegram username для отправки чеков
+    private String telegramUsername = "@zdzddx"; // Укажите ваш Telegram username для отправки чеков
 }

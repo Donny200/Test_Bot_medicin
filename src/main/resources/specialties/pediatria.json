@@ -1,0 +1,5546 @@
+[
+  {
+    "id": 1,
+    "question": "Raxitning postnatal spesifik profilaktikasi qancha davom etadi?",
+    "options": [
+      "1 yil",
+      "1,5 yil",
+      "2 yil",
+      "2,5 yil"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Ultra fiolet nurlanish kursidan so'ng bolaga qachon Vitamin D beriladi?",
+    "options": [
+      "UFN tugashi bilanoq",
+      "2 xaftadan keyin",
+      "3 xaftadan keyin",
+      "1 oydan keyin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Spazmofiliyaning nerv-reflektor qo'zg'alishi belgilariga kirmaydi:",
+    "options": [
+      "Bezovtalik",
+      "Pay reflekslarini kuchayishi",
+      "Xvostek, Trusso, Lyust, Erba, Maslov simptomlarini musbatligi",
+      "Mushak gipotoniyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Spazmofiliyada parxez printsiplarini sanab o'ting.",
+    "options": [
+      "Suv –choy tanaffusi 6-12 soat",
+      "Nordonlashtiruvchi parxez terapiya",
+      "Sut maxsulotlarini ma'n etish",
+      "Kaltsiyga boy maxsulotlarni belgilash"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "O'tkir gipervitaminoz D bilan dispanser nazoratida qancha vaqt turiladi?",
+    "options": [
+      "1 yilgacha",
+      "1-2 yil",
+      "2-3 yil",
+      "3-4 yil"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Bolaga necha oyligidan tuxum sarig'ini berish mumkin?",
+    "options": [
+      "6 oylikdan",
+      "3 oylikdan",
+      "8 oylikdan",
+      "10 oylikdan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Bolaga necha oyligidan go'sht pyuresi beriladi?",
+    "options": [
+      "5 oyligidan",
+      "6,5-7 oyligidan",
+      "8 oyligidan",
+      "10 oyligidan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Bolada paydo bo'lgan «kraniotabes» raxitning qaysi darajasiga xos belgi?",
+    "options": [
+      "Bu raxitning belgisi emas",
+      "I daraja",
+      "II daraja",
+      "III daraja"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Bir yoshgacha bolaning oqsilga bo'lgan sutkalik extiyoji (g/kg) qanday?",
+    "options": [
+      "2.0",
+      "1.5",
+      "3.0",
+      "5.0"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Sog'lom tug'ilgan bolaning bosh suyagi aylanasi necha santimetrga teng?",
+    "options": [
+      "30-32",
+      "33-34",
+      "35-36",
+      "38-40"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Go'dak xayotining 1-oyida pediatr tomonidan necha marta ko'riladi?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Tug'ilgan bolada fiziologik vaznining kamayishi necha %ga teng?",
+    "options": [
+      "5%gacha",
+      "6-8%",
+      "8-9%",
+      "9-10%"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Poliorgan yetishmovchilik qaysi kasallikka tegishli?",
+    "options": [
+      "Sepsis",
+      "Pnevmoniya",
+      "Bronxit",
+      "Bronxial astma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "Fosfor-kaltsiy almashinuvida qaysi bezlar ishtirok etadi?",
+    "options": [
+      "Qalqonsimon oldi bezi",
+      "Buyrak usti bezi",
+      "Oshqozon osti bezi",
+      "So’lak bezi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "Ko'krak suti bilan qachongacha emizish kerak?",
+    "options": [
+      "2 yoshgacha",
+      "9 oygacha",
+      "12 oygacha",
+      "1,5 yoshgacha"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Ona qanday kasalliklarida bolasini ko'krak suti bilan boqa olmaydi?",
+    "options": [
+      "OITS-infektsiya, sifilis",
+      "Yurak qon tomir tizimi kasalliklari",
+      "Gripp, O'RI",
+      "Genital kasalliklar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Ko'krak suti bilan boqilayotgan bolaga qachondan qo'shimcha ovqat berish mumkin?",
+    "options": [
+      "3 oylikdan",
+      "5 oylikdan",
+      "6 oylikdan",
+      "8 oylikdan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 18,
+    "question": "Birinchi bo'lib qaysi qo'shimcha ovqat (prikorm) berish tavsiya etiladi?",
+    "options": [
+      "bo'tqa (kasha)",
+      "sabzavotli pyure",
+      "go’shtli pyure",
+      "tuxum sarigi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 19,
+    "question": "Qo'shimcha ovqat (dokorm) sifatida qanday maxsulotlardan foydalaniladi?",
+    "options": [
+      "Sigir suti",
+      "Moslashtirilgan sutli aralashma",
+      "Sharbat",
+      "5% glyukoza"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "Birinchi 3 oylikda chaqaloqlarga ko'krak suti kamida necha marta beriladi?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "18-20"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 21,
+    "question": "Bir yoshida bola vazni necha barobar ortadi?",
+    "options": [
+      "2 barobar",
+      "3 barobar",
+      "4 barobar",
+      "2,5 barobar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "Sharbatlarni bolaga necha oyligidan berish mumkin?",
+    "options": [
+      "6 oylikdan",
+      "2 oylikdan",
+      "3 oylikdan",
+      "8 oylikdan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "O'sish omillari qaysi sut maxsulotida bor?",
+    "options": [
+      "Ko'krak suti",
+      "Sigir suti",
+      "Echki suti",
+      "Moslashtirilgan aralashma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "Qaysi maxsulotlarda immunoglobulin A va lizotsim bor?",
+    "options": [
+      "Moslashtirilgan sutli aralashma",
+      "Ko'krak suti",
+      "Sigir suti",
+      "Bo'tqalar (kasha)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Qo'shimcha ovqatga (prikorm) nimalar kiradi?",
+    "options": [
+      "Sabzavot pyuresi, Bo'tqalar, Go'sht pyuresi",
+      "Ko’krak suti",
+      "Moslashtirilgan sutli aralashma",
+      "Sigir suti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "Bir yoshgacha bolaga qanday miqdorda kaloriya/kg zarur?",
+    "options": [
+      "115-110",
+      "80-90",
+      "150",
+      "200"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "Go'dakda ko'rsatilgan simptomlarning qay biri atopik ekzemada uchrash extimoli ko'p?",
+    "options": [
+      "Eritematoz papulo-vezikulez toshma, ekssudatsiya bilan",
+      "Bukiluvchi mushaklar yuzidagi terining shikatlanishi",
+      "Krapivnitsa (eshakem)",
+      "Teri giperpegmentatsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "Kichik yoshdagi bolalarda anemiya deb qonda gemoglobin miqdori quyidagi raqamdan past bo'lsa hisoblanadi:",
+    "options": [
+      "110",
+      "130",
+      "140",
+      "150"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "Bolalarda vitamin C yetishmaganda qanday alomatlar va belgilar kuzatiladi?",
+    "options": [
+      "Kasalliklarga moyillik ortadi, tez-tez charchashlik, burun va milklar qonashi",
+      "Oshqozon-ichak faoliyatining buzilishi, muskullarda og'riq paydo bo'lishi",
+      "Markaziy nerv sistemasi faoliyatining buzilishi, dermatitlar",
+      "Raxit va kamkonlik belgilari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "Vitamin A ning asosiy manbalari:",
+    "options": [
+      "Baliq moyi, sariq yog', tuxum, pishloq, jigar",
+      "Sabzovot va dukkakli maxsulotlar",
+      "Sariq va qizil rangdagi o'simlik maxsulotlari",
+      "Sut va sut maxsulotlari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "O'sib kelayotgan organizmda qanday mineral moddalar yetishmasligidan suyak-mushak tizimining noto'g'ri rivojalanishi kuzatiladi?",
+    "options": [
+      "Kaltsiy, fosfor",
+      "Kaliy, Natriy",
+      "Temir, Kobolt",
+      "Xlor, yod"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "Sog'lom o'sayotgan chaqoloqni istesnosiz ko'krak suti bilan emizishni qachongacha va qanday tartibda olib borish kerak?",
+    "options": [
+      "6 oygacha faqat ona suti bilan va talabga binoan emizish",
+      "6 oygacha fakat ona suti bilan xar 3 soatda emizish",
+      "8-10 oygacha tungi tanaffuslar bilan kuniga 6-7 marotaba emizish",
+      "3–4 oydan boshlab suyuqlik va qo'shimcha ovqatlarni qo'llash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "25(ON) vitamin Dni xosil bo'lish joyini ko'rsating",
+    "options": [
+      "Jigar",
+      "Buyrak",
+      "T'eri",
+      "Qon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "D-vitaminining davolash dozasini aniqlang",
+    "options": [
+      "2000-5000 XB/sutkada",
+      "500-1000 XB/sutkada",
+      "100-200 XB/sutkada",
+      "6000-8000 XB/sut"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "Katta liqildog'i kichik bo'lgan bolalarda raxitning profilaktikasi qanday o'tkaziladi?",
+    "options": [
+      "3-4 xaftalikdan vit D 500-1000 XB",
+      "1 oylikdan vitamin D 2000 XB",
+      "2 oylikdan polivitaminlar bilan",
+      "6 oylikdan Ultra fiolet nurlanish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "Muddatiga yetib tug'ilgan bolaga raxitning postnatal profilaktikasi qachon belgilanadi?",
+    "options": [
+      "2 - xaftadan",
+      "3-4 xaftadan",
+      "3 oylikdan",
+      "1,5 oylikdan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Raxitning avj olishi xaqida quyidagilardan qaysi biri dalolat bera olmaydi?",
+    "options": [
+      "Anemiya",
+      "Kraniotabes",
+      "Ko'p terlash",
+      "Gepatosplenomegaliya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "Temir tanqisli kamqonlikni davolash:",
+    "options": [
+      "Vitaminlar",
+      "Temir preparatlari",
+      "Kislorod-vitaminli kokteyli",
+      "Spetsifik immunokorrektsiya, immunomodulyatorlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Tanqisli anemiyali bolalarni dispanser nazorati davrida o'tkaziladigan tekshirish turini sanab o'ting:",
+    "options": [
+      "qonning klinik, bioximik analizi",
+      "qonda qand miqdori",
+      "qon gruppasini aniqlash",
+      "koagulogramma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "Tanqis anemiyali bolalarni gospitalizatsiyasi uchun ko'rsatmalar:",
+    "options": [
+      "Anemiyaning og'ir kechishi",
+      "Anemiyaning o’rta og'ir kechishi",
+      "Anemiyaning yengil kechishi",
+      "Anemiya boshqa kasalliklar bilan kechsa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "Temir preparati tabletkalarini qabul qilaolmaslik belgilarini sanab o'ting:",
+    "options": [
+      "Dispepsik o'zgarishlar",
+      "Krapivnitsa",
+      "Oshqozondagi og'riq",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 42,
+    "question": "1 yoshgacha bo'lgan bolaga qaysi maxsulotlarni berish mumkin emas?",
+    "options": [
+      "qovun, uzum, qulupnay, sigir suti",
+      "sabzi, kartoshka",
+      "olma, nok",
+      "brokli, kabachki"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "Bolaga necha yoshdan yogurt berish mumkin?",
+    "options": [
+      "5 yoshdan",
+      "6 oyligidan",
+      "2 yoshdan",
+      "3 yoshdan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "Bolalarda nanizmning sabablari:",
+    "options": [
+      "Nasliy moyillik",
+      "Enzimopatiyalar",
+      "Surunkali sepsis",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 45,
+    "question": "Raxitsimon kasalliklarga qaysilar kiradi?",
+    "options": [
+      "Fosfatdiabet",
+      "De-Toni-Debre-Fankoni kasalligi",
+      "Buyrak tubulyar atsidozi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 46,
+    "question": "Spazmofiliya qaysi preparatlar bilan davolanadi?",
+    "options": [
+      "Kaltsiy, talvasaga qarshi preparatlar",
+      "Adrenalin",
+      "Vitaminlar",
+      "Gormoni"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "Qaysi minerallar immun sistemasini kuchaytiradi?",
+    "options": [
+      "Temir",
+      "Selen",
+      "Rux",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 48,
+    "question": "Xar doim bolaning qaysi ko'rsatkichlarini o'lchash kerak?",
+    "options": [
+      "Bo'yi",
+      "Bosh aylanasi",
+      "Og'irligi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 49,
+    "question": "Chaqaloqlarda eritrotsitlarning o'rtacha miqdori:",
+    "options": [
+      "3 mln",
+      "3,5 mln",
+      "5 mln",
+      "6 mln"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 50,
+    "question": "Chaqaloqlarda gemoglobinni o'rtacha miqdori (g/l):",
+    "options": [
+      "240",
+      "180",
+      "200",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 51,
+    "question": "Chaqaloqlarda rangli ko'rsatkich teng: (birlik)",
+    "options": [
+      "0,7",
+      "0,8",
+      "1,9",
+      "1"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 52,
+    "question": "Temir tanqisli anemiyaning belgilari:",
+    "options": [
+      "Anizatsitoz",
+      "Rangli ko'rsatkich 0,8 dan kichik",
+      "Poykilotsitoz",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 53,
+    "question": "Qonda leykotsitar formulaning birinchi perekrest vaqti:",
+    "options": [
+      "Xayotining 3chi kuni",
+      "Xayotining 5chi kuni",
+      "Xayotining 10chi kuni",
+      "5 oyda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 54,
+    "question": "Qonda leykotsitar formulaning ikkinchi perekrest vaqti:",
+    "options": [
+      "6-8 oy -1 yosh",
+      "4-5 yosh",
+      "6-7 yosh",
+      "10 yosh"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "Bir yoshli sog'lom bolalar periferik qonida leykotsitlar miqdori:",
+    "options": [
+      "4000-6000",
+      "6000-8000",
+      "8000-10000",
+      "10000-12000"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 56,
+    "question": "Anemiyaning og'ir shakli gemoglobin miqdori bilan xarakterlanadi (g/l):",
+    "options": [
+      "110",
+      "100",
+      "80-90",
+      "50-60"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 57,
+    "question": "Umumiy kaltsiyning qon zardobidagi miqdori (mol/l):",
+    "options": [
+      "1,5-1,9",
+      "2,0-2,3",
+      "3,3-2,8",
+      "3,0-3,5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 58,
+    "question": "Fosforning qon zardobidagi o'rtacha miqdori (mol/l):",
+    "options": [
+      "0,5-0,9",
+      "1,0-1,6",
+      "1,6-2,0",
+      "2,0-2,5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "6 oylikgacha istesnosiz ona sutida bo'lgan bolaning ichi necha marta kelishi mumkin:",
+    "options": [
+      "Kuniga 1 marta",
+      "Kuniga 5-6 marta",
+      "Kuniga 10 marta",
+      "Kuniga 7 marta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "Raxitning yetakchi sabablaridan biri:",
+    "options": [
+      "Tez-tez shamollaganda",
+      "Ovqat orqali vitamin D yetarli miqdorda tushmasligi",
+      "Ichak mikroflorasining buzilishi",
+      "Yog' va uglevodlarni ko'p iste'mol qilganda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 61,
+    "question": "Vitamin B12 tanqisligi anemiyada rang ko'rsatkichini aniqlang",
+    "options": [
+      "1 va undan yuqori",
+      "1 va undan kam",
+      "0,8 va undan kam",
+      "0,9 va undan yuqori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 62,
+    "question": "Eritrotsitlar soni kamaygan, gemoglobin kamaygan, rangli ko'rsatkich baland, retikulotsitopeniya. Bu qaysi tur anemiyaga xos?",
+    "options": [
+      "Vit.B12 tanqisligi",
+      "Temir tanqisligi",
+      "Gemolitik",
+      "Postgemorragik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 63,
+    "question": "Bolalarda anemiyaning qaysi turi ko'p uchraydi:",
+    "options": [
+      "temir tanqislik",
+      "gemolitik",
+      "postgemorragik",
+      "gipoplastik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 64,
+    "question": "Bola tug'ilgandagi uzunligini qaysi yoshda ikki baravar ko'paytiradi?",
+    "options": [
+      "2 yoshda",
+      "4 yoshda",
+      "6 yoshda",
+      "1 yoshda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 65,
+    "question": "Bola tug'ilgandagi vaznini qaysi yoshda uch baravar ko'paytiradi?",
+    "options": [
+      "1 yoshda",
+      "9 oyda",
+      "6 oyda",
+      "2 yoshda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 66,
+    "question": "Bolaning o'sishiga qaysi gormon javobgar?",
+    "options": [
+      "Somatotrop",
+      "Tiroksin",
+      "Gonadotrop",
+      "Adrenalin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 67,
+    "question": "Qaysi gormon sut xosil qilib berishni ta'minlaydi?",
+    "options": [
+      "Prolaktin",
+      "Oksitotsin",
+      "Mamafizin",
+      "Somatotrop gormon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 68,
+    "question": "Ko'krak bezidan sut chiqishini qaysi gormon ta'minlab beradi?",
+    "options": [
+      "Oksitotsin",
+      "Prolaktin",
+      "Adrenalin",
+      "Kortizon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 69,
+    "question": "Bolani birinchi marta ko'krakga berish vaqti:",
+    "options": [
+      "Tug'ilgandan keyingi 1 soat ichida",
+      "Tug'ilgandan keyingi 5-6 soat ichida",
+      "Tug'ilgandan keyingi 6-12 soat ichida",
+      "1 sutkadan so'ng"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 70,
+    "question": "Retsidiv bronxitni tashxislash uchun asosiy belgilar:",
+    "options": [
+      "Xansirash",
+      "2 oy davomida quruq yo'tal",
+      "Qutichasimon perkutor tovush",
+      "Yil davomida uch va undan ortiq marta o'tkir bronxit o'tkazsa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 71,
+    "question": "O'tkir oddiy bronxitga xos belgini ko'rsating:",
+    "options": [
+      "Neyrotoksikoz sindromi",
+      "Subfebrilitet",
+      "Quruq tarqoq xirillash",
+      "Xansirash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 72,
+    "question": "Bronxiolit rivojlanishiga sababchi bo'ladi?",
+    "options": [
+      "Zambrug'lar",
+      "Mikoplazma",
+      "Xlamidiya",
+      "RS-viruslar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 73,
+    "question": "Bronxit rivojlanishiga sababchi bo'ladi:",
+    "options": [
+      "Virus infektsiya",
+      "Bakterial infektsiya",
+      "Allergiya",
+      "Ximik moddalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 74,
+    "question": "Uyda pnevmoniya bilan kasallanganda qaysi qo'zg'otuvchi asosiy rol o'ynaydi?",
+    "options": [
+      "Pnevmokokk",
+      "Stafilokokk",
+      "Vulgar protey",
+      "Klebsiyella"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 75,
+    "question": "Kichik yoshdagi bolalarda o'tkir bronxitni davolashda antibakterial davo necha kun davom etadi?",
+    "options": [
+      "3-4 kun",
+      "5-7 kun",
+      "8-10 kun",
+      "12-14 kun"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 76,
+    "question": "O'tkir bronxitga xos rentgenologik ko'rinish deb hisoblanadi:",
+    "options": [
+      "O'pkada qon tomir surati kuchayishi",
+      "O'choqli soyalar",
+      "Emfizema",
+      "O'zgarishlar yo'q"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 77,
+    "question": "Bronxial astma yengil hurujini yo'qotish uchun ishlatiladi:",
+    "options": [
+      "salbutamol",
+      "askoril",
+      "efedrin",
+      "adrenalin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 78,
+    "question": "Atopik bronxial astma kelib chiqishining asosiy sababi nimada?",
+    "options": [
+      "uy changiga sensibilizatsiya",
+      "virus infektsiyasi",
+      "bakterial infektsiya",
+      "zamburg'lar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 79,
+    "question": "Rentgenogrammada bronxial astmaning xarakterli o'zgarishni ko'rsating:",
+    "options": [
+      "o'pka to'qimasida xavolikni oshishi",
+      "infiltrativ soya",
+      "bronxoektaz",
+      "o'pka ildiz suratini ko'chayishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 80,
+    "question": "Bolalarda ko'p uchraydigan zotiljam shakli:",
+    "options": [
+      "o'choqli",
+      "krupoz",
+      "interstitsial",
+      "sigmentar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "question": "Krup sindromiga xarakterli yo'tal:",
+    "options": [
+      "dag’al, vovullovchi",
+      "hurujli, repriz bilan",
+      "bitonal",
+      "beto’xtov"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 82,
+    "question": "Inspirator nafas bo'zilishi ko'zatiladi:",
+    "options": [
+      "krup sindromi",
+      "bronxial astma",
+      "pnevmoniya",
+      "ko'k yo'tal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 83,
+    "question": "Bir yoshda bo'lgan bolalarda qanday antibiotiklar ishlatilmaydi?",
+    "options": [
+      "gentamitsin, penitsillin",
+      "sefalosporinlar",
+      "levomitsetin suktsinat",
+      "tetratsiklin, monomitsin, kanamitsin"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 84,
+    "question": "Plevra ishqalanish shovqini uchun xos:",
+    "options": [
+      "fonendoskop bilan ko'krak qafasiga bosilganda kuchayadi",
+      "nafas olish cho'qqisida eshitiladi",
+      "yo'talganda yo'qoladi",
+      "nafas chiqarishda eshitiladi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "question": "Uy sharoitida katta yoshdagi bolalarda pnevmoniyani ko'proq chaqiradi:",
+    "options": [
+      "stafilakkokk",
+      "pnevmokokk",
+      "streptokokk",
+      "gemofil tayog'chasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "question": "Pnevmoniyada rentgenologik o'zgarishlar:",
+    "options": [
+      "o'pkaning umumiy shishi",
+      "qontomir rasmining o'zgarishi",
+      "o'pkaning umumiy tiniqligini ko'chayishi",
+      "o'choqli va sigmentar infiltratsiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 87,
+    "question": "10 yoshli bolada o'tkir pnevmoniya fonida terisi rangi yersimon, sianoz, yopishqoq ter chiqishi. Nafas yetishmovchiligi darajasini aniqlang:",
+    "options": [
+      "Nafas yetishmovchiligi yo’q",
+      "1 daraja",
+      "1-2 daraja",
+      "3 daraja"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 88,
+    "question": "Qovirg'alar orasi tekislanishi, ko'krak qafasini shikastlangan tomoni bo'rtib chiqishi, perkussiyada upka tovushi lokal qisqarishi, auskultatsiyada nafasni keskin susayishi xos:",
+    "options": [
+      "Ekssudativ plevritga",
+      "Surunkali pnevmoniyaga",
+      "Obstruktiv bronxitga",
+      "Bronxial astmaga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 89,
+    "question": "9 oylik bola uchun uyga tez yordam chaqirildi. Bir kun oldin burni oqishni boshlagan, harorati 37,2°C bo'lgan. Kechasi u to'satdan uyg'onib ketdi va bezovta bo'ldi. Qattiq yo'tal bor edi, u bo'g'ilib qoldi. Harorat 38°C ko'tarildi. Sizning dastlabki tashxisingiz:",
+    "options": [
+      "Obstruktiv bronxit",
+      "ORVI fonida soxta krup rivojlangan",
+      "Bronxiolit",
+      "Difteriya - haqiqiy krup"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 90,
+    "question": "Statsionar davolanayotgan 8 yoshli bolada ertalab nafas chiqarishda qiyinchilik, tez-tez quruq yo'tal bilan astma xuruji paydo bo'ldi; nafas shovqinli, uzoqdan hushtak tovushlari eshitiladi. Sizning vaqtinchalik tashxisingiz:",
+    "options": [
+      "O'tkir bronxit",
+      "Bronxial astma xuruji",
+      "Nafas olish yetishmovchiligi",
+      "Pnevmoniya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 91,
+    "question": "O'g'il 3 yoshda. Onasining so'zlariga ko'ra, bola 3 kundan beri kasal. Avvaliga burun oqishi, yo'tal bor edi va bugungi kunda tana xarorati 38,2°C gacha ko'tarildi. Bolaning ishtaxasi pasayib, yo'tal kuchayib, quruq og'riqli bo'ldi. Tekshiruvda bodom bezlari o'rtacha giperemiya, karash yo'q. O'pkada dag'al nafas asosida o'pkaning old va orqa pastki bo'limlarda quruq xirillashlar eshitilmoqda. Nafas olish tezligi - 1 daqiqada 28 marta, puls - 1 daqiqada 110 marta. Sizning tashxisingiz qanday?",
+    "options": [
+      "Pnevmoniya",
+      "O'tkir bronxit",
+      "Bronxial astma",
+      "Obstruktiv bronxit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 92,
+    "question": "Bola 5 oylik. Onasi o’tkir resperator infeksiya o'tkazgan. Bolada yo'tal bor, lekin harorati ko'tarilmagan, emishi qoniqarli. Bir necha kundan so'ng harorat 38,7°C gacha ko'tarildi, bezovta bo'ldi, tez-tez yo'tal emishga xalaqit berdi. Ko'zdan kechirishda: burun-lab uchburchagining yengil sianoz, burun kataklarining kerikishi. Nafas olish tezligi 1 daqiqada 50, puls 1 daqiqada 120 marta. O'pkada auskultatsiyada o'ng tomonda zaiflashgan nafas krepitatsiyasi, yurak tonlari biroz bo'g'iq. Jigar qoburg'a yoyidan 3,0 sm ga chiqib turadi. Najasi o'zgarishsiz. Siz qanday kasallik haqida o'ylaysiz?",
+    "options": [
+      "O`choqli pnevmoniya",
+      "Segmental pnevmoniya",
+      "Krupoz pnevmoniya",
+      "Interstitsial pnevmoniya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 93,
+    "question": "11 yoshli bolaning ahvoli dars vaqtida to'satdan yomonlashdi – nafas chiqarish qiyinlashgan o'tkir nafas qisilishi, xansirash, distantsion xirillash. Tekshiruvda: ahvoli o'rtacha og'irlikda, dag'al nafas, diffuz, hushtaksimon xirillashlar. Nafas olish harakatlarining chastotasi 1 daqiqada 25 marta. Perkussiya - quti tovushi. Yurak urishi 1 daqiqada 120 marta. Anamnezdan: 1-yoshgacha allergik diatez bilan og'rigan, ilgari apelsin iste'mol qilganda allergik toshmalar paydo bo'lgan. Sizning taxminiy tashxisingiz qanday?",
+    "options": [
+      "Bronxial astma",
+      "Pnevmoniya",
+      "Surunkali bronxit",
+      "O'tkir bronxit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 94,
+    "question": "O'pka to'qimalarining destruktsiyasi uchun xavf omilini ko'rsating:",
+    "options": [
+      "Umumiy ahvoli og'ir",
+      "Doimiy subfebril holat",
+      "Taxikardiya",
+      "Lobar pnevmonik infiltrat"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 95,
+    "question": "Bolalar uchun kuz-qish davrida O’RI ning oldini olish uchun qanday dorilar qo'llaniladi?",
+    "options": [
+      "Anaferon",
+      "Polivitaminlar",
+      "Antibiotiklar",
+      "Tonzilgon, tonzipret"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 96,
+    "question": "Yosh bolalarda rotavirus infektsiyasiga qanday alomatlar xos yemas:",
+    "options": [
+      "Qusish va sekretor diareya",
+      "Najasda qon bo'lishi",
+      "Haroratning 38°C dan oshishi",
+      "Yuqori nafas yo'llarining belgilari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Bronxial astma nima bilan tavsiflanadi?",
+    "options": [
+      "Yuqori nafas yo'llari tomonidan intoksikatsiya va kataral belgilar.",
+      "Layushiy yo'tal, inspirator xansirash.",
+      "Bronxial obstruktsiyaning takroriy epizodlari",
+      "Sianozli yoki sianozsiz o'tkir nafas qisilishi, keyinchalik yo'tal bilan."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 98,
+    "question": "Bronxial astma xurujini to'xtatish uchun quyidagi preparatlar qo'llaniladi.",
+    "options": [
+      "Salbutamol ingalyatsiyada",
+      "Salbutamol + beklazon v ingalyatsii",
+      "Adrenalin",
+      "Eufilin v/v"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 99,
+    "question": "Krepitatsiya quyidagi hollarda aniqlanadi:",
+    "options": [
+      "Tuberkulez bronxoadenitda",
+      "Krupoz pnevmoniyada",
+      "Bronxit",
+      "Bronxiolit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 100,
+    "question": "Quyidagi testlardan qaysi biri yosh bolada bronxo'pka displaziyani aniqlashda diagnostik ahamiyatga ega?",
+    "options": [
+      "Uyqu vaqtida nafas olish tezligi",
+      "Qonning kislorod bilan to'yinganligi",
+      "Ko'krak qafasi rentgenogrammasi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 101,
+    "question": "Ekspirator xansirashning klinik tavsifi:",
+    "options": [
+      "Nafas olishning qiyinlashishi",
+      "Nafas chiqarish asta-sekin, ba'zan hushtak bilan amalga oshiriladi",
+      "Qorinning to'g'ri mushaklari tarangligi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 102,
+    "question": "O'pkaning pastki chegaralari quyidagilar natijasida pasayadi:",
+    "options": [
+      "Diafragmaning falaji",
+      "O'pka sig'imining oshishi",
+      "Diafragmaning past xolati",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 103,
+    "question": "Bronxial astmaning og'irlik darajasini tashxislash uchun quyidagi tekshiruvlar zarur:",
+    "options": [
+      "ko'krak qafasi rentgenogrammasi",
+      "tashqi nafas faoliyati, spirometriya",
+      "immunologik",
+      "klinik, bioximik taxlil"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 104,
+    "question": "Erta yoshli bolalarda pnevmoniyaning asosiy belgilarini aniqlang:",
+    "options": [
+      "xansirash, intoksikatsiya sindromi",
+      "obstruktiv sindrom",
+      "kardial sindromi",
+      "obstruktiv sindrom, kardial sindromi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 105,
+    "question": "Surunkali pnevmoniyaga qanday asoratlar xos:",
+    "options": [
+      "o'pka yurak",
+      "o'pka emfizemasi",
+      "epiyema abtsessi",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 106,
+    "question": "Surunkali bronxo'pka patologiyasi bo'lgan bolalar uchun stimullovchi davo sifatida ishlatiladigan dorilarni nomlang:",
+    "options": [
+      "Adaptogen preparatlar",
+      "Vitamin",
+      "Bronxomunal",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 107,
+    "question": "Obstruktiv bronxitning xarakterli belgilarini ayting:",
+    "options": [
+      "xurujsimon yo'tal",
+      "cho'zilgan nafas olish",
+      "xansirash",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 108,
+    "question": "Bolaning anamnezida surunkali chap tomonlama pastki bo'lak pnevmoniyasi bor. Kontrastli bronxografiya o'tkazilganda o'pkaning zararlangan qismi kontrast bilan to'lmaganligi, atrofdagi qismlari kontrast bilan to'lganligi qayd qilinadi. Eng ehtimolli tashxis:",
+    "options": [
+      "O’pka sekvestrlari",
+      "Bronxolegochnaya displaziya",
+      "Mukovistsedoz",
+      "Bronxogen kista"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 109,
+    "question": "8 yoshli bolada surunkali nospesifik pnevmoniya tashxisi quyilgan. Rentgenogrammada ko'krak qafasi suvrati kuchaygan, diafragma pastga tushgan. Ko'krak qafasi bochkasimon, to'sh suyagi turtib turibdi. qovurg'alar aro bo'shliq kengaygan, ko'krakda qutisimon tovush, quruq xushtaksimon xirillashlar, xannsirash. Aniqlang:",
+    "options": [
+      "o'pka emfizemasi",
+      "atelektaz",
+      "abstsess",
+      "corpulmonale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 110,
+    "question": "Bola 9 yoshda. Uch kundan beri o'ng tomonlama o'tkir pnevmoniya tashxisi bilan davolanyapti. Bolaning harorati ko'tarilmadi, umumiy ahvoli qoniqarli, xirillash yo'q. To'rtinchi kuni harorat ko'tarildi, quruq yo'tal paydo bo'ldi. Auskultatsiyada xar ikkala o'pkada xam nafas aniqlanmoqda. O'ng tomonda infiltratsiya sohasida nam xirillash eshitilmoqda, nafas olishi minutiga 18 ta, yurak o'ngga siljigan. Bolaning axvoli og'irlashish sababini aniqlang:",
+    "options": [
+      "plevrit",
+      "pnevmotoraks",
+      "atelektaz",
+      "obstruktiv bronxit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 111,
+    "question": "Bola 1 yosh 7 oylik. Onaning shikoyatlari: to'satdan yo'tal, keyin nafas olish qiyinlashuvi 15 daqiqadan so'ng tugadi. Tekshiruv davomida: tana harorati normal, bola faol. Auskultatsiya paytida chap o'pkaning yuqori qismida nafas chiqarganda xushtaksimon xirillash aniqlandi, perkussiyada qutisimon tovush kuzatiladi. Dastlabki tashxis:",
+    "options": [
+      "bronxialnaya astma",
+      "obstruktiv bronxit",
+      "bronxda yod modda",
+      "bronxiolit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 112,
+    "question": "Bola 2 yoshda. Uch kundan beri o'ng tomonlama o'tkir pnevmoniya tashxisi bilan davolanyapti. Bolaning harorati ko'tarilmadi, umumiy ahvoli qoniqarli, xirillash yo'q. To'rtinchi kuni harorati 39°C ko’tarildi, nafas yetishmovchiligining aralash turi paydo bo'ldi. Auskultatsiyada xirillash eshitilmadi, o'ng tomonlama sustlashgan nafas, perkutor tovushning qisqarganligi, puls 150 ta, yurak o'ngga siljigan. Bolaning axvoli og'irlashish sababini aniqlang:",
+    "options": [
+      "atelektaz",
+      "pnevmotoraks",
+      "plevrit",
+      "ORZ, bronxit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 113,
+    "question": "Bola 3 yoshda. Shikoyatlari: yo'tal, 38°C dan yuqori isitma, intoksikatsiya, xansirash. Tashxis quying:",
+    "options": [
+      "O’tkir bronxit",
+      "Bronxiolit",
+      "Pnevmoniya",
+      "Respirator allergoz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 114,
+    "question": "4 yoshli bolada tez-tez yo'tal bor. Axvoli o'rtacha og'irlikda. Qanday belgilar o'tkir bronxit haqida ma'lumot beradi:",
+    "options": [
+      "Xansirash, quruq xirillash",
+      "Quruq, nam o'rta pufakchali xirillashlar",
+      "Intoksikatsiya",
+      "Ko'krak soxasida og'riq"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 115,
+    "question": "Bolada ko'krak qafasi rentgenogrammasi o'tkazildi. O'tkir bronxitni qanday belgilar ko'rsatishini aniqlang:",
+    "options": [
+      "qorayish o'choqlari",
+      "o'pkaning ildiz qismi suvratining simmetrik zo'riqishi",
+      "o'pkaning diafragma burchaklari konturlarini zo'riqishi",
+      "yumshoq o'choqli qorayishlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 116,
+    "question": "Bola 2 yoshda, yo'tal, nafas qisilishi, mayda pufakchali ho'l xirillash. Tashxis quying:",
+    "options": [
+      "O’RI",
+      "Bronxiolit",
+      "O’tkir bronxit",
+      "Pnevmoniya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 117,
+    "question": "Bola 1 yoshda. Qaytalanuvchi pnevmoniya. Yo'tali yopishqoq balg'amli. Najasi yog'li, polifekaliya. Sizning tashxisingiz?",
+    "options": [
+      "Koklyush",
+      "Mukovistsedoz",
+      "Seliakiya",
+      "Disaxaridaz etishmovchilik"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 118,
+    "question": "4 yoshli bola respirator allergoz bilan kasallangan. Periferik qon taxlilida qanday xarakterli bo'lishi kerak?",
+    "options": [
+      "Leykotsitoz",
+      "Leykopeniya",
+      "Eozinofiliya",
+      "Tezlashgan eritrositlar cho’kish tezligi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 119,
+    "question": "2 yoshli bola. Unga adenovirus infektsiyasi tashxisi quyilgan. Buni ko'rsatadigan alomatlar qanday:",
+    "options": [
+      "o'tkir boshlanish, burundan ko'p miqdorda shilliq oqindi",
+      "qorin og'rig'i, burundan shilliq oqindi",
+      "konyunktivit",
+      "tez-tez siyishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 120,
+    "question": "Quruq yo'talda ishlatiladigan fitopreparat:",
+    "options": [
+      "Zveroboy (kizilpocha)",
+      "Altey ildizi",
+      "Termopsis",
+      "Podorojnik"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 121,
+    "question": "O'tkir pnevmoniyada infektsiyaning asosiy tarqalish yo'li:",
+    "options": [
+      "Bronxogen",
+      "Gematogen",
+      "Limfogen",
+      "Ichak orqali"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 122,
+    "question": "O'pka to'qimasining destruktsiyasiga olib keluvchi faktor bo'lib xisoblanadi:",
+    "options": [
+      "Umumiy axvolining og'irligi",
+      "Turg'un subfebrilitet",
+      "Taxikardiya",
+      "Lobar pnevmonik infiltrati"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 123,
+    "question": "Obstruktsiya sindromida qo'llaniladi:",
+    "options": [
+      "salbutamol",
+      "strofantin",
+      "antibiotiklar",
+      "gomk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 124,
+    "question": "Bronxial astma asoratlariga kirmaydi:",
+    "options": [
+      "zotiljam",
+      "atelektaz",
+      "mediastenal emfizema",
+      "spontan pnevmotoraks"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 125,
+    "question": "Bronxial astmada allergik reaktsiya ketma-ketligini toping:",
+    "options": [
+      "immunologik, patoximik, patofiziologik",
+      "patoximik, patofiziologik, immunologik",
+      "patofiziologik, patoximik",
+      "immunologik, patofiziologik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 126,
+    "question": "Stafilakkokk odatda qanday pnevmoniyani chaqiradi?",
+    "options": [
+      "o'choqli",
+      "lobar",
+      "sigmentar",
+      "destruktiv"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 127,
+    "question": "Surunkali zotiljam patanatomiyasi:",
+    "options": [
+      "bronxial deformatsiya",
+      "bronx yo'llari buzilishi",
+      "pnevmoskleroz",
+      "xammasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 128,
+    "question": "O'pka qon aylanishini yaxshilovchi vositalarni ko'rsating:",
+    "options": [
+      "penitsillin",
+      "eufillin",
+      "prednizolon",
+      "vitamin A"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 129,
+    "question": "Pnevmoniyaning kechishi cho'ziluvchan hisoblanadi:",
+    "options": [
+      "1-2 oygacha",
+      "1,5-8 oygacha",
+      "8-12 oygacha",
+      "4-6 oygacha"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 130,
+    "question": "Xlamidiyali va mikoplazmali pnevmoniyada asosiy antibiotic hisoblanadi:",
+    "options": [
+      "kefzol, sefozolin",
+      "makrolidlar (djozamitsin, rulid va boshqalar)",
+      "aminoglikozlar (gentamitsin va boshqalar)",
+      "nitrofuranlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 131,
+    "question": "Yiringli-destruktiv pnevmoniyada tavsiya etilmaydi:",
+    "options": [
+      "immunodepressantlar",
+      "reopoliglyukin",
+      "gordoks, trasilol",
+      "antibiotiklar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 132,
+    "question": "Pnevmoniya fonida rivojlangan yurak yetishmovchiligida qanday yurak glikozidlari buyuriladi?",
+    "options": [
+      "digitoksin",
+      "atsedoksin",
+      "lanikor",
+      "strofantin"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 133,
+    "question": "Pnevmoniya fonida rivojlangan yurak yetishmovchiligiga qanday diuretiklar buyuriladi?",
+    "options": [
+      "veroshperon",
+      "laziks",
+      "diakarb",
+      "gipotiazid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 134,
+    "question": "Ko'rsatilgan qaysi simptomlar mukovisidozga xos:",
+    "options": [
+      "2 xaftagacha uyqori temperatura",
+      "1 oy davomidagi yo'tal",
+      "Ahlatning yog`li kelishi, vazn defitsiti, qaytalanuvchi zotiljam",
+      "kechasi xurujsimon yo'tal 1 oy davomida"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 135,
+    "question": "Qaysi klinik sindrom bronxial astmaning xuruj davriga xos:",
+    "options": [
+      "qiyin nafas chiqarish, quruq yo'tal, Ko'krak qafasining kattalashishi",
+      "qiyin nafas olish, xo'l yo'tal, Ko'krak qafasining kattalashishi",
+      "qiyin nafas chiqarish, xo'l yo'tal, Ko'krak qafasining kattalashishi",
+      "qiyin nafas olish, Ko'krak qafasining kattalashishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 136,
+    "question": "Kichik yoshdagi bolalarda bronxial astma xurujining o'ziga xosligi:",
+    "options": [
+      "Birlamchi gipersekretsiya",
+      "xurujning tez tugashi",
+      "xurujning tez rivojlanishi",
+      "xurujning sekin rivojlanishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 137,
+    "question": "Bronxial astmaning ko'proq uchraydigan og'ir xuruji asorati:",
+    "options": [
+      "O'pka atelektazi",
+      "Kuchli yurak yetishmovchiligi",
+      "Buyrak yetishmovchiligi",
+      "O'pka shishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 138,
+    "question": "Bronxial astmaning xurujdan oldingi davrida o'tkaziladigan tadbir:",
+    "options": [
+      "Qo'l va oyog'ga issiq vannalar qilish",
+      "Adrenalin yuborish",
+      "Atropin yuborish",
+      "Eufillin yuborish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 139,
+    "question": "Bolalarda o'pka obstruktsiyasi rivojlanishiga nafas organlarining qaysi anatomo-fiziologik xususiyati sabab bo'ladi:",
+    "options": [
+      "Xalqum tog'aylarining yumshoqligi",
+      "Ko'krak qafasining ekspirator tuzilishi",
+      "Diafragmal tipdagi nafas",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 140,
+    "question": "Pnevmopatiyalarga nimalar kiradi?",
+    "options": [
+      "Gialin membranalar",
+      "O'pka atelektazi",
+      "Shish-gemorragik sindromi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 141,
+    "question": "Pnevmoniyada rivojlangan neyrotoksikozda qanday preparatlar qo’llaniladi:",
+    "options": [
+      "eufillin",
+      "laziks",
+      "seduksen",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 142,
+    "question": "Pnevmoniya qanday kasalliklar bilan qiyosiy tashxislanadi?",
+    "options": [
+      "o'tkir bronxitlar, bronxial astma",
+      "revmatizm",
+      "plevritlar",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 143,
+    "question": "Bolada bronx-o'pka kasalligi, quruq azobli yo'tal. Mukolitik preparatlarni tanlang:",
+    "options": [
+      "Ambrobene",
+      "Salbutamol",
+      "Dimedrol",
+      "Bronxipret"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 144,
+    "question": "Revmatik atakalarda b-gemolitik streptokokk A gruppasi sabab bo'lishi mumkin, agar:",
+    "options": [
+      "Gematogen yo'l bilan tarqalsa",
+      "Yuqori nafas yo'llari yalliqlanishi sababi bo'lsa",
+      "Miokard shikastlansa",
+      "Bo'g'im ichiga kirsa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 145,
+    "question": "Revmatik isitmalashdan (lixoradka) keyin quyidagi kasalliklar paydo bo'lishi mumkin?",
+    "options": [
+      "Bo'g'imlarning surunkali kasalligi",
+      "Aortal va mitral klapan yallig’lanishi",
+      "O'pka arteriyasi klapan yetishmovchiligi",
+      "Uzoq davom etuvchi subfebril isitmalash"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 146,
+    "question": "8 yoshli bolaning shikoyatlari: yurak soxasidagi og'riqga, nafas tezlashishi, yurak urib ketishi va «dukillab ketishi». Sizning taxminiy tashxisingiz:",
+    "options": [
+      "norevmatik kardit",
+      "yurak tug'ma poroki",
+      "yurakning orttirilgan poroki",
+      "vegeto-tomir distoniyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 147,
+    "question": "0 yoshli bolada karditning asosiy auskultativ belgilarini sanab o'ting:",
+    "options": [
+      "yurak tonlari kuchayishi, diastolik shovqin",
+      "2 ton susayishi, sistola-diastolik shovqin",
+      "«Koshache murlikaniye», golop ritmi",
+      "yurak tonlari bo'g'iqligi, taxikardiya, aritmiya, 1 ton susayishi, sistolik shovqin"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 148,
+    "question": "Yurak yetishmovchiligi bor bolaga ko'krak qafasi rentgenogrammasida qanday o'zgarishlar bo'lishi mumkin:",
+    "options": [
+      "O'pka suratini kuchayishi",
+      "O'pka arteriyasi yoyini bo’rtishi",
+      "Yurak razmerlarining kattalashganligi",
+      "O'pka suratini susayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 149,
+    "question": "Bolada teri qoplamlari oqarishi, O'pkada xirillashlar, venoz bosimni pasayishi aniqlangan. Bu nimani belgilaridir:",
+    "options": [
+      "O'tkir tomir yetishmovchiligi",
+      "O'tkir yurak yetimovchiligi",
+      "O'tkir buyrak yetishmovchiligi",
+      "O'tkir jigar yetishmovchiligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 150,
+    "question": "Yosh bolalarda kardit bilan barcha belgilar kuzatiladi, bundan mustasno:",
+    "options": [
+      "og'ir kechishi",
+      "ekstrasistoliya",
+      "qon aylanish yetishmovchiligining tez rivojlanishi",
+      "qon bosimining oshishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 151,
+    "question": "Ochiq Batallov kanali uchun xos belgilar:",
+    "options": [
+      "To'sh suyagining chap tomonida mashina sistolik-diastolik shovqini",
+      "To'sh suyagining o'ng tomonida qo'pol sistolik shovqin",
+      "Yurak tubida diastolik shovqin",
+      "Past sistolik bosim"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 152,
+    "question": "1-darajali revmatoid artritning bo'g'im shaklida qanday dorilar qo'llaniladi:",
+    "options": [
+      "Yallig’lanishga qarshi nosteroid preparat",
+      "sitostatiklar",
+      "glyukokortiqoidlar",
+      "immunodepressantlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 153,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasi (VSD)ning gipertonik turini davolash:",
+    "options": [
+      "gipotenziv terapiya",
+      "trankvilizatorlar",
+      "vitaminlar",
+      "sedativ preparatlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 154,
+    "question": "Katta yoshdagi bolalarda revmatik karditga xos shikoyatlar:",
+    "options": [
+      "Tez charchash, yurak soxasida og'riq, xansirash, yurak urib ketishi",
+      "Kamxollik, ishtaxasining pastligi, tez charchash",
+      "Bo'g'imlarda og'riq, bosh og'riqi, ozib ketish",
+      "Yuzida va tanasida shish, astsit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 155,
+    "question": "O'tkir karditda yurak soxasida rentgenologik o'zgarishlar:",
+    "options": [
+      "Yurak chap chegarasining kengayishi",
+      "Sharsimon",
+      "Trapetsiyasimon",
+      "«etikdo'z» shakli"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 156,
+    "question": "Skarlatina fonida qanday asoratlar rivojlanishi mumkin?",
+    "options": [
+      "Miokardit, Glomerulonefritning gematurik shakli",
+      "Pielonefrit",
+      "Enterokolit",
+      "Endokrin organlar zararlanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 157,
+    "question": "Revmatik bo'lmagan karditni davolashda glyukokortiqoidlar uchun ko'rsatmalar:",
+    "options": [
+      "Diffuz yurak yetishmovchiligi",
+      "Kasallikning yarim o'tkir boshlanishi surunkali jarayonning xabarchisidir",
+      "Yurakning o'tkazuvchanligining zararlanishi bilan kechuvchi kardit",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 158,
+    "question": "Tug'ma kardit bilan og'rigan bemorlarning geneologik anamnezining o'ziga xos xususiyatlarini ko'rsating:",
+    "options": [
+      "Revmatizm",
+      "Tug'ma yurak kasalligi",
+      "Kardiomipatiya",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 159,
+    "question": "Xomila ichi kardit bilan og'rigan bolalarda yurak soxasidagi o'zgarishlarni ko'rsating:",
+    "options": [
+      "Yurak bukri",
+      "Bradikardiya",
+      "Sistolik shovqin",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 160,
+    "question": "Revmatik isitmaning asosiy diagnostik mezonlarini ko'rish:",
+    "options": [
+      "Revmatik anamnez",
+      "Xoreya",
+      "Uzlovaya eritema",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 161,
+    "question": "Yurak yetishmovchiligi bo'lgan 11 yosh bolaga quyidagilarning qaysilari xos:",
+    "options": [
+      "Taxikardiya, xansirash, shish, jigar kattalashishi, yurak o'lchamlarining kattalashishi",
+      "Taxikardiya, tonlarning bo'g'iqligi, ritmnig buzilishi, yurak cho'qqisida sistolik shovqin",
+      "Xansirash, yo'tal, o'pkada xirillashlar, yurak tonlarining bo'g'iqligi, tana xaroratini ko'tarilishi",
+      "Shish, yo'tal, aritmiya, yurak tonlarining bo'g'iqligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 162,
+    "question": "Mashq paytida taxikardiya va xansirash, 10 daqiqadan so'ng dastlabki holatga qaytishi nimaning belgisi xisoblanadi:",
+    "options": [
+      "Qon aylanishining buzilishi 0",
+      "Qon aylanishining buzilishi 1",
+      "Qon aylanishining buzilishi 2A",
+      "Qon aylanishining buzilishi 2B"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 163,
+    "question": "Bola 7 yoshda, maktabga boradi. O'qituvchining ta'kidlashicha, so'nggi bir hafta ichida bola yig'loq, sinfda yuzlarini qiyshaytiradi va yozuvi o'zgargan. Dastlabki tashxisingiz:",
+    "options": [
+      "Surunkali yuvenil artrit",
+      "Surunkali reaktiv artrit",
+      "Revmatik ataka, kichik xoreya",
+      "Nervno-artritik diatez"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 164,
+    "question": "Revmatik isitmaning asosiy diagnostik omillaridan biri:",
+    "options": [
+      "Xalqasimon eritema",
+      "Bioximik ko'rsatkichlar",
+      "Gipertermiya",
+      "Leykotsitoz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 165,
+    "question": "Revmatik isitmaning asosiy diagnostik mezonlaridan biri:",
+    "options": [
+      "Kardit",
+      "Qorinda og'riq",
+      "Intoksikatsiya",
+      "Gipertermiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 166,
+    "question": "Revmatoid artrit davosida qaysi antibiotik asosiy xisoblanadi:",
+    "options": [
+      "Antibiotik qo'llanilmaydi",
+      "Linkomitsin",
+      "Streptomitsin",
+      "Gentamitsin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 167,
+    "question": "Endo- va miokardning fibroelastozi nimaning natijasi:",
+    "options": [
+      "Erta tug'ma karditning",
+      "Kechki tug'ma karditning",
+      "O'tkir orttirilgan karditning",
+      "Tug'ma yurak nuqsoning"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 168,
+    "question": "Norevmatik karditda yurakning nisbiy chegaralari ko'proq:",
+    "options": [
+      "Xar tomonga kengaygan",
+      "O'ngga kengaygan",
+      "O'zgarmagan",
+      "Chapga kengaygan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 169,
+    "question": "Norevmatik karditda exokardiografik tekshiruvlar quyidagini aniqlaydi:",
+    "options": [
+      "Mitral klapanning nisbiy yetishmovchiligini",
+      "Mitral klapanning chegaralangan yetishmovchiligini",
+      "Uch tabaqali klapan nisbiy yetishmovchiligi",
+      "Uch tabaqali klapanning chegaralangan yetishmovchiligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 170,
+    "question": "Norevmatik karditning etiologic omillari:",
+    "options": [
+      "roksaki viruslari",
+      "bakteriyalar",
+      "zamburug'lar",
+      "pnevmokokklar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 171,
+    "question": "Norevmatik karditga xos bo'lmagan laborator ko'rsatkichlarni ko'rsating?",
+    "options": [
+      "Leykotsitoz",
+      "Leykopeniya, ASLOning baland titrlari",
+      "Sial kislotaning bir oz oshishi",
+      "Leykotsitoz, Sial kislotaning bir oz oshishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 172,
+    "question": "Karditli 8 yoshli qiz bolada EKGda 1-chi darajali atrioventrikulyar blokada belgilari:",
+    "options": [
+      "R-Q interval uzaygan",
+      "R tish arrasimon",
+      "QRS kompleksi deformatsiyasi",
+      "Standart yo'nalishlarda T ikki fazali"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 173,
+    "question": "Bemor 12 yoshli. Yurak soxasida aniq sistolik shovqin eshitilmoqda. Shovqin nafas olish cho'qqisida va ortostazda pasayadi. Shovqin xarakterini aniqlang:",
+    "options": [
+      "Funktsional",
+      "Organik",
+      "Bulmachalar aro to'siq nuqsoni",
+      "Aorta stenozi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 174,
+    "question": "Bola 8 yoshda 2 ta revmatizm atakasini o'tkazgan. Mitral yetishmovchilik shakillangan. Bu xolatda bitsillin profilaktikasini o'tkazish davomiyligi:",
+    "options": [
+      "1 yil",
+      "2 yil",
+      "3 yil",
+      "5 yil"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 175,
+    "question": "5 yoshli bolada tez charchash, chap qorincha pulsatsiyasining kuchayishi, ikkinchi qovurg'a oralig'ida titrash, EKG da chap qorinchaning zo'riqishi, rentgenogrammada kichik qon aylanish doirasida gipovolemiya, chap qorincha kottalishi. Sizni taxminiy tashxisingiz:",
+    "options": [
+      "o'pka arteriya stenozi",
+      "qorinchalararo to'siq defekti",
+      "sub aortal stenoz",
+      "arterial yo'l ochiqligi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 176,
+    "question": "Oriqcha vazni bo'lgan bolaning parxez terapiyasini o'tkazishdagi umumiy qoidaga kirmaydi:",
+    "options": [
+      "Ovqatni chegaralash bilan vazn ortishini sekinlatish",
+      "Kaloriyali ovkatni sutkaning birinchi yarmida iste'mol kilish",
+      "Ovkatlanishni tartibli amalga oshirish",
+      "Xar bir ovkatlanish vaktini uzaytirish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 177,
+    "question": "Oriqcha vaznini davolashda qo'llanilmaydi:",
+    "options": [
+      "Parxez ovkatlanishni etapli olib borish",
+      "Xarakatlanish rejimini tashkil kilish",
+      "Ishtaxani pasaytiruvchi preparatlar berish",
+      "Muntazam ravishda toza xavoda bo'lish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 178,
+    "question": "Ovqat ratsioniga qaysi maxsulot qo'shilganda seliakiyaning klinik belgilari rivojlanadi?",
+    "options": [
+      "Maniy bo'tqasi",
+      "Bug'doy unli aralashma",
+      "Suli (ovsyanka bo'tkasi)",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 179,
+    "question": "Seliakiyaning parxez terapiyasiga kirmaydi:",
+    "options": [
+      "Uglevodlarni kamaytirish",
+      "Glyuteni bor maxsulotlarni ovkatlanish ratsionidan olib tashlash",
+      "Ovqat ratsionini bosqichma-bosqich kengaytirish",
+      "Bolalarga asosiy ozuqa moddalarni va energiyaga bo'lgan fiziologik extiyojni erta ta'minlash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 180,
+    "question": "Bolalarda qaysi gelmintlar ko'prok uchraydi?",
+    "options": [
+      "Gijja (ostritsa)",
+      "Askaridalar",
+      "Pakana gijja (karlikoviy sepen)",
+      "Vlasoglav"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 181,
+    "question": "Surunkali jigar kasalliklari bor bolalar qonida fermentlar oshishi qanday sindromni xarakterlaydi:",
+    "options": [
+      "Sitoliz",
+      "Astenovegetativ",
+      "Xolestatik",
+      "Gepatopriv"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 182,
+    "question": "Istisnosiz ona sutida bo'lgan bolada allergiya holati sezilsa qanday tavsiya berasiz?",
+    "options": [
+      "Ona suti bilan emizishni davom ettirib, onaga gipoallergen parxez buyuruladi",
+      "Sun'iy ovqatlantirishga o'tish kerak",
+      "Qisman ona suti bilan emizib, sun'iy aralashmalar bera boshlash",
+      "Emizishni to'xtatib, gipoallergen sun'iy aralashmalarni berish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 183,
+    "question": "Bolada o'tkir diareya fonida o'rtacha suvsizlanish bo'lsa, 4 soatda qancha oral regidratatsiya vositasi belgilanadi:",
+    "options": [
+      "75 ml/kg",
+      "50 ml/kg",
+      "100 ml/kg",
+      "150 ml/kg"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 184,
+    "question": "Oqsil-energiya yetishmovchiligining qaysi o’g’rlik darajasida da'vo aralashmalaridan foydalaniladi?",
+    "options": [
+      "yengil darajasida (-1SCh -2SCh)",
+      "o’rta og’ir darajasida (-2SCh -3SCh)",
+      "og’r darajasida (-3SCh)",
+      "Marazm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 185,
+    "question": "Bolalarda Oqsil-energiya yetishmovchiligining o’rta og’ir darajasida oqsillar va uglevodlar qaysi vaznga hsoblanadi:",
+    "options": [
+      "bo'lishi kerak bo'lgan tana vazni",
+      "taxminan to'g'ri tana vazni",
+      "yosh normasidan 15% kam vaznga",
+      "xozirgi tana vazni"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 186,
+    "question": "Seliakiya kasalligining tipik shakliga xos emas:",
+    "options": [
+      "doimiy oshqozon-ichak disfunktsiyalari",
+      "surunkali ovqatlanish buzilishi",
+      "surunkali bronx-o'pka kasalliklar",
+      "raxitsimon deformatsiyalar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 187,
+    "question": "Ekssudativ enteropatiyani davolashda qo'llanilmaydi:",
+    "options": [
+      "Vitaminlar",
+      "Diuretiklar",
+      "Nosteroid yalliqlanishga qarshi dorilar",
+      "Glyukokortikosteroidlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 188,
+    "question": "Surunkali enterokolit uchun Pevzner bo’yicha nechanchi parhez stoli buyuriladi?",
+    "options": [
+      "4-sonli parhez stoli",
+      "1-sonli parhez stoli",
+      "2-sonli parhez stoli",
+      "3-sonli parhez stoli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 189,
+    "question": "Giperatsid gastritga xos bo'lgan og'riq:",
+    "options": [
+      "och qoringa",
+      "tungi og'riqlari",
+      "ovqatdan keyin",
+      "ovqatdan 2 soat keyin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 190,
+    "question": "Bolalarda Oqsil-energiya yetishmovchiligining o’rta og’ir darajasida asosiy davo usuli?",
+    "options": [
+      "Davolovchi ozuqa",
+      "Vitaminlar",
+      "Ferment",
+      "Parenteral ovqatlantirish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 191,
+    "question": "Sigir suti oqsilini xazm qilolmaganda qanday mahsulotlar tavsiya qilinadi?",
+    "options": [
+      "Ona suti, zardob oqsili gidrolizatiga asoslangan aralashmalar",
+      "Kefir, biolakt, Orom",
+      "Bazaviy sun'iy aralashmalar",
+      "Sut va tvorogni ko'paytirish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 192,
+    "question": "Epigastral soxada pulsatsiyaning ko'rinishi quyidagi xollarda uchraydi:",
+    "options": [
+      "chap qorincha gipertrofiyasi",
+      "o'ng qorincha gipertrofiyasi",
+      "jigar pulsatsiyasi",
+      "aorta pulsatsiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 193,
+    "question": "Bolalarda laktaza yetishmovchiligining asosiy belgilari:",
+    "options": [
+      "ichak disfunktsiyasi, ichak sanchiqlari, bezovtalik",
+      "charchoq, meteorizm",
+      "axlatining suyuq, ko'piksimon, ko'p kelishi, xar emganidan so’ng bezovtalik va ichak sanchiqlari",
+      "diareya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 194,
+    "question": "Oqsil-energiya yetishmovchiligida davolovchi ovqatlanish bosqichida quyidagi preparat qo'llanilmaydi:",
+    "options": [
+      "Fermentlar",
+      "Vitaminlar",
+      "Sedativlar",
+      "Mikroelementlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 195,
+    "question": "Ichak lyambliozida qanday dori vositalari qo’llaniladi?",
+    "options": [
+      "antibiotiklar, biopreperetlar",
+      "sulfanilamidlar, Antibiotiklar",
+      "furazolidon, makmiror, zentel, metranidazol",
+      "biopreperetlar, Sulfanilamidlar, Antibiotiklar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 196,
+    "question": "Bolalarda Oqsil-energiya yetishmovchiligida qanday dori vositalari tavsiya etiladi?",
+    "options": [
+      "Fermentlar",
+      "Probiotiklar",
+      "Prebiotikalar",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 197,
+    "question": "Surunkali gepatitni kompleks davolash uchun preparatlar:",
+    "options": [
+      "INF preparatlari",
+      "Remantadin",
+      "Ursodeoksikolik kislota",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 198,
+    "question": "Bolalarda disbiozning sabablari nimada?",
+    "options": [
+      "sun'iy oziqlantirish",
+      "uzoq muddatli antibakterial terapiya",
+      "tez-tez diareya",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 199,
+    "question": "Mukovistsidoz (mmol/l) uchun xarakterli xloridlari darajasini belgilang:",
+    "options": [
+      "20 gacha",
+      "20-30",
+      "30-40",
+      "40-60"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 200,
+    "question": "Surunkali nospetsifik enterokolitni qaytalanishiga qarshi davolash uchun qanday dorilarni buyurish kerak:",
+    "options": [
+      "Fermentlar",
+      "Probiotiklar",
+      "Prebiotikalar",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 201,
+    "question": "Askaridozni davolash uchun qanday preparatlar ishlatiladi?",
+    "options": [
+      "Antibiotiklar",
+      "Ekstrakt mujskogo paporotnika",
+      "Probiotiklar",
+      "Vermoks"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 202,
+    "question": "Sigir sutini xazm qilolmaslikka xos bo'lgan belilarni aniqlang:",
+    "options": [
+      "qornining doimiy dam bo’lisi",
+      "surunkali diareya",
+      "oqsil energiya yetishmovchilik",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 203,
+    "question": "Ona 2 yoshli bolaning najasining suyuq kelishi haqida shikoyatlar bilan shifokorga bordi, vazn yo'qotish, ko'p terlash qayd etildi, najasi yopishqoq, yog'li. Tashxisi va ovqatlanishi qanday bo'ladi?",
+    "options": [
+      "Mukovistsidozning ichak shakli. Ovqat ratsionida xayvon yog'lari va uglevodlarni cheklash",
+      "Disbioz. Ovqat ratsionida yog'larni cheklash.",
+      "Seliakiya. Glyutensiz parhez.",
+      "Laktaza yetishmovchiligi. Laktozasiz parhez"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 204,
+    "question": "Bola mukovistsidoz tashxisi bilan. Uning terisida xloridlar miqdori aniqlandi. Qaysi ko'rsatkich muovistsidozga xos:",
+    "options": [
+      "50-60",
+      "20-30",
+      "30-35",
+      "20"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 205,
+    "question": "Bola 5 yoshda, oziq-ovqat allergiyasidan aziyat chekadi. Tashxislash va davolash rejasini aniqlang:",
+    "options": [
+      "allergologik tarixni o'rganish, ovqatlanish kundaligini yuritish, eliminatsion parxez",
+      "teri testlarini o'tkazish, ovqatlanish kundaligini saqlash, eliminatsion parxez",
+      "eliminatsion parxez, umumiy siydik tahlili",
+      "umumiy siydik tahlili"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 206,
+    "question": "7 oylik bola og’ir oqsil-energiya tanqisligi bilan. Sutkalik kaloriyani hisoblash qanday vazn bilan amalga oshiriladi:",
+    "options": [
+      "bo'lishi kerak bo'lgan vazn bilan",
+      "o'rtacha vazn bilan",
+      "haqiqiy vazn bilan",
+      "taxminiy bo'lishi kerak bo'lgan vazn bilan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 207,
+    "question": "13 yoshli bola epigastral soxadagi og'riq shikoyati bilan kasalxonaga yotqizilgan. Kasalxonaga yotqizishdan oldin 'qahva quyqasi' ko'rinishida qusgan, shundan keyin og'riq pasaydi. Sizning dastlabki tashxisingiz:",
+    "options": [
+      "gastroyenterokolit",
+      "qon ketishi bilan asoratlangan oshqozon yarasi",
+      "o'n ikki barmoqli ichak yarasi",
+      "gastroduodenit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 208,
+    "question": "Qorin og'riqi bilan 3 yoshli bola ota-onasi bilan yotoqxonada yashaydi, bolalar bog'chasiga boradi. T-38.5, qayt qilish 1 marta, najasi shilliq aralash, qon chiziqlari, kuchanish bor. Sizning dastlabki tashxisingiz:",
+    "options": [
+      "Enzimopatiya",
+      "Dizenteriya",
+      "Salmonellyoz",
+      "Enterokolit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 209,
+    "question": "5 yoshli qiz asabiy, injiq, uyqusi notinch, anusda qichishish, tungi siyg'oqlik qayd etildi. Sizning dastlabki tashxisingiz:",
+    "options": [
+      "Askaridoz",
+      "Enterobioz",
+      "Lyamblioz",
+      "Opistorxioz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 210,
+    "question": "Pediatr yangi tug'ilgan chaqaloqni tekshiradi. Ona bolaning tez-tez, kuniga 8-10 martagacha, ko'piksimon, suyuq ichi kelishidan shikoyat qiladi. Bola yaxshi vazn qo'shadi, qorni biroz dam. Vaziyatni baholang:",
+    "options": [
+      "Yengil laktaza yetishmovchiligi belgilari",
+      "Allergik enteropatiya",
+      "Autoimmun enteropatiya",
+      "Ichak disbiozi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 211,
+    "question": "Bola 1 yoshda, vazni 7800 g... Terda xloridlarning kontsentratsiyasi 90 mmol/l. Sizning dastlabki tashxisingiz:",
+    "options": [
+      "Mukovistsidoz",
+      "Laktaza yetishmovchiligi",
+      "Seliakiya",
+      "Shvaxman sindromi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 212,
+    "question": "Bola 2 oy 5 kunli, sigir sutini 1:1 suv bilan suyultirib ichadi. Sust, terisi oqarib ketgan, teri osti yog' qatlami yo'q. Qanday kasallik haqida o'ylaysiz?",
+    "options": [
+      "Seliakiya, OEE o’rta og’ir daraja",
+      "Allergik enteropatiya, OEE o’rta og’ir daraja",
+      "Laktaza yetishmovchiligi, OEE og’ir daraja",
+      "Mukovistsidoz OEE og’ir daraja"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 213,
+    "question": "8 yoshli bola yugurganda o'ng qovurg'a ostida sanchiqli og'riqlar. O't pufagi sohasida og'riq bor. Najasi normal. Sizning tashxisingiz:",
+    "options": [
+      "O't yo'llari diskineziyasi",
+      "O'tkir xoletsistit",
+      "Gelmintoz",
+      "Lyamblioz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 214,
+    "question": "11 yoshli bola 2 yildan beri ovqatdan oldin yoki keyin epigastral sohada og'riq his qiladi. Jig‘ildon qaynashi bor. Sizning tashxisingiz:",
+    "options": [
+      "o'tkir ezofagit",
+      "surunkali gastrit",
+      "funktsional dispepsiya",
+      "lyamblioz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 215,
+    "question": "Alimentar diareya sababi bo'lishi mumkin:",
+    "options": [
+      "Bolani ovqatlantirish sifatini buzilishi",
+      "Nutriyentlar disbalansi",
+      "Qo'shimcha ovqat berish ketma-ketligi qoidalarini buzilishi",
+      "Barcha sanab o'tilganlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 216,
+    "question": "Alimentar diareya va o'tkir ichak infektsiyasining differentsial diagnostikasida katta rol o'ynaydi:",
+    "options": [
+      "Epidemiologik anamnez",
+      "Toksikoz simptomlari, koprogramma o'zgarishlari",
+      "Qonni mikrobiologik tekshiruvi natijalari",
+      "Barcha sanab o'tilganlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 217,
+    "question": "Surunkali oziqlanishning buzilishi ta'snifida nimalar e'tiborga olinadi?",
+    "options": [
+      "Distrofiya turi va etiologiyasi",
+      "Og'irlik darajasi",
+      "Boshlangan vaqti",
+      "Barcha sanab o'tilganlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 218,
+    "question": "Oqsil energiya yetishmovchiligi og'irligini aniqlashda xisobga olinadi:",
+    "options": [
+      "Tana vazni yetishmovchiligi",
+      "Tana uzunligi yetishmovchiligi",
+      "Oziq maxsulotlarga tolerantlik holati",
+      "Barcha sanab o'tilganlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 219,
+    "question": "Seliakiyaga qaysi belgi xos emas:",
+    "options": [
+      "Surunkali bronx-o'pka kasalliklari",
+      "Oziqlanishning surunkali buzilishi",
+      "Poligipovitaminoz",
+      "Raxitsimon deformatsiyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 220,
+    "question": "Ortiqcha vaznni kelib chiqish sabablari:",
+    "options": [
+      "Uglevodlarni me'yoridan ortiq iste'mol qilish",
+      "Oqsilni me'yoridan ortiq iste'mol qilish",
+      "Yog'larni me'yoridan ortiq iste'mol qilish",
+      "Vitaminlarni me'yoridan ortiq iste'mol qilish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 221,
+    "question": "Girshprung kasalligidan funktsional qabziyatni farqlash uchun eng axamiyatli anamnestik ma'lumot:",
+    "options": [
+      "Xaftasiga 1 marotaba defekatsiya",
+      "Faqat bulgalab quyadigan najasi",
+      "Chaqaloqning birinchi xaftasidan ich kelishining kechikishi",
+      "To'g'ri ichakning tushishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 222,
+    "question": "Jigarda noto'g'ri bilirubinni to'g'ri bilirubinga aylantiradigan ferment:",
+    "options": [
+      "Glyukuronil transferaza",
+      "Ishkoriy fosfataza",
+      "Transaminaza",
+      "Glyukuronil 6-fosfataza"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 223,
+    "question": "5 yoshli bolaga surunkali enterokolit tashxisi qo'yildi. Qanday parxez stoli belgilanadi?",
+    "options": [
+      "Parxez stol № 4",
+      "Parxez stol № 1",
+      "Parxez stol № 2",
+      "Parxez stol № 3"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 224,
+    "question": "Qanday kasalliklarda parxez ovqatlanish asosiy davolovchi usul hisoblanadi:",
+    "options": [
+      "Enzimopatiya",
+      "Yurak kasalliklari",
+      "Alimentar bog'lik kasalliklar",
+      "Endokrin kasalliklari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 225,
+    "question": "Oqsil-energiya yetishmovchiligi yengil darajasida ovqatlantirish qaysi vazn xisobidan amalga oshiriladi:",
+    "options": [
+      "Bo'lishi kerak bo'lgan vazn bilan",
+      "O'rtacha vazn bilan",
+      "Xisoblash amalga oshirilmaydi",
+      "Taxminiy bo'lishi kerak bo'lgan vazn bilan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 226,
+    "question": "Ichak disbakteriozini davolashda qo'llaniladi:",
+    "options": [
+      "ichak antiseptiklari",
+      "probiotiklar",
+      "prebiotiklar",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 227,
+    "question": "Piyelonefritning aktiv davrida qaysi medikamentlar ishlatilmaydi?",
+    "options": [
+      "Antibakterial preparatlar",
+      "Antigistamin preparatlar",
+      "Glyukokortikosteroidlar",
+      "Buyrak to'qimasi mikrotsirkulyatsiyasini yaxshilaydigan preparatlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 228,
+    "question": "Bolada uretra strikturasi sababli surunkali ikkilamchi piyelonefrit bo'lsa, sizning davolash taktikangiz qanday bo'ladi?",
+    "options": [
+      "Antibakterial terapiya",
+      "Spazmolitik preparatlari",
+      "Immunomodulyatorlar",
+      "Operativ davo uchun rejali ravishda ixtisoslashgan bo'limga o'tkazish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 229,
+    "question": "Nefrotik sindrom uchun xarakterli:",
+    "options": [
+      "proteinuriya, shish, disproteinemiya",
+      "proteinuriya, makrogematuriya",
+      "proteinuriya, bakteriuriya",
+      "proteinuriya, shish, bakteriuriya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 230,
+    "question": "Siydik yo'li infektsiyasi uchun qaysi belgi xos emas?",
+    "options": [
+      "Tez-tez va og'riqli siydik chiqarish",
+      "Umumiy axvolning sezilarli yomonlashuvi",
+      "Tashqi jinsiy organlarda maxalliy yalliglanish belgilari",
+      "Leykotsituriya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 231,
+    "question": "Piyelonefritning etiologik sababi:",
+    "options": [
+      "Mikrob florasi",
+      "Autoimmun jarayon",
+      "Buyrak amiloidozi",
+      "Irsiy moyillik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 232,
+    "question": "Nordon-peshob diatezida peshobda aniqlanishi mumkin:",
+    "options": [
+      "Urat tuzlari miqdorining ko'payishi",
+      "Yuqori udelniy ves",
+      "limfostituriya",
+      "Piuriya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 233,
+    "question": "Glomerulonefritning patogenetik terapiyasi o'z ichiga oladi:",
+    "options": [
+      "Vitaminlar",
+      "ATF",
+      "Kokarboksilaza",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 234,
+    "question": "Poliklinikada irsiy nefritli bolalarni qo'shimcha qaysi tekshiruvlardan o'tkaziladi?",
+    "options": [
+      "Peshobning klinik analizi",
+      "Nechiporenko sinamasi",
+      "Qonning klinik taxlili",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 235,
+    "question": "Bolada O’RI fonida mikroeritrotsituriya bo'lsa, maxalliy shifokor taktikasi nimadan iborat?",
+    "options": [
+      "Peshob klinik analizi",
+      "Nicheporenko bo'yicha miqdorli test",
+      "Simptomatik davo olib borish",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 236,
+    "question": "Bola glomerulonefritning nefrotik shakli bilan kasallangan. Gormonal davolash kursni aniqlang:",
+    "options": [
+      "2 xafta",
+      "1 oy",
+      "1-1,5 yil",
+      "6 oy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 237,
+    "question": "Bolada qovuq soxasida og'riq, dizuriya, terminal makrogematuriya, leykotsituriya. Sizning tashxisingiz:",
+    "options": [
+      "Sistit",
+      "Piyelonefrit",
+      "Glomerulonefrit",
+      "Siydik yo’llari infektsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 238,
+    "question": "Buyrakning tubulo-interstitsial tizimining bakterial yalliglanishi bu:",
+    "options": [
+      "Sistit",
+      "Glomerulonefrit",
+      "Piyelonefrit",
+      "Uretrit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 239,
+    "question": "O'tkir piyelonefritning asosiy klinik sindromlari qanday?",
+    "options": [
+      "Og'riqli sindrom, dizurik buzilishlar sindromi, mochevoy sindrom: leykotsituriya, bakteriuriya",
+      "Shish sindromi, mochevoy sindrom – proteinuriya, gematuriya",
+      "Og'riqli sindrom, mochevoy sindrom –gipostenuriya, proteinuriya, oliguriya, qovuq usti soxasida og'riq, dizurik simptomlar, xira+shilliq aralash peshob",
+      "Gematuriya, og'riq sindromi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 240,
+    "question": "O'tkir piyelonefritga xos bo'lgan tipik belgilar:",
+    "options": [
+      "Abdominal og'rik sindromi",
+      "Dizuriya",
+      "Febril isitmalash",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 241,
+    "question": "Gipervitaminoz D ning buyrak shakliga xos emas:",
+    "options": [
+      "Poliuriya",
+      "Glyukozuriya",
+      "Mikrogematuriya",
+      "Gipoizostenuriya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 242,
+    "question": "Quyidagi buyrak kasalliklarining qaysi biri bilan birgalikda nefrotik sindromning ko'p holatlari rivojlanadi?",
+    "options": [
+      "o'tkir postinfektsion glomerulonefrit",
+      "diabetik nefropatiya",
+      "membranali proliferativ glomerulonefrit",
+      "membranali nefropatiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 243,
+    "question": "Birlamchi nefrotik sindrom quyidagilar xosdir:",
+    "options": [
+      "Oilaviy nefrotik sindrom",
+      "Birlamchi surunkali glomerulonefritning nefrotik shakli",
+      "Genuin nefrotik sindromi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 244,
+    "question": "Ikkilamchi nefrotik sindrom rivojlanishi mumkin bo'lgan kasalliklarni nomlang:",
+    "options": [
+      "diffuz biriktiruvchi to'qima kasalliklari",
+      "o'tkir zaharlanish",
+      "gemorragik vaskulit",
+      "barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 245,
+    "question": "Nefrotik sindromda shish paydo bo'lishining asosiy omillari qanday?",
+    "options": [
+      "Onkotik bosimning pasayishi",
+      "Gipovolemiya",
+      "Giperaldosteronizm",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 246,
+    "question": "Glomerulonefritning patogenetik davolash uchun qo'llaniladigan asosiy dorilarini ayting:",
+    "options": [
+      "Indometatsin",
+      "Prednizolon",
+      "Geparin",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 247,
+    "question": "Sistit diagnostikasi uchun eng muhim paraklinik tekshiruvlar qanday?",
+    "options": [
+      "Uroleykogramma, bakteriuriya darajasini aniqlash",
+      "3-chashka namunasi",
+      "Sistoskopiya",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 248,
+    "question": "Sistit uchun ishlatiladigan diuretik o'tlarni nomlang:",
+    "options": [
+      "Mojjevelnik",
+      "Petrushka",
+      "Polevoy xvosh",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 249,
+    "question": "Sistit fonida qanday kasalliklar tez rivojlanadi",
+    "options": [
+      "Puzirno-mochetochnikoviy reflyuks",
+      "Piyelonefrit",
+      "Uretra distal qismining stenozi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 250,
+    "question": "O'tkir buyrak yetishmovchiligini tiklanish bosqichiga qanday alomatlar xos:",
+    "options": [
+      "Poliuriya",
+      "Anemiya",
+      "Izostenuriya",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 251,
+    "question": "Interstitsial nefritning siydik sindromida quyidagilar namoyon bo'ladi:",
+    "options": [
+      "Mikroeritrotsituriya",
+      "Izolyatsiya qilingan proteinuriya",
+      "Mikroeritrotsituriya proteinuriya bilan birga",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 252,
+    "question": "Bola 5 yoshda. Glomerulonefrit bor. Davolash uchun asosiy dorilarni yozing:",
+    "options": [
+      "Indometatsin, prednizolon, antibiotik",
+      "Geparin, antibiotik",
+      "Kurantil",
+      "Polivitamin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 253,
+    "question": "Ona nefrotik sindromli bolani olib keldi. Bolada kasallikning o'tkir davri. Davolash tamoyillarini tushuntiring:",
+    "options": [
+      "Yotoq rejim, bel soxasini issiq tutish, diuretiklar",
+      "Umumiy rejim, uglevodlarni cheklash",
+      "Suyuqlikni cheklash bilan tuzsiz diyeta",
+      "Ko'p suyuqlik ichish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 254,
+    "question": "Ikki yoshli bola 2 hafta oldin AKDS bilan emlangan. Bir kechada butun tanasida shish paydo bo'ldi. Anasarka. Kam siydik chiqargan. Taxminiy tashxis:",
+    "options": [
+      "Lipoid nefrozning nefrotik sindromi",
+      "Postvaktsinal asorat",
+      "Postvaktsinal reaktsiya",
+      "O'tkir glomerulonefrit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 255,
+    "question": "Anamnezdagi qaysi belgilar bolada «mochekisliy diatez» rivojlanish extimollarini ko'rsatadi?",
+    "options": [
+      "Qarindoshlarida bronxial astma kuzatilsa",
+      "Tug'ilgan vaznining kattaligi",
+      "Oilada podagra, siydiy tosh kasalligi keng tarqalganligi",
+      "Xomiladorlikda onada virus infektsiyasi bo'lganligi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 256,
+    "question": "Surunkali ikkilamchi piyelonefritda qo'llaniladigan uzilishli antibiotik terapiyaning davomiyligini aniklang.",
+    "options": [
+      "1 oy",
+      "6 oy",
+      "8 oy",
+      "10 oy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 257,
+    "question": "O'tkir ikkilamchi piyelonefritda qo'llaniladigan uzluksiz antibiotik terapiyaning davomiyligini aniqlang.",
+    "options": [
+      "1 oy",
+      "6 oy",
+      "8 oy",
+      "2 xafta"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 258,
+    "question": "Irsiy nefritda dispanser nazorat davomiyligini aniqlang:",
+    "options": [
+      "1 yil",
+      "2 yil",
+      "3yil",
+      "Xisobdan o'chirilmaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 259,
+    "question": "Irsiy nefritli bolani maxalliy pediatr necha marotaba ko'rikdan o'tkazadi?",
+    "options": [
+      "Xaftada 1 marta",
+      "Bir oyda 1 marta",
+      "3 oyda 1 marta",
+      "6 oyda 1 marta"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 260,
+    "question": "Metabolik atsidozni korrektsiyasida qo'llaniladi:",
+    "options": [
+      "4%li natriy bikarbonat eritmasi",
+      "5%li glyukoza eritmasi",
+      "0,9%li Na xlor eritmasi",
+      "20%li glyukoza"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 261,
+    "question": "Mochekisliy diatezda peshobda nimalar aniqlanadi:",
+    "options": [
+      "Uratlar miqdorini oshishi",
+      "Oksalatlar miqdorini oshishi",
+      "Proteinuriya",
+      "Makrogematuriya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 262,
+    "question": "Nefrotik sindromning o'tkir davrida bolaga bir kunlik suyuqlikning qancha qismini berish mumkin:",
+    "options": [
+      "100-150 ml/kg xisobida",
+      "oldingi kundagi diurez + 15 ml/kg xisobida",
+      "bir kunda 2 litrgacha",
+      "200 ml/kg xisobida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 263,
+    "question": "1 yoshgacha bo'lgan bolalarni emlashda vaktsina qo'llanilmaydi:",
+    "options": [
+      "XIB",
+      "VGV",
+      "BTSJ",
+      "KPK"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 264,
+    "question": "Poliomiyelitga qarshi emlash bolaga berilishi kerak:",
+    "options": [
+      "Ovqatdan 3 soat oldin",
+      "Ovqatdan 1 soat oldin",
+      "Ovqat paytida",
+      "Ertalab och qoringa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 265,
+    "question": "Qizamiq, qizilcha, epid. parotitga qarshi emlashdan keyin reaktsiyalarni kutish mumkin:",
+    "options": [
+      "48-72soatdan keyin.",
+      "4-12 kundan boshlab",
+      "2-3 haftadan boshlab",
+      "1 oydan keyin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 266,
+    "question": "AKDS vaktsinasi bilan yemlashga qarshi ko'rsatmalar:",
+    "options": [
+      "asab tizimining progressiv kasalliklari",
+      "perinatal entsefalopatiya",
+      "erta tug'ilish",
+      "surunkali kasalliklar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 267,
+    "question": "Emlashdan keyingi asoratlarni rivojlanishining sababi:",
+    "options": [
+      "antigistaminlarni qo'llash",
+      "tananing reaktivligining o'zgarishi",
+      "monovaktsinani kiritish",
+      "bir necha vaktsinalarni birga yuvorish"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 268,
+    "question": "Barcha vaktsinalarni qo'llash uchun mutloq qarshilik:",
+    "options": [
+      "vaktsinaning dastlabki yoki takroriy qo'llanilishiga kuchli reaktsiya",
+      "surunkali kasalliklar",
+      "ikkilamchi immunitet tanqisligi sharoitlari",
+      "saratonlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 269,
+    "question": "Xamirturushga alergiya bo'lgan bolaga qaysi vaktsina mumkin emas:",
+    "options": [
+      "qizamiq",
+      "pnevmokokk",
+      "gepatit B ga qarshi rekombinant",
+      "difteriya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 270,
+    "question": "Qizamiqqa qarshi yemlashdan keyingi immunitetni shakllantirishni tekshirish usuli:",
+    "options": [
+      "serologik",
+      "virusologik",
+      "allergologik",
+      "molekulyar genetik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 271,
+    "question": "Aminoglikozidlarga alergiya bo'lgan bolaga qaysi vaktsina mumkin emas:",
+    "options": [
+      "qizamiq",
+      "pnevmokokk",
+      "gepatit V ga qarshi rekombinant",
+      "difteriya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 272,
+    "question": "Gipertermik lixoradka – bu tana xaroratining qanchagacha ko'tarilishi?",
+    "options": [
+      "37°S",
+      "38°S",
+      "39°S",
+      "40°S dan yuqori"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 273,
+    "question": "Aspirindan foydalanganda qanday asorat kuzatiladi?",
+    "options": [
+      "Agronulotsitoz",
+      "Reya sindromi",
+      "Talvasa sindromi",
+      "Jigarning toksik zararlanishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 274,
+    "question": "Ekzogen pirogenlarga nimalar kiradi?",
+    "options": [
+      "Bakteriyalar",
+      "Viruslar",
+      "Zambrug'lar",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 275,
+    "question": "\"Oq\" isitmaning klinik ko'rinishlari nimalardan iborat?",
+    "options": [
+      "Gallyutsinatsiyalar, alaxsirash",
+      "Oyog'-qo'llarning sovuqligi",
+      "Teri qoplamining mramorligi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 276,
+    "question": "Antibakterial terapiyani tayinlash uchun qanday ko'rsatmalar mavjud?",
+    "options": [
+      "Prokaltsitoninning yuqori darajasi",
+      "Toksikoz belgilari",
+      "Leykotsitlar formulasining chapga siljishi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 277,
+    "question": "Pediatriyada qo'llaniladigan antipiretiklar qaysilar?",
+    "options": [
+      "Aspirin",
+      "Nemisil",
+      "Metamizol natriya",
+      "Paratsetamol"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 278,
+    "question": "Markaziy nerv sistemasi faoliyatining buzilganligidan darak beruvchi simptomlar:",
+    "options": [
+      "Gallyutsinatsiya",
+      "Harakat qo’zg’aluvchanligi",
+      "Talvasa",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 279,
+    "question": "Birinchi yordam to'plamida bo'lishi kerak bo'lgan antigistamin preparatlar qaysilar?",
+    "options": [
+      "Mezaton, dopamin, norepinefrin",
+      "Prednizon, deksametazon, gidrokortizon",
+      "Suprastin, tavegil",
+      "Salbutamol"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 280,
+    "question": "Bemorga antibiotiklarni buyurishda teri testlarini o'tkazish kerakmi?",
+    "options": [
+      "Faqat bemorning iltimosiga binoan",
+      "Allergiya haqida shubha mavjud bo'lsa kerak",
+      "Agar bemorda dori intolerantlik ko'rsatkichlari bo'lmasa, unda teri testlari o'tkazilmaydi",
+      "Har qanday vaziyatda zarur"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 281,
+    "question": "Yurak-o'pka reanimatsiyasi paytida ko'krak qafasini siqish qanday chastotada amalga oshiriladi?",
+    "options": [
+      "Daqiqada 30 siqilish",
+      "Daqiqada 80 siqilish",
+      "Daqiqada 100-120 siqish",
+      "Daqiqada 50 siqish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 282,
+    "question": "Anafilaktik shokda, gemodinamik kasalliklardan tashqari, nimalar namoyon bo'lishi mumkin?",
+    "options": [
+      "Gastrointestinal alomatlar (qorin og'rig'i, ko'ngil aynishi, qusish, diareya)",
+      "Nafas olish buzilishi",
+      "Teri belgilari (urticaria va boshqa toshmalar)",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 283,
+    "question": "1 yoshdan katta bolaga anafilaktik shokni davolashda 1:1000 adrenalin gidroxlorid eritmasining vena ichiga yuborish dozasi qancha?",
+    "options": [
+      "1,0 ml",
+      "0,3 ml",
+      "0,15 ml",
+      "0,5 ml"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 284,
+    "question": "Anafilaktik shok kechishi qanday bo'lishi mumkin?",
+    "options": [
+      "Shokning ikkinchi to'lqini bir necha kun yoki soat ichida namoyon bo'lishi mumkin",
+      "Retsidiv bo'lishi mumkin",
+      "Ikkinchi zarba to'lqini 4-8 soat ichida namoyon bo'lishi mumkin",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 285,
+    "question": "Agar birinchi in'ektsiya yordam bermasa, anafilaktik shokda adrenalin in'ektsiyasini qachon takrorlash mumkin?",
+    "options": [
+      "1 daqiqadan keyin",
+      "4 soatdan keyin",
+      "1 soatdan keyin",
+      "5-15 daqiqadan keyin"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 286,
+    "question": "Anafilaktik shokda antigistamin preparatlarni qo'llash haqida to'g'ri fikr qaysi?",
+    "options": [
+      "Glyukokortikoidlar bilan bir xil shpritsda qo'llaniladi",
+      "Ishlatilmaydi",
+      "Adrenalin yuborilgandan keyin qo'llaniladi",
+      "Davolashni antigistaminlar bilan boshlash kerak"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 287,
+    "question": "Dori allergiyasi uchun provokatsion testlar o'tkazish shartlari qanday?",
+    "options": [
+      "Anafilaktik shok rivojlanishi bilan shoshilinch yordamga tayyorlik holatida",
+      "Qat'iy ko'rsatmalarga muvofiq",
+      "Allergolog-immunolog tomonidan",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 288,
+    "question": "Tibbiy markazning qaysi xonalarida shokga qarshi birinchi yordam to'plami bo'lishi kerak?",
+    "options": [
+      "Muolaja xonasida",
+      "Bemorlarga dori yuboriladigan barcha xonalarda",
+      "Reanimatsiya bo'limlarida",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 289,
+    "question": "Bemorning aytishicha, bolada analginga reaktsiya bo'lgan. Quyida sanab o'tilgan analgetiklardan qaysi biri bu bemor uchun xavf tug'dirmaydi?",
+    "options": [
+      "Baralgin M",
+      "Paratsetamol",
+      "Baralgin",
+      "Metamizol natriy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 290,
+    "question": "Shokka qarshi to'g'ri holat qaysi?",
+    "options": [
+      "Bola yonboshlab yotibdi",
+      "Bola boshini ko'targan holda gorizontal yotadi",
+      "Bola o'tirgan xolatda bo’ladi",
+      "Bola oyog'larini ko'targan holda gorizontal yotadi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 291,
+    "question": "Bemorning dori allergiyasi haqidagi yozuv qayerda qayd qilinadi?",
+    "options": [
+      "Davolash varaqasida",
+      "Krovat orqa tomonida",
+      "Navbatchilikni topshirish daftarida",
+      "Kasallik tarixining sarlavha sahifasida va davolash varaqasida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 292,
+    "question": "6 yoshdan 12 yoshgacha bo'lgan bolaga vena ichiga yuboriladigan 0,1% adrenalin gidroxlorid eritmasining dozasi qancha?",
+    "options": [
+      "0,5 ml",
+      "1,0 ml",
+      "0,05 ml",
+      "0,3 ml"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 293,
+    "question": "Allergen qabul qilingan paytdan boshlab anafilaktik shok belgilari paydo bo'lishigacha qancha vaqt o'tishi mumkin?",
+    "options": [
+      "30 daqiqadan ortiq emas",
+      "Bir necha daqiqadan bir necha soatgacha",
+      "Bir kundan ortiq",
+      "30 daqiqadan oldin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 294,
+    "question": "Stridor bu nima?",
+    "options": [
+      "Pastki nafas yo'llari stenozidan kelib chiqqan nafas buzilishi",
+      "\"O'tkir qorin\" alomatlaridan biri",
+      "Qon aylanishining yetishmovchiligi alomati",
+      "Yuqori nafas yo'llari darajasida stenoz tufayli nafas olish qiyinlashuvi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 295,
+    "question": "Shokka qarshi yordam to'plamida bo'lishi kerak bo'lgan pressor aminlar qaysilar?",
+    "options": [
+      "Adrenalin, noradrenalin",
+      "Suprastin, tavegil",
+      "Salbutamol",
+      "Eufillin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 296,
+    "question": "Preparatni parenteral qo'llagandan keyin bemorlarni necha daqiqa kuzatish kerak?",
+    "options": [
+      "10 minut",
+      "30 minut",
+      "5 minut",
+      "Kuzatuv shart emas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 297,
+    "question": "Anafilaktik shok nima?",
+    "options": [
+      "Bu o'tkir, hayot uchun xavfli yuqori sezuvchanlik reaktsiyasi",
+      "Barcha muhim organlarda qon aylanish yetishmovchiligi va gipoksiyaga olib keladi",
+      "Sistolik qon bosimining 90 mm.rt.st.dan past yoki boshlang'ich darajadan 30% gacha pasayishi bilan namoyon bo'ladi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 298,
+    "question": "Anafilaktik shokni davolashda adrenalinning ta'sir qilish mexanizmi qanday?",
+    "options": [
+      "Qon tomir adrenoretseptorlariga ta'sir qilib, ularni toraytiradi va bosimni oshiradi",
+      "Bazofillar va semiz hujayralarga ta'sir qilib, gistamin ta'sirini kamaytiradi",
+      "Bronx adrenoretseptorlarini stimullaydi va nafas yetishmovchiligini yo'q qiladi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 299,
+    "question": "6 yoshgacha bo'lgan bolaga vena ichiga yuborish orqali anafilaktik shokni davolashda 0,1% adrenalin gidroxlorid eritmasining dozasi qancha?",
+    "options": [
+      "1,0 ml",
+      "0,15 ml",
+      "0,5 ml",
+      "0,05 ml"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 300,
+    "question": "Perekrest allergiya bu nima?",
+    "options": [
+      "Burga chaqishidan allergiya",
+      "Kechiktirilgan turdagi allergiyaning maxsus turi",
+      "Agar preparatlar o'xshash kimyoviy formulaga ega bo'lsa rivojlanadi",
+      "O'simliklar guliga allergiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 301,
+    "question": "Shokga qarshi birinchi yordam to'plamida bo'lishi kerak bo'lgan steroid preparatlar qaysilar?",
+    "options": [
+      "Mezaton, dopamin, norepinefrin",
+      "Suprastin, tavegil",
+      "Eufillin",
+      "Prednizolon, deksametazon, gidrokortizon"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 302,
+    "question": "Safar (sun'iy nafas) usuli nimadan boshlanadi?",
+    "options": [
+      "Boshni yon tomonga burishdan",
+      "Og'zini ochishdan",
+      "Boshni orqaga tashlashdan",
+      "Og'iz bo'shlig'ini begona jismlardan ozod qilishdan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 303,
+    "question": "Dori terapiyasi paytida anafilaktik shok xavfi ortishi ehtimolini ko'rsatadigan allergik xarakterdagi kasalliklar:",
+    "options": [
+      "Oziq-ovqat allergiyasi",
+      "Atopik dermatit",
+      "Bronxial astma",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 304,
+    "question": "Anafilaktik shokda adrenalindan foydalanish to'g'risida to'g'ri fikrni belgilang:",
+    "options": [
+      "Eng tezkor usul — sonning old lateral yuzasiga mushak orasiga yuborish",
+      "Adrenalin qancha erta yuborilsa, prognoz shunchalik yaxshi",
+      "Doza 0,3–0,5 ml 0,1% li eritma",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 305,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasi (VSD)ning gipotonik turida miya qon ta'minoti yetishmovchiligi belgilari:",
+    "options": [
+      "Yig'loqilik, kayfiyatning tez o'zgarishi",
+      "Bosh aylanishi va mushaklarning kuchsizligi",
+      "Doimiy uyquchanlik va apatiya",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 306,
+    "question": "Bolalarda vegetativ nerv sistemasi somatoform disfunkciyasi sabablari:",
+    "options": [
+      "Kasallikni og'ir o'tkazganligi",
+      "Organizmning gormonal o'zgarishlari",
+      "Vitamin va minerallar yetishmasligi, ratsional ovqatlanmaslik",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 307,
+    "question": "Bolalar va o'smirlarda vegetativ nerv sistemasi somatoform disfunkciyasi sindromlari:",
+    "options": [
+      "Kardial sindrom",
+      "Nevrotik sindrom",
+      "Respirator sindrom",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 308,
+    "question": "Kardial sindrom nima bilan xarakterlanadi?",
+    "options": [
+      "Yurakda xurujsimon og'riq",
+      "Arterial gipertenziya",
+      "Arterial gipotoniya",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 309,
+    "question": "Nevrotik sindrom qanday belgilar bilan namoyon bo'ladi?",
+    "options": [
+      "Uyquning buzilishi, charchoq hissi",
+      "Kontsentratsiya va xotira bilan bog'liq muammolar",
+      "Bosh og'riqi, bosh aylanish xurujlari, orientatsiya buzilishi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 310,
+    "question": "Respirator sindrom qanday belgilar bilan xarakterlanadi?",
+    "options": [
+      "Davriy chuqur nafas olishda nafas qisilishi, havo yetishmasligi hissi",
+      "Termoregulyatsiyaning buzilishi, titroq, sovuq qotish",
+      "Iqlim omillariga sezuvchanlik (issiqlik, sovuq, tiqilish)",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 311,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasi diagnostika va davolash kimlar ishtirokida amalga oshiriladi?",
+    "options": [
+      "Nevrolog",
+      "Kardiolog",
+      "Endokrinolog",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 312,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasini instrumental tekshiruv usullari:",
+    "options": [
+      "EKG",
+      "EEG",
+      "REG",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 313,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasini medikamentoz davolash nimalarni o'z ichiga oladi?",
+    "options": [
+      "Neyroprotektor, nootrop, analgetik, spazmolitik",
+      "Miyada qon aylanishini stimullovchi preparatlar",
+      "Qon bosimini meyorlashtiruvchi, polivitamin komplekslar",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 314,
+    "question": "Vegetativ nerv sistemasi somatoform disfunkciyasini nomedikamentoz davolash usullari:",
+    "options": [
+      "Fizioterapiya seanslari",
+      "Massaj",
+      "LFK",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 315,
+    "question": "Vaktsinani saqlashning to'g'ri harorat rejimi qanday?",
+    "options": [
+      "+2˚S dan +8˚S gacha",
+      "0˚S dan +8˚S gacha",
+      "+2˚S dan +6˚S gacha",
+      "-2˚S dan 0˚S gacha"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 316,
+    "question": "Laktaza yetishmovchiligini davolash tamoyillari:",
+    "options": [
+      "Parxez davolash",
+      "Parenteral suyuqlik yuborish",
+      "Fermentlar va biopreparatlar",
+      "Laktozasiz aralashmalar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 317,
+    "question": "Bola 3 oylik. Fontansimon qusish, vazniga kam qo'shish, siydik miqdori kamaygan. Oshqozon kengaygan, evakuatsiya sekin. Tashxis:",
+    "options": [
+      "Pilorostenoz",
+      "Disaxaridaza yetishmovchiligi",
+      "Pilorospazm",
+      "Adrenogenital sindrom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 318,
+    "question": "\"Pushti\" isitmaning klinik ko'rinishlari:",
+    "options": [
+      "Gipergidroz",
+      "Terining giperemiyasi",
+      "Oyog'-qo'llarning issiqligi",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 319,
+    "question": "Bolalarda surunkali kolitning zo'riqish davridan so'ng profilaktik emlashlar qachon o'tkaziladi?",
+    "options": [
+      "1 oydan oldin emas",
+      "6 oydan oldin emas",
+      "Qarshi ko'rsatma yo'q",
+      "Barcha emlashlar bekor qilinadi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 320,
+    "question": "Gepatit V emlashga qarshi ko'rsatmalar:",
+    "options": [
+      "Surunkali gepatit C",
+      "AKDSga qarshi yemlash uchun gipertermik reaktsiya",
+      "Yuqumli kasallikning o'tkir bosqichi",
+      "Anemiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 321,
+    "question": "Qaysi preparat vaktsina emas:",
+    "options": [
+      "BTSJ",
+      "AKDS",
+      "Oddiy inson immunoglobulini",
+      "Infanriks"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 322,
+    "question": "Barcha tirik vaktsinalarni qo'llash uchun qarshi ko'rsatmalar:",
+    "options": [
+      "Birlamchi immunitet tanqisligi holati",
+      "OIV infektsiyasi",
+      "Bronxial astma",
+      "Asab tizimining progressiv kasalligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 323,
+    "question": "Qaysi biri tirik vaktsina emas:",
+    "options": [
+      "Poliomiyelitga qarshi inaktiv vaktsina",
+      "Poliomiyelitga qarshi oral vaktsina",
+      "Qizamiqqa qarshi vaktsina",
+      "BTSJ vaktsinasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 324,
+    "question": "Virusli gepatit V ga qarshi birinchi emlash qachon amalga oshiriladi:",
+    "options": [
+      "Hayotning 3–7 kunida",
+      "Hayotning birinchi 24 soati",
+      "1 oy ichida",
+      "Hayotning birinchi 12 soati"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 325,
+    "question": "Profilaktik emlashlarni qamrab olish darajasi:",
+    "options": [
+      "99%",
+      "75%",
+      "95%",
+      "62%"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 326,
+    "question": "Immunizatsiyaning immunologik samaradorligi nimaga qarab baholanadi?",
+    "options": [
+      "Infektsiyaning klinik kechishiga ta'siri bilan",
+      "Kasalliklarning oldini olishda xarajatlarni tejash orqali",
+      "Antitellarning himoya darajasiga ega bo'lganlar foizi bilan",
+      "Umuman kasallanishni kamaytirish orqali"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 327,
+    "question": "Rejalashtirilgan tanlab emlash kimlarga amalga oshiriladi?",
+    "options": [
+      "Bolalar muassasasiga hujjat olayotgan bolalar uchun",
+      "Tegishli yoshga yetgan bolalar uchun",
+      "Infektsiya xavfi bo'lgan ishchilar uchun",
+      "Yuqumli kasalliklar o'choqlarida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 328,
+    "question": "Sovuqlik zanjirining 1-darajasida jonli virusli vaktsinalarni saqlash uchun eng mos sharoit:",
+    "options": [
+      "Muzxonada (-15 – -25 °C)",
+      "Termostatda",
+      "Xona haroratida",
+      "Maishiy muzlatgichda (0–+8 °C)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 329,
+    "question": "Agar 18% hollarda vaktsinani kiritishda kuchli reaktsiyalar qayd etilsa, nima qilish kerak?",
+    "options": [
+      "Emlashni bekor qilib, boshqa seriyali vaktsina olish",
+      "Vaktsinani past dozada yuborish",
+      "Ushbu seriyani davom ettirish",
+      "Antigistaminlar fonida emlash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 330,
+    "question": "JSST tavsiyalariga ko'ra grippga qarshi vaktsinalarni qamrab olish kamida necha foiz bo'lishi kerak?",
+    "options": [
+      "75",
+      "80",
+      "90",
+      "100"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 331,
+    "question": "Kollektiv immunitet aholini himoya qilish uchun yetarli deb hisoblanadi, agar qamrab olish kamida nechta foiz bo'lsa?",
+    "options": [
+      "95",
+      "55",
+      "70",
+      "85"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 332,
+    "question": "Emlash idorasida 'shayk test' orqali nimani aniqlanadi?",
+    "options": [
+      "Muzlatilganligini",
+      "+25°C dan yuqori haroratda saqlanganligini",
+      "Quyosh nurlari ta'sirida bo'lganligini",
+      "+10°C dan yuqori haroratda saqlanganligini"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 333,
+    "question": "Emlashdan keyingi asorat sabablarini o'rganayotganda qaysi ma'lumot zarur?",
+    "options": [
+      "Emlash tarixi",
+      "Ijtimoiy yashash sharoitlari",
+      "Yomon odatlar",
+      "Oila tarkibi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 334,
+    "question": "Emlashdan keyingi ehtimoliy asorat sifatida tekshirilishi kerak bo'lgan kasallik:",
+    "options": [
+      "Trombotsitopenik purpura",
+      "O'tkir respirator infektsiyalar",
+      "Arterial gipertenziya",
+      "Semirib ketish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 335,
+    "question": "Emlashdan keyingi asorat yoki shubha tug'ilganda tibbiyot xodimi darhol kimga xabar beradi?",
+    "options": [
+      "Tibbiy tashkilot rahbariga",
+      "Sanitariya-epidemiologiya xizmati rahbariga",
+      "Ish joyiga",
+      "Qarindoshlarga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 336,
+    "question": "Kataral sindromlar ko'rinishidagi postvaktsinal reaktsiyalar qaysi vaktsinadan keyin rivojlanadi?",
+    "options": [
+      "Qizamiqqa qarshi emlash",
+      "Poliomiyelitga qarshi emlash",
+      "BTSJ vaktsinasi",
+      "VPCh qarshi emlash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 337,
+    "question": "Aholida jamoaviy immunitet keskinligini baholash qachon amalga oshiriladi?",
+    "options": [
+      "Har yili",
+      "Oylik",
+      "Har uch yilda bir marta",
+      "Har ikki yilda bir marta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 338,
+    "question": "AKDS vaktsinasi kiritilgandan 1 oy o'tgach rivojlangan entsefalit qanday baholanadi?",
+    "options": [
+      "Emlash bilan bog'liq bo'lmagan hodisa",
+      "Emlashdan keyingi asorat",
+      "Emlashdan keyingi salbiy hodisa",
+      "Zo'ravonlik reaktsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 339,
+    "question": "Emlashdan keyin in'ektsiya joyida 4 mm giperemiya kuzatilsa, bu:",
+    "options": [
+      "Mahalliy postvaktsinal reaktsiya",
+      "Umumiy postvaktsinal reaktsiya",
+      "Asorat",
+      "Allergik reaktsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 340,
+    "question": "Emlashdan 2 soat o'tgach, bolaning harorati 37,5°C bo'ldi. Bu:",
+    "options": [
+      "Emlashdan keyingi umumiy reaktsiya",
+      "Emlashdan keyingi asorat",
+      "Interkurrent kasallik",
+      "Mahalliy reaktsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 341,
+    "question": "Emlashdan 4 hafta o'tgach BTSJ in'ektsiya joyida 'sovuq' abstsess kuzatilsa, sababi:",
+    "options": [
+      "Vaktsina yuborish texnikasini buzilishi",
+      "Nurda saqlash",
+      "Xona haroratida saqlash",
+      "Boshqa vaktsinalar bilan bir vaqtda yuborish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 342,
+    "question": "Emlashni tashkil etishda qaysi mutaxassis ishtirok etmaydi?",
+    "options": [
+      "Pediatr",
+      "Vrach-laborant",
+      "Epidemiolog",
+      "Hamshira"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 343,
+    "question": "Ichak ta'sirlanish sindromini tashxislash uchun qaysi tadqiqotlar o'tkaziladi?",
+    "options": [
+      "Gijja tuxumiga najas tahlili",
+      "Umumiy qon tahlili",
+      "Irrigografiya",
+      "Endoskopiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 344,
+    "question": "Ich qotishi bilan kechuvchi ichakning tez ta'sirlanish sindromida nima tavsiya etiladi?",
+    "options": [
+      "O'simlik tolasini iste'mol qilish",
+      "Yangi meva va sabzavotlarni cheklash",
+      "Suyuqlikni cheklash",
+      "Yog'larni cheklash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 345,
+    "question": "Diareya ustun bo'lgan ichakning tez ta'sirlanish sindromida nima tavsiya qilinadi?",
+    "options": [
+      "O'simlik tolasi ko'p ovqat",
+      "Oziq-ovqat yog'larini ko'paytirish",
+      "Suyuqlik iste'molini ko'paytirish",
+      "Yangi meva-sabzavotni cheklash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 346,
+    "question": "Ich qotishi ustun bo'lgan ichakning tez ta'sirlanish sindromida qanday dori tavsiya qilinadi?",
+    "options": [
+      "Siprofloksatsin",
+      "Levomitsetin",
+      "Imodium",
+      "Laktuloza"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 347,
+    "question": "Qiz bola 14 yoshda. Yog'li ovqatdan 4 soat o'tgach chap qovurg'a ostida og'riq, ko'ngil aynish va takroriy qusish, Meyo-Robson nuqtasida og'riq. Dastlabki tashxis:",
+    "options": [
+      "Appenditsit",
+      "Xoletsistit",
+      "Pankreatit",
+      "Gastrit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 348,
+    "question": "14 yoshli qiz bola yog'li ovqatdan so'ng chap qovurg'a ostida og'riq bilan keldi. Pankreatitni tasdiqlash uchun nimani aniqlash kerak?",
+    "options": [
+      "Transaminaz",
+      "Amilaza",
+      "Umumiy oqsil",
+      "Qondagi qand miqdori"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 349,
+    "question": "2 yosh 5 oylik bola. Qorin og'riq, najasda qon va shilliq, harorat normal. Dastlabki tashxis:",
+    "options": [
+      "O'tkir ichak infektsiyasi",
+      "Nospesifik yarali kolit",
+      "To'g'ri ichak polipi",
+      "Disbakterioz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 350,
+    "question": "Nospesifik yarali kolitda asosiy terapiya preparati:",
+    "options": [
+      "Salofalk",
+      "Azatioprin",
+      "Sandimun",
+      "Prednizolon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 351,
+    "question": "13 yoshli bolada nomatlub yarali kolit. Tashxisni eng aniq tasdiqlovchi usul:",
+    "options": [
+      "Qorin bo'shlig'i UTT",
+      "Kolonofibroskopiya",
+      "Rektoromanoskopiya",
+      "Fibrogastroskopiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 352,
+    "question": "11 yoshli qiz bola o'tkir pankreatit tashxisi bilan keldi. Tashxisni tasdiqlovchi asosiy diagnostika:",
+    "options": [
+      "O'n ikki barmoqli ichakni tekshirish",
+      "Koprologik tadqiqotlar",
+      "Fibrogastroskopiya",
+      "Oshqozon osti bezi fermentlarining faolligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 353,
+    "question": "Ichak ta'sirlanish sindromi etiologiyasida muhim ahamiyatga ega omil:",
+    "options": [
+      "Helicobacter pylori",
+      "Fermentativ disfunktsiya",
+      "Disbakterioz",
+      "Ichakning sensor-motor disfunktsiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 354,
+    "question": "Seliakiya tashxisi qo'yilgan 2 yoshli qiz uchun to'g'ri parhez:",
+    "options": [
+      "Sut kislotali",
+      "Kartoshka va karam",
+      "Sutsiz",
+      "Glyutensiz"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 355,
+    "question": "Seliakiya tashxisining oltin standarti:",
+    "options": [
+      "Ingichka ichak shilliq qavatining biopsiyasi",
+      "Qorin bo'shlig'i UTT",
+      "Interleykin-1 tekshiruvi",
+      "Bioximik analiz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 356,
+    "question": "Oqsilning najas orqali chiqib ketishi qaysi kasallikda kuzatiladi?",
+    "options": [
+      "Dizenteriya",
+      "Nospesifik yarali kolit",
+      "Seliakiya",
+      "Ekssudativ enteropatiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 357,
+    "question": "4 oylik qiz bola meva sharbatidan so'ng najasning ko'payishi, qusish, meteorizm. Sizning taxminingiz:",
+    "options": [
+      "Birlamchi disaxaridaza yetishmovchiligi",
+      "Mukovistsidoz ichak shakli",
+      "Seliakiya",
+      "Birlamchi ekssudativ enteropatiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 358,
+    "question": "Najasda yog' kislotalari aniqlangan steatoreya qaysi kasallikka xos?",
+    "options": [
+      "Nospesifik yarali kolit",
+      "Shvaxman sindromi",
+      "Seliakiya",
+      "Mukovistsidoz"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 359,
+    "question": "Seliakiyada ingichka ichak biopsiyasi natijasi qanday baholanadi?",
+    "options": [
+      "Shilliq qavat atrofiyasi",
+      "Donador shilliq qavat",
+      "Giperplaziya",
+      "Eroziyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 360,
+    "question": "Seliakiya kasalligini qaysi kasalliklardan farqlash kerak?",
+    "options": [
+      "Kron kasalligi",
+      "Laktaza yetishmovchiligi",
+      "Nospesifik yarali kolit",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 361,
+    "question": "5 kunlik bola, ona suti bilan boqiladi. Najas suyuq, nordon hidli, ko'pikli. Taxmin:",
+    "options": [
+      "Glyutenli enteropatiya",
+      "Laktaza yetishmovchiligi",
+      "Ekssudativ enteropatiya",
+      "Mukovistsidoz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 362,
+    "question": "16 yoshli qiz o'ng yonboshda og'riq bilan keldi, og'riq yelka va bo'yinga tarqaladi. Yog'li ovqatdan so'ng paydo bo'lgan. Dastlabki tashxis:",
+    "options": [
+      "Surunkali gastrit",
+      "Oshqozon yarasi",
+      "O'tkir appenditsit",
+      "O't toshlari kasalligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 363,
+    "question": "Temir moddasi eng yaxshi so'riladigan mahsulotlar:",
+    "options": [
+      "Tuxum",
+      "Pishloq",
+      "Go'sht va jigar",
+      "Mevalar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 364,
+    "question": "Oshqozon-ichak shilliq qavatini kimyoviy himoya qilish uchun nimani chiqarib tashlash kerak?",
+    "options": [
+      "Ziravorlar",
+      "Organik kislotalar",
+      "Efir moylari",
+      "Yuqorida aytilganlarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 365,
+    "question": "Oshqozon-ichak traktining shilliq qavatini mexanik zararlantiruvchi ozuqa:",
+    "options": [
+      "Tolali mahsulotlar",
+      "Biriktiruvchi to'qimalar",
+      "Parchalanmagan oziq-ovqat",
+      "Yuqorida aytilganlarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 366,
+    "question": "Allergik enterokolit va allergik enteropatiya o'rtasidagi farq:",
+    "options": [
+      "Steatoreya",
+      "Kreatoreya",
+      "Axlatdagi shilliq",
+      "Axlatda qon bo'lishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 367,
+    "question": "Surunkali enterokolit tashxisida beriladigan parhez stoli:",
+    "options": [
+      "Parxez stol №4",
+      "Parxez stol №3",
+      "Parxez stol №1",
+      "Parxez stol №1A"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 368,
+    "question": "Funktsional oshqozon kasalliklarini davolashning umumiy tamoyillari:",
+    "options": [
+      "To'g'ri ovqatlanish tartibi",
+      "Psixoterapevtik davolash",
+      "Fizioterapevtik davolash",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 369,
+    "question": "Mukovistsidoz uchun xos holat:",
+    "options": [
+      "Axlatda uglevod",
+      "Amiloreya",
+      "Kreatoreya",
+      "III tipli steatoreya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 370,
+    "question": "IgE assotsirlangan reaktsiyalarga kiradi:",
+    "options": [
+      "Gastrointestinal simptomlar",
+      "Eshak yemi, angio shishlar",
+      "Rinokonyuktivit, astma",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 371,
+    "question": "Bolalarni sut aralashmalari bilan oziqlantirish qanday oqibatlarga olib kelishi mumkin?",
+    "options": [
+      "Sigir suti oqsiliga kech sezuvchanlik",
+      "Oshqozon-ichak yallig'lanishi",
+      "Sigir suti oqsiliga erta sezuvchanlik",
+      "Diareya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 372,
+    "question": "Rim IV mezonlariga ko'ra, funktsional ovqat hazm qilish kasalliklariga mos keladi:",
+    "options": [
+      "Chaqaloq ruminatsiyasi sindromi",
+      "Chaqaloq disxeziyasi",
+      "Chaqaloq regurgitatsiyasi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 373,
+    "question": "Antireflyuks aralashmalariga kiradi:",
+    "options": [
+      "Nestogen",
+      "Nutrilon AR",
+      "Similak Komfort",
+      "Friso PEP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 374,
+    "question": "Funktsional qabziyatda medikamentoz terapiya o'z ichiga oladi:",
+    "options": [
+      "Makrogol",
+      "Laktuloza",
+      "Pankreatin",
+      "Smekta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 375,
+    "question": "Ichak sanchig'ida og'riqni yengillashtirish uchun qo'llaniladi:",
+    "options": [
+      "Issiqlik qo'yish",
+      "Qorinni silash va massaj",
+      "Tananing holatini o'zgartirish",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 376,
+    "question": "Pankreatit kasalligida qonda qaysi ko'rsatkichning miqdori oshadi:",
+    "options": [
+      "Amilaza",
+      "Lipaza",
+      "Saxaroza",
+      "Glyukoza-6-fosfat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 377,
+    "question": "Qorin bo'shlig'ining funktsional og'rig'i bo'lgan bemorlarda shikoyatlarning sabablari:",
+    "options": [
+      "Antroduodenal koordinatsiyaning buzilishi",
+      "Oshqozon harakatining buzilishi",
+      "Oshqozon devori retseptorlarining sezuvchanligi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 378,
+    "question": "Ichakning tez ta'sirlanish sindromi tashxisida majburiy instrumental usullar:",
+    "options": [
+      "Kolonoskopiya",
+      "Fibroezofagogastroduodenoskopiya",
+      "Qorin bo'shlig'i UTT",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 379,
+    "question": "Katta yoshdagi bolalarda funktsional qabziyat uchun xavf omillari:",
+    "options": [
+      "Gipodinamiya",
+      "Ruhiy stress",
+      "Ichak mikroflorasining buzilishi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 380,
+    "question": "3 yoshdan katta bolalarda qabziyat belgilariga kiradi:",
+    "options": [
+      "Qattiq najas",
+      "Najas 36 soatdan ortiq kelmasligi",
+      "Qorin dam bo'lishi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 381,
+    "question": "Bolalarda ovqat hazm qilish tizimi funktsional buzilishlarini medikamentoz davolash:",
+    "options": [
+      "Prokinetiklar",
+      "Surgi vositalari",
+      "Spazmolitiklar",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 382,
+    "question": "Bolalarda ichak harakatiga ta'sir qiluvchi ozuqalar:",
+    "options": [
+      "Sho'r taomlar",
+      "Asal, murabbo, shirinlar",
+      "Sovuq ovqatlar",
+      "Meva va sabzavotlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 383,
+    "question": "Yosh bolalarda yo'g'on ichak kattalarga nisbatan farqi:",
+    "options": [
+      "Ko'richak yuqorida joylashgan",
+      "Tushayotgan yo'g'on ichak torroq",
+      "Sigmasimon ichak harakatchan",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 384,
+    "question": "Funktsional qabziyatda foydalanish uchun tavsiya etilgan preparatlar:",
+    "options": [
+      "Probiotik",
+      "Laktuloza",
+      "Morfin",
+      "Bisakodil"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 385,
+    "question": "Agar ona suti bilan ovqatlanayotgan 6 oylik bolada allergiya holati kuzatilsa, tavsiya:",
+    "options": [
+      "Ona suti bilan davom etish va ona ovqatini o'zgartirish",
+      "Sun'iy ovqatlantirishga o'tish",
+      "Qisman aralash ovqat",
+      "Emizishni to'xtatish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 386,
+    "question": "Ona bilan bog'liq oshqozon-ichak tizimi buzilishlari sabablari:",
+    "options": [
+      "Og'ir akusherlik anamnezi",
+      "Onaning noto'g'ri ovqatlanishi",
+      "Oiladagi stress",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 387,
+    "question": "Yosh bolalarda ich qotishining xavf omillari:",
+    "options": [
+      "Suv iste'moli yetarli emas",
+      "Tug'ilishdagi patologiyalar",
+      "Sut aralashmasini noto'g'ri tayyorlash",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 388,
+    "question": "Bolalarda xavfli holatlarni istisno qilish uchun zarur diagnostika:",
+    "options": [
+      "Umumiy peshob tahlili",
+      "Umumiy qon tahlili",
+      "Axlatdagi yashirin qon tahlili",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 389,
+    "question": "Mukovistsidozni davolashda ko'rsatilmagan:",
+    "options": [
+      "Fermentoterapiya",
+      "Antibiotiklar",
+      "Mukolitiklar",
+      "Diuretiklar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 390,
+    "question": "Surunkali gastritning asosiy sababi:",
+    "options": [
+      "Oziq-ovqat allergiyasi",
+      "Virusli infektsiyalar",
+      "Vitamin va oqsil yetishmovchiligi",
+      "Helicobacter pylori"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 391,
+    "question": "Surunkali gastritning endogen sabablari:",
+    "options": [
+      "Duodeno-gastral reflyuks",
+      "Helicobacter pylori",
+      "Vitamin va oqsil yetishmovchiligi",
+      "Achchiq ovqat ko'p iste'moli"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 392,
+    "question": "Helicobacter pylori bilan bog'liq gastrit turi:",
+    "options": [
+      "Surunkali gastrit A",
+      "Surunkali gastrit B",
+      "Surunkali gastrit C",
+      "Surunkali gastrit D"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 393,
+    "question": "Autoimmun gastrit quyidagicha tasniflanadi:",
+    "options": [
+      "Surunkali gastrit A",
+      "Surunkali gastrit B",
+      "Surunkali gastrit C",
+      "Surunkali gastrit D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 394,
+    "question": "Reflyuks gastrit quyidagicha tasniflanadi:",
+    "options": [
+      "Surunkali gastrit A",
+      "Surunkali gastrit B",
+      "Surunkali gastrit C",
+      "Surunkali gastrit D"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 395,
+    "question": "Surunkali gastritda og'riq joylashuvi:",
+    "options": [
+      "Kindik atrofida",
+      "Epigastral soha",
+      "O'ng qovurg'a ostida",
+      "Qorinning pastki qismi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 396,
+    "question": "Oshqozon gipersekretsiyasini bartaraf etish uchun buyuriladi:",
+    "options": [
+      "Antatsidlar",
+      "Antigistaminlar",
+      "Antibiotiklar",
+      "Sulfanilamidlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 397,
+    "question": "Surunkali gastritni sanatoriya sharoitida davolash kasallikning qaysi davrida o'tkaziladi?",
+    "options": [
+      "Zo'riqish davrida",
+      "Sanatoriya sharoitida davolashga qarshi ko'rsatmalar mavjud davrida",
+      "Remissiya",
+      "To'liq bo'lmagan remissiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 398,
+    "question": "Bolalarda oshqozon yarasida me'da shirasining nordonligi qanday bo'ladi?",
+    "options": [
+      "Pasaygan",
+      "Nolga teng",
+      "Normada",
+      "Ko'tarilgan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 399,
+    "question": "Moynigan ritmi og'rig'i bu qanday holat?",
+    "options": [
+      "Ochlik-og'riq-ovqatlanish-tinchlanish",
+      "Ovqatdan keyingi og'riq",
+      "Og'riq oziq-ovqat bilan bog'liq emas",
+      "Ovqatlanish-og'riq-ochlik-tinchlanish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 400,
+    "question": "Mendel simptomi musbat bo'lsa, bu qaysi kasallik uchun xosdir?",
+    "options": [
+      "Gastroduodenit",
+      "Ezofagit",
+      "Xoletsistit",
+      "Oshqozon yarasi kasalligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 401,
+    "question": "Bolalarda o'n ikki barmoqli ichak yara kasalligida og'riq xurujlari qachon paydo bo'ladi?",
+    "options": [
+      "Ovqatdan 15-30 daqiqa o'tgach",
+      "Nonushtadan keyin",
+      "Kechqurun",
+      "Ovqatdan 1 soat o'tgach"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 402,
+    "question": "Ezofagogastroduodenoskopiyada me'da shilliq qavati qizarib, shishib, yara fibrin bilan qoplangan. Kasallikning bosqichi qanday?",
+    "options": [
+      "Yangi yara davri",
+      "Yaraning tuzalishga o'tish davri",
+      "Chandiq bosqichi",
+      "Remissiya bosqichi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 403,
+    "question": "Oshqozon yarasi kasalligini davolash uchun tanlang:",
+    "options": [
+      "No-shpa",
+      "Platifillin",
+      "Festal",
+      "De-Nol"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 404,
+    "question": "13 yoshli bola. O'ng qovurg'a ostida og'riq, 38°C gacha isitma, Merfi simptomi ijobiy, UTTda o't pufagi devori qalinlashgan. Tashxis?",
+    "options": [
+      "Xoletsistit",
+      "O't qopi diskineziyasi",
+      "Oshqozon yarasi kasalligi",
+      "Gastrit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 405,
+    "question": "O't yo'llari anomaliyasini aniqlashning eng aniq usuli:",
+    "options": [
+      "O'n ikki barmoqli ichakni tekshirish",
+      "Ob'ektiv tekshirish",
+      "Endoskopik tekshirish",
+      "Ultratovush tekshiruvi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 406,
+    "question": "Bolalarda o't yo'llarining gipomotor diskineziyasida og'riq qanday bo'ladi?",
+    "options": [
+      "Xurujsimon",
+      "Sust",
+      "Xanjarsimon",
+      "Och qoringa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 407,
+    "question": "Bolalik davrida eng keng tarqalgan o't yo'llari patologiyasi:",
+    "options": [
+      "O't yo'llarining diskineziyasi",
+      "Xoletsistit",
+      "Xolangit",
+      "O't toshlari kasalligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 408,
+    "question": "O't yo'llarining gipomotor diskineziyasida og'riq sindromi sababi:",
+    "options": [
+      "Oddi sfinkterining yopilishi",
+      "O't pufagining kattalashishi",
+      "Safro tarkibining o'zgarishi",
+      "Lutkens sfinkterining yopilishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 409,
+    "question": "Proton nasosi ingibitorlariga kiradi:",
+    "options": [
+      "Famosan",
+      "Ranitidin",
+      "Gastrofarm",
+      "Lansoprazol"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 410,
+    "question": "N2-gistamin retseptorlari blokatorlariga kiradi:",
+    "options": [
+      "Omeprazol",
+      "Kordinoks",
+      "Gastrotsepin",
+      "Kvamatel"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 411,
+    "question": "Gastro-ezofagial reflyuks kasalligida motorevakuator funktsiyani normallashtiruvchi vosita:",
+    "options": [
+      "Ranitidin",
+      "A vitamini",
+      "Motilium",
+      "Vikalin"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 412,
+    "question": "Surunkali gastritda qorin og'rig'i joylashadi:",
+    "options": [
+      "Kindik atrofida",
+      "Epigastriyada",
+      "O'ng qovurg'a ostida",
+      "Qorinning pastki qismida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 413,
+    "question": "Epigastral sohada palpatsiyada kuchsiz og'riq qaysi hollarda kuzatiladi?",
+    "options": [
+      "Funktsional oshqozon buzilishi",
+      "Xoletsistit",
+      "Pankreatit",
+      "Surunkali gastrit"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 414,
+    "question": "12 yoshli bemorda och qoringa og'riq, kechasi og'riq, ovqatdan so'ng kamayadi. Tashxis?",
+    "options": [
+      "Surunkali pankreatit",
+      "Surunkali xoletsistit",
+      "O't pufagi diskineziyasi",
+      "Oshqozon yarasi kasalligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 415,
+    "question": "12 yoshli bemorda oshqozon yarasi gumon qilinmoqda. Tashxisni tasdiqlash uchun qanday tekshiruv kerak?",
+    "options": [
+      "Rektoromanoskopiya",
+      "Qorin bo'shlig'i UTT",
+      "Xolettsistografiya",
+      "Ezofagogastroduodenoskopiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 416,
+    "question": "O'n ikki barmoqli ichak yarasi 'yangi yara' bosqichida. Taktikani aniqlash uchun qanday tekshiruv zarur?",
+    "options": [
+      "Helicobacter pyloriga tahlil",
+      "Laktoza metabolizmini o'rganish",
+      "Siydikda diastaza tekshiruvi",
+      "Gliadinga qarshi antitanachalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 417,
+    "question": "Helicobacter pylori davosida birinchi bosqich samarasi bo'lmasa, qanday taktika tanlanadi?",
+    "options": [
+      "Davolash davomiyligini oshirish",
+      "Dori dozasini oshirish",
+      "To'rt komponentli terapiya",
+      "Simptomatik davo"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 418,
+    "question": "14 yoshli bola yog'li ovqatdan so'ng kamarsimon og'riq, qusish, najasda yog', qonda amilaza oshgan. Tashxis:",
+    "options": [
+      "Oshqozon yarasi kasalligi, zo'riqish davri",
+      "O't qopi diskineziyasi",
+      "Surunkali xoletsistit",
+      "Surunkali pankreatit, zo'riqish davri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 419,
+    "question": "Sintetik xoleretiklarga qaysi dori vositalari kiradi?",
+    "options": [
+      "Alloxol",
+      "Xologon",
+      "Xolenzim",
+      "Oksafenamid"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 420,
+    "question": "Bolalardagi duodenitning yetakchi belgilari qaysilar?",
+    "options": [
+      "Och qoringa og'riq",
+      "Diareya",
+      "Qabziyat",
+      "Oshqozon dispepsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 421,
+    "question": "Xoletsistit uchun antibakterial preparat sifatida ishlatilinadi:",
+    "options": [
+      "Nitrofuranlar",
+      "Antigistaminlar",
+      "Analgetiklar",
+      "Antiagregantlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 422,
+    "question": "Qaysi modda xoleretik ta’sir ko‘rsatadi?",
+    "options": [
+      "Atsetilsalitsil kislota",
+      "Artishok",
+      "Geparin",
+      "Dipiridamol"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 423,
+    "question": "O‘tkir pankreatit quyidagi klinik belgilar bilan boshlanadi:",
+    "options": [
+      "Bel og‘rig‘i",
+      "Haroratning pasayishi bilan",
+      "Sovuq, konvulsiv tayyorgarlik",
+      "Piloroduodenal zonada simillovchi og‘riqlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 424,
+    "question": "Oshqozon osti bezi dumining proyektsiyasi sohasidagi og‘riq nuqtasi qaysi simptom deb ataladi?",
+    "options": [
+      "Ortner tomonidan",
+      "Meyo-Robson tomonidan",
+      "Kera",
+      "Dejardena"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 425,
+    "question": "O‘tkir pankreatitda kasallikning dastlabki ikki kunida qaysi parhez tavsiya etiladi?",
+    "options": [
+      "Sut mahsulotlari",
+      "O‘simlik ovqatlari",
+      "Ochlik",
+      "Sho‘rvalar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 426,
+    "question": "Pankreatitning o‘tkir davrida qo‘llanilishi mumkin bo‘lgan dori vositasini tanlang:",
+    "options": [
+      "Strofantin, digoksin",
+      "Kontrikal",
+      "Pankreatin",
+      "Fitoterapiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 427,
+    "question": "Pankreatitni davolashda ferment yetishmovchiligini qoplash uchun tavsiya qilinadi:",
+    "options": [
+      "Oshqozon shirasi",
+      "Pepsin",
+      "Gastrin",
+      "Pankreatin"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 428,
+    "question": "Surunkali me’da-ichak tizimi kasalliklarining kelib chiqishida Helicobacter pylori infektsiyasining o‘rni qaysi kasallikda isbotlangan?",
+    "options": [
+      "Surunkali ezofagit",
+      "Surunkali gastrit",
+      "Qo‘zg‘aluvchan ichak sindromi",
+      "Surunkali xoletsistit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 429,
+    "question": "Helicobacter pylori yashaydigan eng maqbul joy qaysi?",
+    "options": [
+      "Oshqozonning antral qismi",
+      "Oshqozon osti bezi",
+      "Ingichka ichak",
+      "O‘t pufagi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 430,
+    "question": "Bolalarda oshqozon yarasining asoratlaridan biri quyidagilardan qaysi biri bo‘lishi mumkin?",
+    "options": [
+      "Xoletsistit",
+      "Yaraning teshilishi",
+      "Gepatosplenomegaliya",
+      "Yaqqol anemiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 431,
+    "question": "Helicobacter pylori bilan bog‘liq surunkali gastroduodenitda eradikatsiyaning eng samarali usuli:",
+    "options": [
+      "Bitta komponentli",
+      "Simptomatik",
+      "Ikki komponentli",
+      "Uch komponentli"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 432,
+    "question": "Bolalarda Helicobacter pylori infektsiyasini tashxislash uchun 'oltin standart' deb qabul qilingan diagnostika usuli:",
+    "options": [
+      "Ureazani aniqlash",
+      "Biokimyoviy",
+      "Gistologik",
+      "Bakteriologik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 433,
+    "question": "Helicobacter pylori infektsiyasini bartaraf etilganligini nazorat qilishning eng maqbul vaqti:",
+    "options": [
+      "Antibiotik terapiyasi kursidan so‘ng darhol",
+      "4–6 hafta ichida",
+      "1–2 hafta ichida",
+      "6 oydan keyin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 434,
+    "question": "Proton nasos ingibitorlariga qaysi dori vositasi kiradi?",
+    "options": [
+      "Roksatidin",
+      "Gastrotsepin",
+      "Famotidin",
+      "Pantoprazol"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 435,
+    "question": "O‘t yo‘llari disfunktsiyasi shakllanishining asosiy patogenetik omili:",
+    "options": [
+      "Noto‘g‘ri ovqatlanish tartibi",
+      "Gormonal muvozanatning buzilishi",
+      "Vegetonevroz",
+      "Nasl"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 436,
+    "question": "O‘t pufagining qisqarishida ishtirok etuvchi gormon:",
+    "options": [
+      "Xoletsistokinin",
+      "Glyukagon",
+      "Kaltsitonin",
+      "Pankreozimin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 437,
+    "question": "O‘ng qovurg‘a ostidagi xurujsimon og‘riq, o‘ng yelka va kurak sohasiga tarqalayotgan simptomokompleks qaysi holat uchun xos?",
+    "options": [
+      "O‘t pufagi giperkinezi va sfinkter gipertenziyasi",
+      "O‘t pufagi giperkinezi va sfinkter gipotenziyasi",
+      "O‘t pufagi gipokineziyasi va sfinkter gipotenziyasi",
+      "O‘t pufagi gipokineziyasi va sfinkter gipertenziyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 438,
+    "question": "O‘ng qovurg‘a ostida sust, doimiy og‘riq va og‘irlik hissi qaysi holat uchun mos keladi?",
+    "options": [
+      "O‘t pufagi giperkinezi va sfinkter gipertenziyasi",
+      "O‘t pufagi giperkinezi va sfinkter gipotenziyasi",
+      "O‘t pufagi gipokineziyasi va sfinkter gipotenziyasi",
+      "O‘t pufagi gipokineziyasi va sfinkter gipertenziyasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 439,
+    "question": "Allergik kasallik tashxisida allergologik tarix:",
+    "options": [
+      "Katta rol o‘ynaydi",
+      "Allergik diagnostika bosqichi",
+      "Tashxis qo‘yishda hech qanday rol o‘ynamaydi",
+      "Ko‘makchi ma’noga ega"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 440,
+    "question": "Immunitet tizimini baholash quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "B-tizim immuniteti",
+      "T-tizim immuniteti",
+      "Fagotsitoz va komplement tizimlari",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 441,
+    "question": "Gumoral immunitetni baholash usullari:",
+    "options": [
+      "B-limfotsitlar soni",
+      "Immunoglobulin A, M, G ni aniqlash",
+      "Immunoglobulin E ni aniqlash",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 442,
+    "question": "Komplement tizimi:",
+    "options": [
+      "Qon zardobidagi o‘zaro ta’sir qiluvchi oqsil va glikoproteinlarning katta guruhi",
+      "Yallig‘lanish reaksiyalarida ishtirok etadi",
+      "O‘ziga xos bo‘lmagan himoya omili",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 443,
+    "question": "Immunoglobulinlar asosan qaysi sinfga tegishli zardob oqsillari?",
+    "options": [
+      "α-globulinlar",
+      "β-globulinlar",
+      "Albumin",
+      "γ-globulinlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 444,
+    "question": "Immunoglobulinlar qayerda sintezlanadi?",
+    "options": [
+      "T-limfotsitlar",
+      "Polimorf yadroli leykotsitlar",
+      "Makrofaglar",
+      "Plazma hujayralari"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 445,
+    "question": "Immunoglobulin E nima uchun javobgar?",
+    "options": [
+      "Darhol allergik reaktsiyalarning shakllanishi",
+      "Immun kompleks allergik reaktsiyalar",
+      "Kechikkan tipdagi yuqori sezuvchanlik",
+      "Kechikkan tipdagi yuqori sezuvchanlik reaktsiyalarining shakllanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 446,
+    "question": "Uydagi allergenlarga quyidagilardan qaysi biri kiradi?",
+    "options": [
+      "Neisseria",
+      "Staphylococcus aureus",
+      "Candida",
+      "Uy changi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 447,
+    "question": "Bakterial infektsiyalarda immunogrammadagi o‘zgarishlar asosan nimalarga taalluqli bo‘lishi mumkin?",
+    "options": [
+      "Hujayra immuniteti",
+      "Fagotsitlarning funksional faolligi, immunoglobulinlar",
+      "Immunoglobulinlar",
+      "Tabiiy qotil hujayralar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 448,
+    "question": "ASIT (allergen-spetsifik immunoterapiya) imkoniyatlariga nimalar kiradi?",
+    "options": [
+      "Til osti",
+      "Og‘zaki",
+      "Endonazal",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 449,
+    "question": "Klassik ASIT usuli bilan allergenlarni kiritish qanday amalga oshiriladi?",
+    "options": [
+      "Teri ostiga, yelkaning lateral yuzasida",
+      "Mushak ichiga",
+      "Vena ichiga yuborish",
+      "Mushak ichiga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 450,
+    "question": "To‘liq ASIT kursining o‘rtacha davomiyligi qancha?",
+    "options": [
+      "1 yil",
+      "2 yil",
+      "3–5 yil",
+      "2–3 oy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 451,
+    "question": "Yuqumli bo‘lmagan ekzoallergenlarga quyidagilardan qaysilari kiradi?",
+    "options": [
+      "Uy changi",
+      "Zamburug‘li mog‘or",
+      "Mog‘or",
+      "Staphylococcus aureus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 452,
+    "question": "CD4 retseptorlarini tashuvchi limfotsitlar qaysilar?",
+    "options": [
+      "T-yordamchilar",
+      "T-bostiruvchi-sitotoksik",
+      "T-faollashtirilgan",
+      "Tabiiy qotillar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 453,
+    "question": "Asosan hujayra darajasidagi immunitet tanqisligiga xos belgi:",
+    "options": [
+      "Virusli infektsiyalar yiliga kamida 4 marta",
+      "Og‘iz bo‘shlig‘ining takroriy kandidozi",
+      "Takroriy furunkuloz",
+      "Takroriy pnevmoniya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 454,
+    "question": "CD8 li limfotsitlarga quyidagilardan qaysi biri kiradi?",
+    "options": [
+      "T-yordamchilar",
+      "T-bostiruvchi-sitotoksik",
+      "T-faollashtirilgan",
+      "B-limfotsitlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 455,
+    "question": "Immunologik tanqislikning II darajasi me’yorga nisbatan immunologik ko‘rsatkichlarning pasayishi bilan tavsiflanadi:",
+    "options": [
+      "1–33%",
+      "33–50%",
+      "33–66%",
+      "40%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 456,
+    "question": "T-supressorlar tarkibining o‘rtacha ko‘payishi va T-helpers tarkibining pasayishi nimaga xos?",
+    "options": [
+      "Etil spirti bilan zaharlanish",
+      "Immunitet tanqisligi holati",
+      "Otoimmün sindrom",
+      "Allergik sindrom"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 457,
+    "question": "Virusli va qo‘ziqorin infektsiyalariga yuqori sezuvchanlikda immunitet tanqisligi holatining asosiy nuqsoni nimada?",
+    "options": [
+      "Makrofaglar",
+      "T-limfotsitlar",
+      "B-limfotsitlar",
+      "Komplement tizimlari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 458,
+    "question": "Bemorning immunitet tanqisligi holati kuyish kasalligi fonida paydo bo‘ldi. Qaysi tizim buzilgan?",
+    "options": [
+      "T-tizim immuniteti",
+      "B-tizim immuniteti",
+      "To‘ldiruvchi tizimlar",
+      "Fagotsitoz"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 459,
+    "question": "Bakterial bo‘lmagan allergenlar bilan teri testlari natijalari qancha vaqtda baholanadi?",
+    "options": [
+      "5 daqiqada",
+      "10 daqiqada",
+      "20 daqiqada",
+      "60 daqiqada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 460,
+    "question": "Allergik teri testlari qaysi holatlarda o‘tkaziladi?",
+    "options": [
+      "Har qanday kasallikda",
+      "Surunkali rinitda",
+      "Surunkali tonzillitda",
+      "Surunkali gastritda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 461,
+    "question": "Teri allergiyasi testlari qachon o‘tkazilmaydi?",
+    "options": [
+      "2 yoshgacha",
+      "Allergiyaning kuchayishi paytida",
+      "Antigistaminlarni qabul qilgandan keyin",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 462,
+    "question": "Provokatsion burun testi qachon o‘tkaziladi?",
+    "options": [
+      "Allergik rinit kuchayganida",
+      "Vazomotor rinit kuchayganida",
+      "Istalgan vaqtda",
+      "Klinik remissiya davrida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 463,
+    "question": "Chang allergik kon’yunktivit simptomlari qachon kuchayadi?",
+    "options": [
+      "Butun yil davomida",
+      "Sovuq mavsumda",
+      "Bahor va yozda mavsumiy",
+      "Faqat nam havoda"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 464,
+    "question": "Pichan isitmasining sababi nima?",
+    "options": [
+      "O‘simlik changlari",
+      "Mog‘or sporalari",
+      "O‘simlik ovqatlari",
+      "Bakteriyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 465,
+    "question": "Chang bronxial astma simptomlari qachon kuchayadi?",
+    "options": [
+      "Fasldan qat’i nazar yil davomida",
+      "Mavsumiy bahor–yoz davri",
+      "Sovuq mavsumda",
+      "Yilning istalgan vaqtida faqat sovuqda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 466,
+    "question": "Chang bronxial astma ko‘pincha qaysi kasallik bilan bog‘liq?",
+    "options": [
+      "Allergik kontakt dermatit bilan",
+      "Rinit, kon’yunktivit bilan",
+      "Allergik gastrit bilan",
+      "Migren bilan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 467,
+    "question": "Pichan isitmasi bilan dori allergiyasi eng ko‘p qaysi dorilarga nisbatan uchraydi?",
+    "options": [
+      "Fermentlarga",
+      "Penitsillin va sefalosporinlarga",
+      "Vitaminlarga",
+      "Aminoglikozidlarga"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 468,
+    "question": "Pollinoz bilan allergik reaksiyada mahalliy qo‘llaniladigan krem:",
+    "options": [
+      "Lanolinli krem",
+      "Vazelin",
+      "Bolalar kremi",
+      "Kalendula kremi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 469,
+    "question": "Oziq-ovqat allergiyasining namoyon bo‘lishi nimaga bog‘liq?",
+    "options": [
+      "Mahsulot sifatiga",
+      "Mahsulotlar birikmasiga",
+      "Ovqat pishirish turiga",
+      "Mahsulot miqdoriga"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 470,
+    "question": "Eng kuchli oziq-ovqat allergenlari qaysilar?",
+    "options": [
+      "Baliq",
+      "Sigir suti",
+      "Tovuq tuxumi",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 471,
+    "question": "Oziq-ovqat allergiyasining rivojlanishiga qanday endogen omillar sabab bo‘ladi?",
+    "options": [
+      "Atopiyaga irsiy moyillik",
+      "Ovqat hazm qilish ferment tizimlarining etishmovchiligi",
+      "Ovqat hazm qilish tizimining surunkali kasalliklari",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 472,
+    "question": "Sekretor immunoglobulin A oziq-ovqat allergenlariga qanday ta’sir ko‘rsatadi?",
+    "options": [
+      "Darhol allergik reaktsiyaning rivojlanishiga sabab bo‘ladi",
+      "Kechikkan allergik reaktsiyani keltirib chiqaradi",
+      "Immun kompleks reaktsiyasini keltirib chiqaradi",
+      "Allergik reaktsiyaning rivojlanishini oldini oladi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 473,
+    "question": "Oziq-ovqat allergiyasining eng tipik klinik ko‘rinishlari qaysilar?",
+    "options": [
+      "Oshqozon-ichak tutilishi va teri ko‘rinishlari",
+      "Ovqat hazm qilish va yurak-qon tomir kasalliklari",
+      "Terining namoyon bo‘lishi va migrenga o‘xshash bosh og‘rig‘i",
+      "Uchta klinik sindrom: oshqozon-ichak, teri va nafas olish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 474,
+    "question": "Oziq-ovqat allergiyasining oldini olish nimalarni o‘z ichiga oladi?",
+    "options": [
+      "Bolalarni uzoq muddat emizish",
+      "Hipoalerjenik parhezlardan foydalanish",
+      "Oshqozon-ichak trakti kasalliklarini tuzatish",
+      "Barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 475,
+    "question": "Odatda emlash jarayoni qanday kechadi?",
+    "options": [
+      "Surunkali infektsiyalarning kuchayishi bilan",
+      "Interkurrent infektsiyaning kirishi bilan",
+      "Urtikariya ko‘rinishi bilan",
+      "Qisqa muddatli yengil reaktsiyalar bilan, jonli vaksinalar uchun"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 476,
+    "question": "AKDS+HIB preparatining toksik xususiyati nima bilan bog‘liq?",
+    "options": [
+      "Difteriya toksoidi",
+      "Qoqshol toksoidi",
+      "Vaksinaning ko‘k yo‘tal komponenti",
+      "HIB kapsulasi polisaxaridi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 477,
+    "question": "AKDS vaktsinasi bilan emlashdan keyin allergik reaktsiyalar nimalarni o‘z ichiga oladi?",
+    "options": [
+      "Gipertermiya va intoksikatsiya",
+      "Qavarchiq",
+      "Abstsess",
+      "Pollinoz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 478,
+    "question": "Emlashdan keyin darhol yuzaga keladigan allergik reaktsiyalar qaysilar?",
+    "options": [
+      "Gipertermiya va intoksikatsiya",
+      "Qavarchiq, anafilaktik shok",
+      "Abstsess",
+      "Pollinoz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 479,
+    "question": "Bolalarda bronxiolitga xos klinik belgi qaysi?",
+    "options": [
+      "Kuchli obstruktsiya sindromi",
+      "Kataral holat",
+      "Perkutor tovush tumtuk",
+      "Rentgenogrammada o‘choqli soyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 480,
+    "question": "Shifoxona ichi pnevmoniyasida qaysi qo‘zg‘atuvchi etiologik rol o‘ynaydi?",
+    "options": [
+      "Pnevmokokk",
+      "Polirezistent stafilokokk",
+      "Vulgar protey",
+      "Exinokokk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 481,
+    "question": "Pnevmoniyada qonning umumiy tahliliga xos o‘zgarish:",
+    "options": [
+      "Leykopeniya",
+      "Monotsitoz",
+      "Neytrofil leykotsitoz",
+      "Monotsitoz (takror)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 482,
+    "question": "Kardit sabablariga kirmaydigan omil qaysi?",
+    "options": [
+      "Viruslar",
+      "Bakteriyalar",
+      "Zamburug‘lar",
+      "Mikoplazma"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 483,
+    "question": "Obstruktiv bronxitga xos belgi qaysi?",
+    "options": [
+      "Xushtaksimon tarqoq xirillashlar",
+      "Ko‘p balg‘amli yo‘tal",
+      "Quruq yo‘tal",
+      "Mayda pufakchali tarqoq xirillashlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 484,
+    "question": "2 yoshli bola to‘satdan yo‘talib ko‘kara boshladi. Keyin o‘ng tomonda quruq xirillashlar eshitildi. Tashxis?",
+    "options": [
+      "Krup",
+      "Bronxiolit",
+      "Bronxlarda yot jism",
+      "Yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 485,
+    "question": "Surunkali bronxitning rentgenologik o‘zgarishlari qaysilar?",
+    "options": [
+      "O‘pka shishi",
+      "Qon tomir suratining o‘zgarishi",
+      "O‘pkaning umumiy shaffofligini oshirish",
+      "Fokal va segmentar infiltratsiyalar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 486,
+    "question": "Bronxial astma xuruji uchun xos klinik simptom:",
+    "options": [
+      "Nafasning qiyinlashishi, ekspirator tipdagi hansirash",
+      "Vegetativ distoniya",
+      "Yo‘tal, balg‘am ko‘chishi",
+      "Temperaturaning balandligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 487,
+    "question": "3 yoshli bolada eksudativ plevritda plevra suyuqligida segmentyadroli leykotsitlar ustun. Sabab?",
+    "options": [
+      "Zotiljam",
+      "Sil",
+      "O‘pka raki",
+      "Obstruktiv bronxit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 488,
+    "question": "Bolada surunkali bronxit. Kasallikning asosiy belgisi nima?",
+    "options": [
+      "Jismoniy rivojlanishning normadaligi",
+      "Yiringli balg‘am ko‘chishi bilan kechadigan doimiy yo‘tal",
+      "Ko‘krak qafasi deformatsiyasi",
+      "Perkussiyada o‘pka tovushining qisqarishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 489,
+    "question": "Mukovistsidoz mavjudligini tasdiqlovchi ishonchli fakt qaysi?",
+    "options": [
+      "Ijobiy oilaviy tarix",
+      "Baraban tayog‘i shaklidagi barmoqlar",
+      "Teridagi xlor ionlari 80 mmol/l dan ortiq",
+      "Rentgenda bronxoektazni aniqlash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 490,
+    "question": "Qaysi yoshda bolalar pnevmokokk pnevmoniyasiga ko‘proq chalinadi?",
+    "options": [
+      "Maktabgacha va maktab yoshidagi bolalar",
+      "0 oydan 3 oygacha",
+      "6 oydan 8 oygacha",
+      "8–10 oy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 491,
+    "question": "Bronxoektaziyani jarrohlik yo‘li bilan davolash qaysi holatda ko‘rsatilmaydi?",
+    "options": [
+      "O‘tkir pnevmoniyaning noqulay oqibati natijasida bronxoektaz shakllanishi",
+      "Sievart–Kartagener sindromining tasdiqlanishi",
+      "Konservativ davoga mos kelmaydigan mahalliy bronxoektaz mavjudligi",
+      "Begona jismning aspirasiyasi natijasida bronxoektaz shakllanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 492,
+    "question": "Bolalar uchun spirograf yordamida tashqi nafas olish funktsiyasini o‘rganish qaysi yoshdan mumkin?",
+    "options": [
+      "Har qanday yoshda",
+      "3 yoshdan",
+      "6 yoshdan boshlab",
+      "10 yoshdan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 493,
+    "question": "Bolalarda obstruktsiyaga nima olib keladi?",
+    "options": [
+      "Tor va qisqa burun yo‘llari",
+      "Ko‘krak qafasining 'ekspirator' tuzilishi",
+      "Paranazal sinuslarning to‘liq rivojlanmaganligi",
+      "Kattalarga nisbatan keng bronxlar va bronxiolalar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 494,
+    "question": "Ekzogen allergik alveolit nima?",
+    "options": [
+      "O‘pka interstitiumining allergik yallig‘lanishi",
+      "O‘pkaning yuqumli va yallig‘lanish kasalliklari",
+      "Surunkali obstruktiv kasallik",
+      "Nafas olish yo‘llarini o‘z ichiga olgan o‘tkir virusli kasallik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 495,
+    "question": "Birinchi darajali nafas yetishmovchiligi klinik jihatdan nimalar bilan aniqlanadi?",
+    "options": [
+      "Harakat paytida nafas qisilishi",
+      "Dam olishda nafas qisilishi",
+      "Qovurg‘alararo bo‘shliqlarni, epigastral hududni orqaga tortish",
+      "Burun qanotlarining yonishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 496,
+    "question": "Pnevmoniya bilan bir vaqtda kechadigan plevrit qanday ataladi?",
+    "options": [
+      "Sinpnevmonik",
+      "Metapnevmonik",
+      "Allergik",
+      "Seroz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 497,
+    "question": "Qaytalanuvchi bronxit qaysi yoshda ko‘proq uchraydi?",
+    "options": [
+      "Hayotning birinchi yillarida",
+      "1 yildan keyin",
+      "2 yildan keyin",
+      "Har qanday yoshda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 498,
+    "question": "Mukovitsidoz qaysi yoshda ko‘proq uchraydi?",
+    "options": [
+      "Hayotning birinchi yillarida",
+      "1 yildan keyin",
+      "Hayotning ikkinchi yarmidan boshlab",
+      "Har qanday yoshda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 499,
+    "question": "Qaysi yoshda bolalarda ko‘proq yot jism uchraydi?",
+    "options": [
+      "1 yoshda",
+      "2 yoshda",
+      "3 yoshda",
+      "Barcha yoshda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 500,
+    "question": "Krupoz pnevmoniya qaysi yoshda ko‘proq uchraydi?",
+    "options": [
+      "1 yoshdan keyin",
+      "2 yoshda",
+      "Maktabgacha va maktab yoshda",
+      "6 oy – 2 yoshgacha"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 501,
+    "question": "Immunomodulyatorlarga qaysi preparatlar kiradi?",
+    "options": [
+      "Bronxomunal, Ribomunil",
+      "Retabolil",
+      "Vitamin E",
+      "Fenkarol"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 502,
+    "question": "Ekssudativ diatez fonida o‘tkir pnevmoniyaning tasdiqlovchi alomati nima?",
+    "options": [
+      "Loyqa klinik simptomlar (normal auskultatsiya, gemostaz tendentsiyasi)",
+      "Asidoz, uzoq davom etadigan kurs",
+      "Terining ekssudativ o‘zgarishi, obstruktsiyaga moyillik",
+      "Aniq asidoz, gemoglobinning pasayishi, gepatosplenomegaliya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 503,
+    "question": "Pnevmoniyaning qaysi shakli uzoq davom etishi bilan tavsiflanmaydi?",
+    "options": [
+      "Fokusli",
+      "Bo‘sh",
+      "Interstisial",
+      "Murakkab bo‘lmagan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 504,
+    "question": "O‘pka shishida nimani qo‘llash mumkin emas?",
+    "options": [
+      "5% glyukoza eritmasi",
+      "Diuretiklar",
+      "GOMK",
+      "Yurak glikozidlari"
+    ],
+    "correctIndex": 0
+  }
+]
