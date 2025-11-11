@@ -17,15 +17,15 @@ public class UserService {
     private final UserRepository userRepository;
 
     public void ensureUser(String chatId, String username, String firstName, String phone) {
-        if (userRepository.existsById(chatId)) return;
-        UserEntity user = new UserEntity();
+        UserEntity user = userRepository.findById(chatId).orElse(new UserEntity());
         user.setChatId(chatId);
-        user.setUsername(username);
-        user.setNameTelegram(firstName);
-        user.setPhone(phone);
-        user.setIsPaid(false);
+        if (username != null && !username.isBlank()) user.setUsername(username);
+        if (firstName != null && !firstName.isBlank()) user.setNameTelegram(firstName);
+        if (phone != null && !phone.isBlank()) user.setPhone(phone);
+        if (user.getIsPaid() == null) user.setIsPaid(false);
         userRepository.save(user);
     }
+
 
     public Optional<UserEntity> getUser(String chatId) {
         return userRepository.findById(chatId);
@@ -88,5 +88,13 @@ public class UserService {
         return "❌ Бесплатный период истек. Для доступа к тестам требуется оплата.\n\n" +
                 "💳 Отправьте скриншот оплаты администратору для ручной проверки.";
     }
+    public boolean exists(String chatId) {
+        return userRepository.existsByChatId(chatId);
+    }
+
+    public void deleteUser(String chatId) {
+        userRepository.deleteById(chatId);
+    }
+
 
 }

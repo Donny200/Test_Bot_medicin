@@ -15,6 +15,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.polls.PollAnswer;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardRemove;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
@@ -128,71 +129,71 @@ public class MyBot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         try {
+            // ✅ если пользователь прислал контакт (нажал "📲 Рақамингизни юборинг")
+            if (update.hasMessage() && update.getMessage().hasContact()) {
+                var msg = update.getMessage();
+                String chatId = msg.getChatId().toString();
+                String username = msg.getFrom().getUserName();
+                String firstName = msg.getFrom().getFirstName();
+                String phone = msg.getContact().getPhoneNumber();
+
+                // сохраняем пользователя
+                userService.ensureUser(chatId, username, firstName, phone);
+
+                // ✅ убираем клавиатуру после получения контакта
+                ReplyKeyboardRemove removeKeyboard = new ReplyKeyboardRemove(true);
+
+                SendMessage confirmMsg = SendMessage.builder()
+                        .chatId(chatId)
+                        .text("✅ Рақамингиз сақланди: " + phone)
+                        .replyMarkup(removeKeyboard)
+                        .build();
+
+                execute(confirmMsg);
+
+                // ✅ теперь показываем меню
+                sendStartMenu(chatId);
+                return;
+            }
+
+
+            // ✅ если текстовое сообщение
             if (update.hasMessage() && update.getMessage().hasText()) {
                 var msg = update.getMessage();
                 String chatId = msg.getChatId().toString();
                 String username = msg.getFrom().getUserName();
                 String firstName = msg.getFrom().getFirstName();
-                String phone = null;
-
-                if (msg.hasContact()) {
-                    phone = msg.getContact().getPhoneNumber();
-                }
-
-// ✅ Если нет username, предлагаем поделиться номером
-                if (username == null || username.isBlank()) {
-                    // создаём обычную клавиатуру для отправки контакта
-                    ReplyKeyboardMarkup keyboardMarkup = new ReplyKeyboardMarkup();
-                    keyboardMarkup.setResizeKeyboard(true);
-                    keyboardMarkup.setOneTimeKeyboard(true);
-
-                    KeyboardButton contactButton = new KeyboardButton();
-                    contactButton.setText("📲 Рақамингизни юборинг");
-                    contactButton.setRequestContact(true);
-
-                    KeyboardRow row = new KeyboardRow();
-                    row.add(contactButton);
-
-                    List<KeyboardRow> keyboard = new ArrayList<>();
-                    keyboard.add(row);
-
-                    keyboardMarkup.setKeyboard(keyboard);
-
-                    sendMessageWithReplyKeyboard(chatId, "Илтимос, рақамингизни юборинг, шу орқали сизни аниқлаймиз:", keyboardMarkup);
-                } else {
-                    userService.ensureUser(chatId, username, firstName, phone);
-                }
-
-
-
-                userService.ensureUser(chatId, username, firstName, phone);
 
                 if (msg.getText().equals("/start")) {
+                    // если пользователя нет — просим контакт
+                    if (!userService.exists(chatId)) {
+                        ReplyKeyboardMarkup keyboard = new ReplyKeyboardMarkup();
+                        keyboard.setResizeKeyboard(true);
+                        keyboard.setOneTimeKeyboard(false);
+
+                        KeyboardButton contactButton = new KeyboardButton("📲 Рақамингизни юборинг");
+                        contactButton.setRequestContact(true);
+
+                        keyboard.setKeyboard(List.of(new KeyboardRow(List.of(contactButton))));
+                        sendMessageWithReplyKeyboard(chatId,
+                                "Илтимос, рақамингизни юборинг:",
+                                keyboard);
+                        return;
+                    }
+
+                    // иначе просто показываем меню
                     sendWelcome(chatId);
                     return;
                 }
             }
+
+            // ✅ callback query (нажатие inline-кнопок)
             if (update.hasCallbackQuery()) {
                 var cq = update.getCallbackQuery();
-                String data = cq.getData();
                 String chatId = cq.getMessage().getChatId().toString();
-                Integer msgId = cq.getMessage().getMessageId();
-                if (data.startsWith("spec_page_")) {
-                    handleSpecialtyPageCallback(chatId, msgId, data);
-                    return;
-                }
-                if (data.startsWith("spec_")) {
-                    handleSpecialtySelection(chatId, msgId, data);
-                    return;
-                }
-                if (data.equals("simulate_payment")) {
-                    handleSimulatePayment(chatId, msgId);
-                    return;
-                }
-                if (data.equals("start_restart")) {
-                    sendWelcome(chatId);
-                    return;
-                }
+                String data = cq.getData();
+                int msgId = cq.getMessage().getMessageId();
+
                 switch (data) {
                     case "menu_main" -> editStartMenu(chatId, msgId);
                     case "list_specialties" -> handleSpecialtiesListRequest(chatId, msgId);
@@ -204,9 +205,11 @@ public class MyBot extends TelegramLongPollingBot {
                     default -> sendMessage(chatId, "Номаълум буйруқ: " + data);
                 }
             }
+
             if (update.hasPollAnswer()) handlePollAnswer(update.getPollAnswer());
-        } catch (Exception ex) {
-            ex.printStackTrace();
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -712,9 +715,12 @@ public class MyBot extends TelegramLongPollingBot {
                 .build();
 
         String text = "⚙️ Бот янгиланди!\n\n" +
-                "Илтимос, «Старт» тугмасини босинг, фойдаланишни давом эттириш учун.";
+                "Илтимос, «Старт» тугмасини босинг.";
+
+        // Просто вызываем метод, не оборачивая в try/catch
         sendMessage(chatId, text, markup);
     }
+
 
     private void sendMessageWithReplyKeyboard(String chatId, String text, ReplyKeyboardMarkup keyboard) {
         SendMessage msg = SendMessage.builder()
