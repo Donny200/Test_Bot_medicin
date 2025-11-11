@@ -4,6 +4,7 @@ import com.google.gson.reflect.TypeToken;
 import jakarta.annotation.PostConstruct;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -20,6 +21,7 @@ import uz.pdp.test_bot.entity.UserEntity;
 import uz.pdp.test_bot.repository.UserRepository;
 import uz.pdp.test_bot.service.ResultService;
 import uz.pdp.test_bot.service.TestService;
+import uz.pdp.test_bot.service.UserProgressService;
 import uz.pdp.test_bot.service.UserService;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
@@ -41,6 +43,9 @@ public class MyBot extends TelegramLongPollingBot {
     private final Map<String, String> userSelectedSpecialty = new HashMap<>();
     private final Map<String, List<Question>> userSpecialtyQuestions = new HashMap<>();
     private final List<String> specialties = new ArrayList<>();
+    @Autowired
+    private UserProgressService userProgressService;
+
 
     // Храним вопросы для каждой специальности
     private final Map<String, List<Question>> specialtyQuestionsMap = new HashMap<>();
@@ -72,6 +77,7 @@ public class MyBot extends TelegramLongPollingBot {
         this.userService = userService;
         this.resultService = resultService;
         this.testService = testService;
+        this.userProgressService = userProgressService; // ✅ здесь инициализация
     }
 
     @PostConstruct
@@ -122,9 +128,17 @@ public class MyBot extends TelegramLongPollingBot {
             if (update.hasMessage() && update.getMessage().hasText()) {
                 var msg = update.getMessage();
                 String chatId = msg.getChatId().toString();
-                String text = msg.getText();
-                userService.ensureUser(chatId, msg.getFrom().getUserName());
-                if (text.equals("/start")) {
+                String username = msg.getFrom().getUserName();
+                String firstName = msg.getFrom().getFirstName();
+                String phone = null;
+
+                if (msg.hasContact()) {
+                    phone = msg.getContact().getPhoneNumber();
+                }
+
+                userService.ensureUser(chatId, username, firstName, phone);
+
+                if (msg.getText().equals("/start")) {
                     sendWelcome(chatId);
                     return;
                 }
@@ -144,6 +158,10 @@ public class MyBot extends TelegramLongPollingBot {
                 }
                 if (data.equals("simulate_payment")) {
                     handleSimulatePayment(chatId, msgId);
+                    return;
+                }
+                if (data.equals("start_restart")) {
+                    sendWelcome(chatId);
                     return;
                 }
                 switch (data) {
@@ -417,10 +435,14 @@ public class MyBot extends TelegramLongPollingBot {
             int startIndex = userNextBatch.getOrDefault(batchKey, 0);
 
             // Если дошли до конца, начинаем сначала
+            // Если дошли до конца всех вопросов JSON, начинаем сначала
             if (startIndex >= totalQuestions) {
                 startIndex = 0;
                 userNextBatch.put(batchKey, 0);
+                userScores.put(chatId, 0);         // сброс баллов
+                userCurrentQuestion.put(chatId, 1); // сброс номера вопроса
             }
+
 
             // Вычисляем конечный индекс блока
             int endIndex = Math.min(startIndex + blockSize, totalQuestions);
@@ -531,6 +553,15 @@ public class MyBot extends TelegramLongPollingBot {
         int qNumber = userCurrentQuestion.getOrDefault(chatId, 1);
         String spec = userSelectedSpecialty.getOrDefault(chatId, "");
 
+// ✅ Загружаем прогресс пользователя
+        userProgressService.getProgress(chatId).ifPresent(progress -> {
+            userScores.put(chatId, progress.getScore());
+            userCurrentQuestion.put(chatId, progress.getCurrentQuestion());
+            userSelectedSpecialty.put(chatId, progress.getSelectedSpecialty());
+            userNextBatch.put(chatId + "_" + spec, progress.getNextBatchIndex()); // <-- важно
+        });
+
+
         // Проверяем, есть ли вопросы для этой специальности
         if (specialtyQuestionsMap.containsKey(spec)) {
             List<Question> qs = userSpecialtyQuestions.get(chatId);
@@ -544,6 +575,15 @@ public class MyBot extends TelegramLongPollingBot {
             int total = qs.size();
             int next = qNumber + 1;
             userCurrentQuestion.put(chatId, next);
+            // ✅ Сохраняем прогресс пользователя
+            // Сохраняем прогресс
+            userProgressService.saveProgress(chatId,
+                    userScores.get(chatId),
+                    userCurrentQuestion.get(chatId),
+                    spec,
+                    userNextBatch.getOrDefault(chatId + "_" + spec, 0));
+
+
 
             if (next > total) {
                 int score = userScores.getOrDefault(chatId, 0);
@@ -614,6 +654,39 @@ public class MyBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
+    // ---------- Рассылка при обновлении ----------
+    @PostConstruct
+    public void notifyAllUsersAfterRestart() {
+        new Thread(() -> {
+            try {
+                Thread.sleep(8000); // ждём 8 секунд, чтобы бот полностью запустился
+                List<UserEntity> users = userService.getAllUsers();
+                for (UserEntity user : users) {
+                    sendRestartMessage(user.getChatId());
+                }
+                System.out.println("✅ Сообщение об обновлении отправлено всем пользователям (" + users.size() + ")");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
+
+    private void sendRestartMessage(String chatId) {
+        InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                .keyboardRow(List.of(
+                        InlineKeyboardButton.builder()
+                                .text("▶️ Старт")
+                                .callbackData("start_restart")
+                                .build()
+                ))
+                .build();
+
+        String text = "⚙️ Бот янгиланди!\n\n" +
+                "Илтимос, «Старт» тугмасини босинг, фойдаланишни давом эттириш учун.";
+        sendMessage(chatId, text, markup);
+    }
+
 
     @Override
     public String getBotToken() { return botConfig.getToken(); }

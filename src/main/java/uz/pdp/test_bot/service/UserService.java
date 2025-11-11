@@ -7,6 +7,7 @@ import uz.pdp.test_bot.repository.UserRepository;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -15,11 +16,13 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    public void ensureUser(String chatId, String username) {
+    public void ensureUser(String chatId, String username, String firstName, String phone) {
         if (userRepository.existsById(chatId)) return;
         UserEntity user = new UserEntity();
         user.setChatId(chatId);
         user.setUsername(username);
+        user.setNameTelegram(firstName);
+        user.setPhone(phone);
         user.setIsPaid(false);
         userRepository.save(user);
     }
@@ -59,6 +62,11 @@ public class UserService {
         long hoursPassed = ChronoUnit.HOURS.between(user.getFirstTestDate(), LocalDateTime.now());
         return hoursPassed < 24;
     }
+
+    public List<UserEntity> getAllUsers() {
+        return userRepository.findAll();
+    }
+
 
     public String getAccessStatus(String chatId) {
         Optional<UserEntity> opt = userRepository.findById(chatId);

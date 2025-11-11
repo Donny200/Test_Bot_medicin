@@ -17,12 +17,16 @@ public class UserEntity {
 
     private String username;
 
+    private String nameTelegram;  // имя из Telegram
+
+    private String phone;         // телефон (если бот его запросит через кнопку)
+
     @Column(nullable = false)
-    private Boolean isPaid = false; // true - оплачено навсегда, доступ разрешен
+    private Boolean isPaid = false; // true - оплачено навсегда
 
     private LocalDateTime createdAt = LocalDateTime.now();
 
-    private LocalDateTime firstTestDate; // дата первого бесплатного теста (для 24ч доступа)
+    private LocalDateTime firstTestDate; // дата первого бесплатного теста
 
     private LocalDateTime paymentDate; // дата оплаты
 }
