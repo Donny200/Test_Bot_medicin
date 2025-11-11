@@ -1,0 +1,16 @@
+telegram:
+  bot:
+    username: TestForMedicine_bot
+    token: 8356880757:AAHQJyz-UMYv0E2BR7L-m1XazBA9cqzfZ-A
+  test:
+    price: 5000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/medicin_test_bot
+    username: postgres
+    password: doniyor2007
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
