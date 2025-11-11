@@ -14,7 +14,10 @@ import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageTe
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.polls.PollAnswer;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import uz.pdp.test_bot.config.BotConfig;
 import uz.pdp.test_bot.entity.UserEntity;
@@ -135,6 +138,32 @@ public class MyBot extends TelegramLongPollingBot {
                 if (msg.hasContact()) {
                     phone = msg.getContact().getPhoneNumber();
                 }
+
+// ✅ Если нет username, предлагаем поделиться номером
+                if (username == null || username.isBlank()) {
+                    // создаём обычную клавиатуру для отправки контакта
+                    ReplyKeyboardMarkup keyboardMarkup = new ReplyKeyboardMarkup();
+                    keyboardMarkup.setResizeKeyboard(true);
+                    keyboardMarkup.setOneTimeKeyboard(true);
+
+                    KeyboardButton contactButton = new KeyboardButton();
+                    contactButton.setText("📲 Рақамингизни юборинг");
+                    contactButton.setRequestContact(true);
+
+                    KeyboardRow row = new KeyboardRow();
+                    row.add(contactButton);
+
+                    List<KeyboardRow> keyboard = new ArrayList<>();
+                    keyboard.add(row);
+
+                    keyboardMarkup.setKeyboard(keyboard);
+
+                    sendMessageWithReplyKeyboard(chatId, "Илтимос, рақамингизни юборинг, шу орқали сизни аниқлаймиз:", keyboardMarkup);
+                } else {
+                    userService.ensureUser(chatId, username, firstName, phone);
+                }
+
+
 
                 userService.ensureUser(chatId, username, firstName, phone);
 
@@ -686,6 +715,20 @@ public class MyBot extends TelegramLongPollingBot {
                 "Илтимос, «Старт» тугмасини босинг, фойдаланишни давом эттириш учун.";
         sendMessage(chatId, text, markup);
     }
+
+    private void sendMessageWithReplyKeyboard(String chatId, String text, ReplyKeyboardMarkup keyboard) {
+        SendMessage msg = SendMessage.builder()
+                .chatId(chatId)
+                .text(text)
+                .replyMarkup(keyboard)
+                .build();
+        try {
+            execute(msg);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 
     @Override
