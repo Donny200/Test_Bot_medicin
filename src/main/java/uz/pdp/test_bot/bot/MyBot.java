@@ -194,16 +194,25 @@ public class MyBot extends TelegramLongPollingBot {
                 String data = cq.getData();
                 int msgId = cq.getMessage().getMessageId();
 
-                switch (data) {
-                    case "menu_main" -> editStartMenu(chatId, msgId);
-                    case "list_specialties" -> handleSpecialtiesListRequest(chatId, msgId);
-                    case "my_results" -> editMyResults(chatId, msgId);
-                    case "about" -> editAbout(chatId, msgId);
-                    case "my_subscription" -> editSubscriptionStatus(chatId, msgId);
-                    case "pay_menu" -> handlePaymentInfo(chatId, msgId);
-                    case "start_test" -> startTest(chatId);
-                    default -> sendMessage(chatId, "Номаълум буйруқ: " + data);
+                if (data.startsWith("spec_page_")) {
+                    handleSpecialtyPageCallback(chatId, msgId, data); // для навигации по страницам
+                } else if (data.startsWith("spec_")) {
+                    handleSpecialtySelection(chatId, msgId, data);    // для выбора специальности
+                } else if (data.equals("start_restart")) {        // <-- добавлено
+                    sendWelcome(chatId);                          // или sendStartMenu(chatId) по необходимости
+                } else {
+                    switch (data) {
+                        case "menu_main" -> editStartMenu(chatId, msgId);
+                        case "list_specialties" -> handleSpecialtiesListRequest(chatId, msgId);
+                        case "my_results" -> editMyResults(chatId, msgId);
+                        case "about" -> editAbout(chatId, msgId);
+                        case "my_subscription" -> editSubscriptionStatus(chatId, msgId);
+                        case "pay_menu" -> handlePaymentInfo(chatId, msgId);
+                        case "start_test" -> startTest(chatId);
+                        default -> sendMessage(chatId, "Номаълум буйруқ: " + data);
+                    }
                 }
+
             }
 
             if (update.hasPollAnswer()) handlePollAnswer(update.getPollAnswer());
