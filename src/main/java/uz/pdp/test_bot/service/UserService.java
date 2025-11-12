@@ -42,26 +42,45 @@ public class UserService {
     }
 
     public boolean canTakeTest(String chatId) {
-        Optional<UserEntity> opt = userRepository.findById(chatId);
-        if (opt.isEmpty()) return false;
+        Optional<UserEntity> optionalUser = userRepository.findByChatId(chatId);
+        if (optionalUser.isEmpty()) return false;
 
-        UserEntity user = opt.get();
+        UserEntity user = optionalUser.get();
 
-        // Если реально оплачен (isPaid=true) — доступ навсегда
-        if (user.getIsPaid()) return true;
+        // Если пользователь оплатил — доступ навсегда
+        if (user.getIsPaid() != null && user.getIsPaid()) return true;
 
-        // Проверяем бесплатный период (1 день = 24 часа)
-        if (user.getFirstTestDate() == null) {
-            // Первый раз — разрешаем тест и сохраняем дату
-            user.setFirstTestDate(LocalDateTime.now());
-            userRepository.save(user);
-            return true;
+        // Если пользователь ещё не достиг лимита 50 тестов
+        return user.getSolvedCount() < 50;
+    }
+
+    public String increaseSolvedCountAndCheckLimit(String chatId, int count) {
+        Optional<UserEntity> optionalUser = userRepository.findByChatId(chatId);
+        if (optionalUser.isEmpty()) return null;
+
+        UserEntity user = optionalUser.get();
+        user.setSolvedCount(user.getSolvedCount() + count);
+        userRepository.save(user);
+
+        // Если достиг 50 тестов — вернуть уведомление
+        if (user.getSolvedCount() >= 50) {
+            return "🚫 Сиз 50 та саволни бепул ҳал қилдингиз.\n" +
+                    "Давом этиш учун обунани тўланг.";
         }
 
-        // Проверяем, прошло ли 24 часа
-        long hoursPassed = ChronoUnit.HOURS.between(user.getFirstTestDate(), LocalDateTime.now());
-        return hoursPassed < 24;
+        // Иначе возвращаем null (уведомление не нужно)
+        return null;
     }
+
+
+
+    public void increaseSolvedCount(String chatId, int count) {
+        userRepository.findByChatId(chatId).ifPresent(user -> {
+            user.setSolvedCount(user.getSolvedCount() + count);
+            userRepository.save(user);
+        });
+    }
+
 
     public List<UserEntity> getAllUsers() {
         return userRepository.findAll();
@@ -74,20 +93,27 @@ public class UserService {
 
         UserEntity user = opt.get();
 
-        if (user.getIsPaid()) return "✅ Доступ активен навсегда (оплачено)";
-
-        if (user.getFirstTestDate() == null)
-            return "🎁 Доступен бесплатный период (1 день с первого теста)";
-
-        long hoursPassed = ChronoUnit.HOURS.between(user.getFirstTestDate(), LocalDateTime.now());
-        if (hoursPassed < 24) {
-            long hoursLeft = 24 - hoursPassed;
-            return "🎁 Бесплатный период: осталось " + hoursLeft + " ч";
+        // Если пользователь оплатил
+        if (user.getIsPaid() != null && user.getIsPaid()) {
+            return "✅ Доступ активен навсегда (оплачено)";
         }
 
-        return "❌ Бесплатный период истек. Для доступа к тестам требуется оплата.\n\n" +
-                "💳 Отправьте скриншот оплаты администратору для ручной проверки.";
+        // Если пользователь ещё не решал тесты
+        if (user.getSolvedCount() == 0) {
+            return "🎁 Доступен бесплатный период (50 тестов)";
+        }
+
+        // Если пользователь ещё в рамках бесплатных 50 тестов
+        if (user.getSolvedCount() < 50) {
+            int remaining = 50 - user.getSolvedCount();
+            return "🎁 Бесплатный период: осталось " + remaining + " тестов";
+        }
+
+        // Если пользователь исчерпал 50 тестов
+        return "🚫 Сиз 50 та саволни бепул ҳал қилдингиз.\n" +
+                "Давом этиш учун обунани тўланг.";
     }
+
     public boolean exists(String chatId) {
         return userRepository.existsByChatId(chatId);
     }

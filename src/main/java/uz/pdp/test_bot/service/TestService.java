@@ -8,12 +8,6 @@ public class TestService {
 
     private final List<Question> questions = new ArrayList<>();
 
-    public TestService() {
-        questions.add(new Question("Какой витамин синтезируется под действием солнца?",
-                List.of("A", "B12", "D", "C"), 2));
-        questions.add(new Question("Сколько камер в сердце человека?",
-                List.of("2", "3", "4", "5"), 2));
-    }
 
     public Optional<Question> getQuestion(int num) {
         if (num <= 0 || num > questions.size()) return Optional.empty();

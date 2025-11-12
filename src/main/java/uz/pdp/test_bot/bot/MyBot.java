@@ -1,4 +1,5 @@
 package uz.pdp.test_bot.bot;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import jakarta.annotation.PostConstruct;
@@ -27,6 +28,7 @@ import uz.pdp.test_bot.service.ResultService;
 import uz.pdp.test_bot.service.TestService;
 import uz.pdp.test_bot.service.UserProgressService;
 import uz.pdp.test_bot.service.UserService;
+
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.text.NumberFormat;
@@ -49,34 +51,55 @@ public class MyBot extends TelegramLongPollingBot {
     private final List<String> specialties = new ArrayList<>();
     @Autowired
     private UserProgressService userProgressService;
-
-
     // Храним вопросы для каждой специальности
     private final Map<String, List<Question>> specialtyQuestionsMap = new HashMap<>();
-
     private final Gson gson = new Gson();
     private final Map<String, Integer> userNextBatch = new HashMap<>();
+    private final Map<String, Integer> userBatchStart = new HashMap<>();
 
     private static class Question {
         private int id;
         private String question;
         private List<String> options;
         private int correctIndex;
-        public Question() {}
-        public int getId() { return id; }
-        public String getQuestion() { return question; }
-        public List<String> getOptions() { return options; }
-        public int getCorrectIndex() { return correctIndex; }
-        public void setId(int id) { this.id = id; }
-        public void setQuestion(String question) { this.question = question; }
-        public void setOptions(List<String> options) { this.options = options; }
-        public void setCorrectIndex(int correctIndex) { this.correctIndex = correctIndex; }
+
+        public Question() {
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public String getQuestion() {
+            return question;
+        }
+
+        public List<String> getOptions() {
+            return options;
+        }
+
+        public int getCorrectIndex() {
+            return correctIndex;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public void setQuestion(String question) {
+            this.question = question;
+        }
+
+        public void setOptions(List<String> options) {
+            this.options = options;
+        }
+
+        public void setCorrectIndex(int correctIndex) {
+            this.correctIndex = correctIndex;
+        }
     }
 
-    public MyBot(BotConfig botConfig,
-                 UserService userService,
-                 ResultService resultService,
-                 TestService testService) {
+    public MyBot(BotConfig botConfig, UserService userService, ResultService resultService, TestService testService) {
         this.botConfig = botConfig;
         this.userService = userService;
         this.resultService = resultService;
@@ -90,18 +113,16 @@ public class MyBot extends TelegramLongPollingBot {
         loadSpecialtyQuestions("oilaviy_shifokorlik");
         loadSpecialtyQuestions("pediatria");
         loadSpecialtyQuestions("oftalmologiya");
-
         System.out.println("✅ MyBot initialized with username = " + getBotUsername());
         System.out.println("✅ Loaded specialties count = " + specialties.size());
-        specialtyQuestionsMap.forEach((key, value) ->
-                System.out.println("✅ Loaded " + key + " questions count = " + value.size())
-        );
+        specialtyQuestionsMap.forEach((key, value) -> System.out.println("✅ Loaded " + key + " questions count = " + value.size()));
     }
 
     private void loadSpecialtiesFromJson() {
         try {
             ClassPathResource resource = new ClassPathResource("specialties.json");
-            Type listType = new TypeToken<List<String>>() {}.getType();
+            Type listType = new TypeToken<List<String>>() {
+            }.getType();
             try (InputStreamReader reader = new InputStreamReader(resource.getInputStream(), "UTF-8")) {
                 List<String> list = gson.fromJson(reader, listType);
                 if (list != null) specialties.addAll(list);
@@ -114,7 +135,8 @@ public class MyBot extends TelegramLongPollingBot {
     private void loadSpecialtyQuestions(String specialty) {
         try {
             ClassPathResource resource = new ClassPathResource("specialties/" + specialty + ".json");
-            Type listType = new TypeToken<List<Question>>() {}.getType();
+            Type listType = new TypeToken<List<Question>>() {
+            }.getType();
             try (InputStreamReader reader = new InputStreamReader(resource.getInputStream(), "UTF-8")) {
                 List<Question> list = gson.fromJson(reader, listType);
                 if (list != null && !list.isEmpty()) {
@@ -136,70 +158,65 @@ public class MyBot extends TelegramLongPollingBot {
                 String username = msg.getFrom().getUserName();
                 String firstName = msg.getFrom().getFirstName();
                 String phone = msg.getContact().getPhoneNumber();
-
                 // сохраняем пользователя
                 userService.ensureUser(chatId, username, firstName, phone);
-
                 // ✅ убираем клавиатуру после получения контакта
                 ReplyKeyboardRemove removeKeyboard = new ReplyKeyboardRemove(true);
-
                 SendMessage confirmMsg = SendMessage.builder()
                         .chatId(chatId)
                         .text("✅ Рақамингиз сақланди: " + phone)
                         .replyMarkup(removeKeyboard)
                         .build();
-
                 execute(confirmMsg);
-
                 // ✅ теперь показываем меню
                 sendStartMenu(chatId);
                 return;
             }
-
-
             // ✅ если текстовое сообщение
             if (update.hasMessage() && update.getMessage().hasText()) {
                 var msg = update.getMessage();
                 String chatId = msg.getChatId().toString();
                 String username = msg.getFrom().getUserName();
                 String firstName = msg.getFrom().getFirstName();
-
                 if (msg.getText().equals("/start")) {
                     // если пользователя нет — просим контакт
                     if (!userService.exists(chatId)) {
                         ReplyKeyboardMarkup keyboard = new ReplyKeyboardMarkup();
                         keyboard.setResizeKeyboard(true);
                         keyboard.setOneTimeKeyboard(false);
-
                         KeyboardButton contactButton = new KeyboardButton("📲 Рақамингизни юборинг");
                         contactButton.setRequestContact(true);
-
                         keyboard.setKeyboard(List.of(new KeyboardRow(List.of(contactButton))));
-                        sendMessageWithReplyKeyboard(chatId,
-                                "Илтимос, рақамингизни юборинг:",
-                                keyboard);
+                        sendMessageWithReplyKeyboard(chatId, "Илтимос, рақамингизни юборинг:", keyboard);
                         return;
                     }
-
                     // иначе просто показываем меню
                     sendWelcome(chatId);
                     return;
                 }
             }
-
             // ✅ callback query (нажатие inline-кнопок)
             if (update.hasCallbackQuery()) {
                 var cq = update.getCallbackQuery();
                 String chatId = cq.getMessage().getChatId().toString();
                 String data = cq.getData();
                 int msgId = cq.getMessage().getMessageId();
-
                 if (data.startsWith("spec_page_")) {
                     handleSpecialtyPageCallback(chatId, msgId, data); // для навигации по страницам
                 } else if (data.startsWith("spec_")) {
-                    handleSpecialtySelection(chatId, msgId, data);    // для выбора специальности
-                } else if (data.equals("start_restart")) {        // <-- добавлено
-                    sendWelcome(chatId);                          // или sendStartMenu(chatId) по необходимости
+                    handleSpecialtySelection(chatId, msgId, data); // для выбора специальности
+                } else if (data.equals("start_restart")) {
+                    // <-- добавлено
+                    sendWelcome(chatId); // или sendStartMenu(chatId) по необходимости
+                } else if (data.equals("restart_test")) {
+                    String spec = userSelectedSpecialty.get(chatId);
+                    if (spec != null) {
+                        String batchKey = chatId + "_" + spec;
+                        userNextBatch.put(batchKey, 0);
+                        startTest(chatId);
+                    }
+                } else if (data.equals("continue_test")) {
+                    startTest(chatId);
                 } else {
                     switch (data) {
                         case "menu_main" -> editStartMenu(chatId, msgId);
@@ -212,11 +229,8 @@ public class MyBot extends TelegramLongPollingBot {
                         default -> sendMessage(chatId, "Номаълум буйруқ: " + data);
                     }
                 }
-
             }
-
             if (update.hasPollAnswer()) handlePollAnswer(update.getPollAnswer());
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -304,42 +318,14 @@ public class MyBot extends TelegramLongPollingBot {
         editMessage(chatId, msgId, message, markup);
     }
 
-    private void handleSimulatePayment(String chatId, int msgId) {
-        UserEntity user = userService.getUser(chatId).orElse(null);
-        if (user != null) {
-            user.setFirstTestDate(LocalDateTime.now().minusHours(1));
-            userRepository.save(user);
-        }
-        String message = "✅ Тўлов симуляцияси бажарилди!\n" +
-                "🎉 Энди сиз тестларни ўтиб бўласиз.\n\n" +
-                "💳 Ҳақиқий isPaid ҳали ҳам йўқ.";
-        InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
-                .keyboardRow(List.of(
-                        InlineKeyboardButton.builder().text("📚 Тестларга ўтиш").callbackData("list_specialties").build()
-                ))
-                .keyboardRow(List.of(
-                        InlineKeyboardButton.builder().text("🏠 Асосий меню").callbackData("menu_main").build()
-                ))
-                .build();
-        editMessage(chatId, msgId, message, markup);
-    }
-
     // ---------- Специальности ----------
     private void handleSpecialtiesListRequest(String chatId, int msgId) {
         if (!userService.canTakeTest(chatId)) {
             String status = userService.getAccessStatus(chatId);
-            editMessage(chatId, msgId,
-                    "🔒 Ихтисосларга кириш ёпилган\n\n" +
-                            status +
-                            "\n\nТестларга кириш учун обунaни тўлаш ва скриншотни администраторга юборг.",
-                    InlineKeyboardMarkup.builder()
-                            .keyboardRow(List.of(
-                                    InlineKeyboardButton.builder().text("💰 Тўлаш").callbackData("pay_menu").build()
-                            ))
-                            .keyboardRow(List.of(
-                                    InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()
-                            ))
-                            .build()
+            editMessage(chatId, msgId, "🔒 Ихтисосларга кириш ёпилган\n\n" + status + "\n\nТестларга кириш учун обунaни тўлаш ва скриншотни администраторга юборг.", InlineKeyboardMarkup.builder()
+                    .keyboardRow(List.of(InlineKeyboardButton.builder().text("💰 Тўлаш").callbackData("pay_menu").build()))
+                    .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
+                    .build()
             );
             return;
         }
@@ -393,17 +379,17 @@ public class MyBot extends TelegramLongPollingBot {
                         .build();
                 editMessage(chatId, msgId, "Сиз танладингиз: " + spec + "\n\nТестни бошлаш учун босинг:", markup);
             }
-        } catch (Exception ignored) {}
+        } catch (Exception ignored) {
+        }
     }
 
     // ---------- Результаты и О проекте ----------
     private void editMyResults(String chatId, int msgId) {
         var results = resultService.getResults(chatId);
         if (results.isEmpty()) {
-            editMessage(chatId, msgId, "📊 Сизда ҳали натижалар йўқ.",
-                    InlineKeyboardMarkup.builder()
-                            .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
-                            .build());
+            editMessage(chatId, msgId, "📊 Сизда ҳали натижалар йўқ.", InlineKeyboardMarkup.builder()
+                    .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
+                    .build());
             return;
         }
         StringBuilder sb = new StringBuilder("📚 Сизнинг натижаларингиз:\n\n");
@@ -413,10 +399,9 @@ public class MyBot extends TelegramLongPollingBot {
             sb.append("🗓 ").append(r.getCreatedAt().format(formatter))
                     .append("\nНатижа: ").append(r.getScore()).append("/").append(r.getTotal()).append("\n\n");
         }
-        editMessage(chatId, msgId, sb.toString(),
-                InlineKeyboardMarkup.builder()
-                        .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
-                        .build());
+        editMessage(chatId, msgId, sb.toString(), InlineKeyboardMarkup.builder()
+                .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
+                .build());
     }
 
     private void editAbout(String chatId, int msgId) {
@@ -429,114 +414,122 @@ public class MyBot extends TelegramLongPollingBot {
                 "• Барча тестларга чекланмаган кириш\n" +
                 "• Барча тиббий ихтисослар\n" +
                 "• Натижаларни сақлаш\n" +
-                "• Абaдий\n\n" +
-                "🎁 Бепул давр: биринчи тест ўтгазгандан кейин 24 соат";
-        editMessage(chatId, msgId, aboutText,
-                InlineKeyboardMarkup.builder()
-                        .keyboardRow(List.of(
-                                InlineKeyboardButton.builder()
-                                        .text("⬅️ Орқага")
-                                        .callbackData("menu_main")
-                                        .build()
-                        ))
-                        .build());
+                "• Абaдий\n\n";
+        editMessage(chatId, msgId, aboutText, InlineKeyboardMarkup.builder()
+                .keyboardRow(List.of(
+                        InlineKeyboardButton.builder()
+                                .text("⬅️ Орқага")
+                                .callbackData("menu_main")
+                                .build()
+                ))
+                .build());
     }
 
     // ---------- Тест ----------
     private void startTest(String chatId) {
         if (!userService.canTakeTest(chatId)) {
-            String status = userService.getAccessStatus(chatId);
-            sendMessage(chatId, "🔒 Тестларга кириш ёпилган.\n\n" +
-                            status +
-                            "\n\nТестларга кириш учун обунaни тўлаш ва скриншотни администраторга юборг.",
-                    InlineKeyboardMarkup.builder()
-                            .keyboardRow(List.of(
-                                    InlineKeyboardButton.builder().text("💰 Тўлаш").callbackData("pay_menu").build()
-                            ))
-                            .keyboardRow(List.of(
-                                    InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()
-                            ))
-                            .build()
-            );
+            sendMessage(chatId, "🔒 Тестга кириш учун обуна талаб қилинади.");
+            InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("💰 Обунaни тўлаш").callbackData("pay_menu").build()
+                    ))
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("⬅️ Менюга орқага").callbackData("menu_main").build()
+                    ))
+                    .build();
+            sendMessage(chatId, "", markup);
             return;
         }
-
         String spec = userSelectedSpecialty.getOrDefault(chatId, "");
-
-        // Проверяем, есть ли вопросы для этой специальности
         List<Question> allQuestions = specialtyQuestionsMap.get(spec);
-
-        if (allQuestions != null && !allQuestions.isEmpty()) {
-            // Используем единую логику для всех специальностей с вопросами из JSON
-            int totalQuestions = allQuestions.size();
-            int blockSize = 50;
-
-            // Получаем текущий индекс начала блока для этой специальности
-            String batchKey = chatId + "_" + spec;
-            int startIndex = userNextBatch.getOrDefault(batchKey, 0);
-
-            // Если дошли до конца, начинаем сначала
-            // Если дошли до конца всех вопросов JSON, начинаем сначала
-            if (startIndex >= totalQuestions) {
-                startIndex = 0;
-                userNextBatch.put(batchKey, 0);
-                userScores.put(chatId, 0);         // сброс баллов
-                userCurrentQuestion.put(chatId, 1); // сброс номера вопроса
+        if (allQuestions == null || allQuestions.isEmpty()) return;
+        int totalQuestions = allQuestions.size();
+        int blockSize = 50;
+        String batchKey = chatId + "_" + spec;
+        int startIndex = userNextBatch.getOrDefault(batchKey, 0);
+        // Загружаем прогресс, если есть
+        userProgressService.getProgress(chatId).ifPresent(progress -> {
+            if (progress.getSelectedSpecialty().equals(spec)) {
+                userScores.put(chatId, progress.getScore());
+                userCurrentQuestion.put(chatId, progress.getCurrentQuestion());
+                userNextBatch.put(batchKey, progress.getNextBatchIndex());
             }
-
-
-            // Вычисляем конечный индекс блока
-            int endIndex = Math.min(startIndex + blockSize, totalQuestions);
-
-            // Информируем пользователя о диапазоне вопросов
-            sendMessage(chatId, "🧠 Тест бошланади: саволлар " + (startIndex + 1) + "–" + endIndex + " (" + totalQuestions + " тадан)");
-
-            // Извлекаем подмножество вопросов для текущего блока
-            List<Question> selected = new ArrayList<>(allQuestions.subList(startIndex, endIndex));
-
-            // Сохраняем начало следующего блока
-            userNextBatch.put(batchKey, endIndex);
-
-            // Сохраняем текущий блок вопросов для пользователя
-            userSpecialtyQuestions.put(chatId, selected);
-
-            // Инициализируем счетчик баллов и номер текущего вопроса
-            userScores.put(chatId, 0);
-            userCurrentQuestion.put(chatId, 1);
-
-            // Отправляем первый вопрос
-            sendSpecialtyQuestion(chatId, 1, selected.size());
-        } else {
-            // Используем старую логику для специальностей без JSON
-            userScores.put(chatId, 0);
-            userCurrentQuestion.put(chatId, 1);
-            sendQuestion(chatId, 1);
+        });
+        if (startIndex >= totalQuestions) {
+            sendMessage(chatId, "Барча саволлар тугатилган!");
+            InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("🔁 Бошдан бошлаш").callbackData("restart_test").build()
+                    ))
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("⬅️ Менюга орқага").callbackData("menu_main").build()
+                    ))
+                    .build();
+            sendMessage(chatId, "", markup);
+            return;
         }
+        int endIndex = Math.min(startIndex + blockSize, totalQuestions);
+        int batchSize = endIndex - startIndex;
+        userBatchStart.put(chatId, startIndex);
+        userSpecialtyQuestions.put(chatId, new ArrayList<>(allQuestions.subList(startIndex, endIndex)));
+        userCurrentQuestion.put(chatId, startIndex + 1); // 1-based global
+        userScores.put(chatId, 0);
+        sendMessage(chatId, "🧠 Тест бошланади: саволлар " + (startIndex + 1) + "–" + endIndex + " (" + totalQuestions + " тадан)");
+        sendSpecialtyQuestion(chatId, 1, batchSize);
     }
 
     private void sendSpecialtyQuestion(String chatId, int qNumber, int total) {
         List<Question> qs = userSpecialtyQuestions.get(chatId);
+        int batchStart = userBatchStart.getOrDefault(chatId, 0);
         if (qs == null || qNumber > total) {
             int score = userScores.getOrDefault(chatId, 0);
+            // Сохраняем результат
             resultService.saveResult(chatId, score, total);
-            InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
-                    .keyboardRow(List.of(
-                            InlineKeyboardButton.builder().text("⬅️ Менюга орқага").callbackData("menu_main").build(),
-                            InlineKeyboardButton.builder().text("🔁 Яна ўтиш").callbackData("start_test").build()
-                    ))
-                    .build();
-            sendMessage(chatId, "🎉 Тест тугатилди!\nСизнинг натижангиз: " + score + " дан " + total, markup);
+            // Обновляем старт следующего блока
+            int nextStart = batchStart + total;
+            String spec = userSelectedSpecialty.get(chatId);
+            String batchKey = chatId + "_" + spec;
+            userNextBatch.put(batchKey, nextStart);
+            int totalQuestions = specialtyQuestionsMap.getOrDefault(spec, Collections.emptyList()).size();
+            String message = "🎉 Блок тугатилди!\nСизнинг натижангиз: " + score + " дан " + total;
+            InlineKeyboardMarkup.InlineKeyboardMarkupBuilder builder = InlineKeyboardMarkup.builder();
+            builder.keyboardRow(List.of(
+                    InlineKeyboardButton.builder().text("⬅️ Менюга орқага").callbackData("menu_main").build()
+            ));
+            boolean allDone = nextStart >= totalQuestions;
+            if (allDone) {
+                message = "🎉 Барча тестлар тугатилди!\nОхирги блок учун натижангиз: " + score + " дан " + total;
+                builder.keyboardRow(List.of(
+                        InlineKeyboardButton.builder().text("🔁 Бошдан бошлаш").callbackData("restart_test").build()
+                ));
+            } else {
+                if (userService.canTakeTest(chatId)) {
+                    builder.keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("➡️ Кейинги блок").callbackData("continue_test").build()
+                    ));
+                } else {
+                    message += "\n\nКейинги блок учун обуна талаб қилинади!";
+                    builder.keyboardRow(List.of(
+                            InlineKeyboardButton.builder().text("💰 Обунaни тўлаш").callbackData("pay_menu").build()
+                    ));
+                }
+            }
+            sendMessage(chatId, message, builder.build());
+            // Убираем текущий блок вопросов
             userSpecialtyQuestions.remove(chatId);
+            userBatchStart.remove(chatId);
             return;
         }
+        // Берём вопрос из блока
         Question q = qs.get(qNumber - 1);
-        String questionText = "[" + qNumber + "/" + total + "] " + q.getId() + ". " + q.getQuestion();
+        // **Глобальный индекс = старт блока + позиция в блоке**
+        int globalIndex = batchStart + (qNumber - 1);
+        String questionText = "[" + (globalIndex + 1) + "/" + specialtyQuestionsMap.get(userSelectedSpecialty.get(chatId)).size() + "] " + q.getId() + ". " + q.getQuestion();
         if (questionText.length() > 300) questionText = questionText.substring(0, 297) + "...";
         List<String> options = new ArrayList<>();
         for (String opt : q.getOptions()) {
             if (opt != null && !opt.isBlank()) {
-                String trimmed = opt.length() > 100 ? opt.substring(0, 97) + "..." : opt;
-                options.add(trimmed);
+                options.add(opt.length() > 100 ? opt.substring(0, 97) + "..." : opt);
             }
             if (options.size() >= 10) break;
         }
@@ -559,6 +552,10 @@ public class MyBot extends TelegramLongPollingBot {
         } catch (TelegramApiException e) {
             e.printStackTrace();
             sendSpecialtyQuestion(chatId, qNumber + 1, total);
+        }
+        // Увеличиваем счетчик решённых вопросов
+        if (!userService.getUser(chatId).map(UserEntity::getIsPaid).orElse(false)) {
+            userService.increaseSolvedCount(chatId, 1);
         }
     }
 
@@ -591,82 +588,80 @@ public class MyBot extends TelegramLongPollingBot {
     private void handlePollAnswer(PollAnswer answer) {
         String chatId = String.valueOf(answer.getUser().getId());
         int selected = answer.getOptionIds().get(0);
-        int qNumber = userCurrentQuestion.getOrDefault(chatId, 1);
         String spec = userSelectedSpecialty.getOrDefault(chatId, "");
-
-// ✅ Загружаем прогресс пользователя
+        String batchKey = chatId + "_" + spec;
+        // Загружаем прогресс пользователя
         userProgressService.getProgress(chatId).ifPresent(progress -> {
             userScores.put(chatId, progress.getScore());
             userCurrentQuestion.put(chatId, progress.getCurrentQuestion());
             userSelectedSpecialty.put(chatId, progress.getSelectedSpecialty());
-            userNextBatch.put(chatId + "_" + spec, progress.getNextBatchIndex()); // <-- важно
+            userNextBatch.put(batchKey, progress.getNextBatchIndex());
         });
-
-
+        // Восстанавливаем batch если нужно (после рестарта)
+        if (!userSpecialtyQuestions.containsKey(chatId) && specialtyQuestionsMap.containsKey(spec)) {
+            List<Question> all = specialtyQuestionsMap.get(spec);
+            int blockSize = 50;
+            int globalNext = userCurrentQuestion.getOrDefault(chatId, 1);
+            int start = ((globalNext - 1) / blockSize) * blockSize;
+            int end = Math.min(start + blockSize, all.size());
+            userBatchStart.put(chatId, start);
+            userSpecialtyQuestions.put(chatId, all.subList(start, end));
+            userNextBatch.put(batchKey, start);
+        }
         // Проверяем, есть ли вопросы для этой специальности
         if (specialtyQuestionsMap.containsKey(spec)) {
             List<Question> qs = userSpecialtyQuestions.get(chatId);
-            if (qs == null || qNumber > qs.size()) return;
-
-            Question q = qs.get(qNumber - 1);
+            int batchStart = userBatchStart.getOrDefault(chatId, 0);
+            int globalQ = userCurrentQuestion.getOrDefault(chatId, 1);
+            int localQ = globalQ - batchStart;
+            if (qs == null || localQ > qs.size() || localQ <= 0) return;
+            Question q = qs.get(localQ - 1);
             if (selected == q.getCorrectIndex()) {
                 userScores.put(chatId, userScores.getOrDefault(chatId, 0) + 1);
             }
-
-            int total = qs.size();
-            int next = qNumber + 1;
-            userCurrentQuestion.put(chatId, next);
-            // ✅ Сохраняем прогресс пользователя
-            // Сохраняем прогресс
-            userProgressService.saveProgress(chatId,
-                    userScores.get(chatId),
-                    userCurrentQuestion.get(chatId),
-                    spec,
-                    userNextBatch.getOrDefault(chatId + "_" + spec, 0));
-
-
-
-            if (next > total) {
-                int score = userScores.getOrDefault(chatId, 0);
-                resultService.saveResult(chatId, score, total);
-                sendMessage(chatId, "🎉 Тест тугатилди!\nСизнинг натижангиз: " + score + " дан " + total);
-                userSpecialtyQuestions.remove(chatId);
-                sendStartMenu(chatId);
-                return;
-            }
-
+            int nextGlobal = globalQ + 1;
+            userCurrentQuestion.put(chatId, nextGlobal);
+            int batchSize = qs.size();
+            int nextLocal = nextGlobal - batchStart;
+            // Сохраняем прогресс пользователя
+            userProgressService.saveProgress(chatId, userScores.get(chatId), nextGlobal, spec, userNextBatch.getOrDefault(batchKey, 0));
+            // Отправляем следующий вопрос через 5 секунд
             new Thread(() -> {
                 try {
                     Thread.sleep(5000);
-                    sendSpecialtyQuestion(chatId, next, total);
+                    sendSpecialtyQuestion(chatId, nextLocal, batchSize);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }).start();
         } else {
-            // Старая логика для специальностей без JSON
-            var optQ = testService.getQuestion(qNumber);
+            // Старая логика для тестов без JSON
+            var optQ = testService.getQuestion(userCurrentQuestion.getOrDefault(chatId, 1));
             if (optQ.isEmpty()) return;
             var q = optQ.get();
-            if (selected == q.getCorrectIndex())
-                userScores.put(chatId, userScores.getOrDefault(chatId, 0) + 1);
-            int next = qNumber + 1;
+            if (selected == q.getCorrectIndex()) userScores.put(chatId, userScores.getOrDefault(chatId, 0) + 1);
+            int next = userCurrentQuestion.getOrDefault(chatId, 1) + 1;
             userCurrentQuestion.put(chatId, next);
             if (next > testService.totalQuestions()) {
                 int score = userScores.getOrDefault(chatId, 0);
                 resultService.saveResult(chatId, score, testService.totalQuestions());
-                sendMessage(chatId, "🎉 Тест тугатилди!\nСизнинг натижангиз: " + score + " дан " + testService.totalQuestions());
-                sendStartMenu(chatId);
-            } else {
-                new Thread(() -> {
-                    try {
-                        Thread.sleep(30000);
-                        sendQuestion(chatId, next);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }).start();
+                InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                        .keyboardRow(List.of(
+                                InlineKeyboardButton.builder().text("⬅️ Менюга орқага").callbackData("menu_main").build(),
+                                InlineKeyboardButton.builder().text("🔁 Яна ўтиш").callbackData("start_test").build()
+                        ))
+                        .build();
+                sendMessage(chatId, "🎉 Тест тугатилди!\nСизнинг натижангиз: " + score + " дан " + testService.totalQuestions(), markup);
+                return; // ✅ не вызываем sendStartMenu
             }
+            new Thread(() -> {
+                try {
+                    Thread.sleep(30000);
+                    sendQuestion(chatId, next);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
         }
     }
 
@@ -722,14 +717,11 @@ public class MyBot extends TelegramLongPollingBot {
                                 .build()
                 ))
                 .build();
-
         String text = "⚙️ Бот янгиланди!\n\n" +
                 "Илтимос, «Старт» тугмасини босинг.";
-
         // Просто вызываем метод, не оборачивая в try/catch
         sendMessage(chatId, text, markup);
     }
-
 
     private void sendMessageWithReplyKeyboard(String chatId, String text, ReplyKeyboardMarkup keyboard) {
         SendMessage msg = SendMessage.builder()
@@ -744,11 +736,13 @@ public class MyBot extends TelegramLongPollingBot {
         }
     }
 
-
+    @Override
+    public String getBotToken() {
+        return botConfig.getToken();
+    }
 
     @Override
-    public String getBotToken() { return botConfig.getToken(); }
-
-    @Override
-    public String getBotUsername() { return botConfig.getUsername(); }
+    public String getBotUsername() {
+        return botConfig.getUsername();
+    }
 }

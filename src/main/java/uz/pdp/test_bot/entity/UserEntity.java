@@ -1,32 +1,35 @@
-package uz.pdp.test_bot.entity;
+    package uz.pdp.test_bot.entity;
 
-import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import java.time.LocalDateTime;
+    import jakarta.persistence.*;
+    import lombok.Getter;
+    import lombok.NoArgsConstructor;
+    import lombok.Setter;
+    import java.time.LocalDateTime;
 
-@Entity
-@Getter
-@Setter
-@NoArgsConstructor
-@Table(name = "users")
-public class UserEntity {
-    @Id
-    private String chatId;
+    @Entity
+    @Getter
+    @Setter
+    @NoArgsConstructor
+    @Table(name = "users")
+    public class UserEntity {
+        @Id
+        private String chatId;
 
-    private String username;
+        private String username;
 
-    private String nameTelegram;  // имя из Telegram
+        private int solvedCount = 0;
 
-    private String phone;         // телефон (если бот его запросит через кнопку)
 
-    @Column(nullable = false)
-    private Boolean isPaid = false; // true - оплачено навсегда
+        private String nameTelegram;  // имя из Telegram
 
-    private LocalDateTime createdAt = LocalDateTime.now();
+        private String phone;         // телефон (если бот его запросит через кнопку)
 
-    private LocalDateTime firstTestDate; // дата первого бесплатного теста
+        @Column(nullable = false)
+        private Boolean isPaid = false; // true - оплачено навсегда
 
-    private LocalDateTime paymentDate; // дата оплаты
-}
+        private LocalDateTime createdAt = LocalDateTime.now();
+
+        private LocalDateTime firstTestDate; // дата первого бесплатного теста
+
+        private LocalDateTime paymentDate; // дата оплаты
+    }
