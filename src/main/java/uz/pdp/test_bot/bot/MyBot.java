@@ -201,13 +201,19 @@ public class MyBot extends TelegramLongPollingBot {
                 String chatId = cq.getMessage().getChatId().toString();
                 String data = cq.getData();
                 int msgId = cq.getMessage().getMessageId();
+
+                // НОВАЯ ОБРАБОТКА: выбор блока (1-50, 51-100, ...)
+                if (data.startsWith("block_")) {
+                    handleBlockSelection(chatId, msgId, data);
+                    return;
+                }
+
                 if (data.startsWith("spec_page_")) {
-                    handleSpecialtyPageCallback(chatId, msgId, data); // для навигации по страницам
+                    handleSpecialtyPageCallback(chatId, msgId, data);
                 } else if (data.startsWith("spec_")) {
-                    handleSpecialtySelection(chatId, msgId, data); // для выбора специальности
+                    handleSpecialtySelection(chatId, msgId, data);
                 } else if (data.equals("start_restart")) {
-                    // <-- добавлено
-                    sendWelcome(chatId); // или sendStartMenu(chatId) по необходимости
+                    sendWelcome(chatId);
                 } else if (data.equals("restart_test")) {
                     String spec = userSelectedSpecialty.get(chatId);
                     if (spec != null) {
@@ -248,12 +254,12 @@ public class MyBot extends TelegramLongPollingBot {
         InlineKeyboardMarkup.InlineKeyboardMarkupBuilder kb = InlineKeyboardMarkup.builder();
         if (canTest) {
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("📚 Ихтисослар").callbackData("list_specialties").build(),
+                    InlineKeyboardButton.builder().text("📚 Сохалар").callbackData("list_specialties").build(),
                     InlineKeyboardButton.builder().text("📊 Менинг натижаларим").callbackData("my_results").build()
             ));
         } else {
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("🔒 Ихтисослар (тўлов талаб қилинади)").callbackData("pay_menu").build()
+                    InlineKeyboardButton.builder().text("🔒 Тўлов килиш").callbackData("pay_menu").build()
             ));
             kb.keyboardRow(List.of(
                     InlineKeyboardButton.builder().text("📊 Менинг натижаларим").callbackData("my_results").build()
@@ -286,7 +292,7 @@ public class MyBot extends TelegramLongPollingBot {
         kb.keyboardRow(List.of(
                 InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()
         ));
-        String message = "💳 Обуна ҳолати\n\n" + status;
+        String message = "💳 Обуна холати\n\n" + status;
         if (!userService.canTakeTest(chatId)) {
             NumberFormat formatter = NumberFormat.getInstance(new Locale("ru", "RU"));
             String formattedPrice = formatter.format(botConfig.getSubscriptionPrice()).replace("\u00A0", ".");
@@ -322,7 +328,7 @@ public class MyBot extends TelegramLongPollingBot {
     private void handleSpecialtiesListRequest(String chatId, int msgId) {
         if (!userService.canTakeTest(chatId)) {
             String status = userService.getAccessStatus(chatId);
-            editMessage(chatId, msgId, "🔒 Ихтисосларга кириш ёпилган\n\n" + status + "\n\nТестларга кириш учун обунaни тўлаш ва скриншотни администраторга юборг.", InlineKeyboardMarkup.builder()
+            editMessage(chatId, msgId, "🔒 Сохаларга кириш ёпилган\n\n" + status + "\n\nТестларга кириш учун обунaни тўлаш керак.", InlineKeyboardMarkup.builder()
                     .keyboardRow(List.of(InlineKeyboardButton.builder().text("💰 Тўлаш").callbackData("pay_menu").build()))
                     .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
                     .build()
@@ -351,7 +357,7 @@ public class MyBot extends TelegramLongPollingBot {
         if (page < pages - 1) nav.add(InlineKeyboardButton.builder().text("➡️").callbackData("spec_page_" + (page + 1)).build());
         if (!nav.isEmpty()) kb.keyboardRow(nav);
         kb.keyboardRow(List.of(InlineKeyboardButton.builder().text("🏠 Асосий меню").callbackData("menu_main").build()));
-        editMessage(chatId, msgId, "📚 Ихтисосни танланг (саҳ. " + (page + 1) + "/" + pages + "):", kb.build());
+        editMessage(chatId, msgId, "📚 Сохани танланг (саҳ. " + (page + 1) + "/" + pages + "):", kb.build());
     }
 
     private void handleSpecialtyPageCallback(String chatId, int msgId, String data) {
@@ -363,31 +369,114 @@ public class MyBot extends TelegramLongPollingBot {
         }
     }
 
+    // === НОВЫЕ МЕТОДЫ ===
+
     private void handleSpecialtySelection(String chatId, int msgId, String data) {
         try {
             int idx = Integer.parseInt(data.substring(5));
             if (idx >= 0 && idx < specialties.size()) {
                 String spec = specialties.get(idx);
                 userSelectedSpecialty.put(chatId, spec);
-                InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
-                        .keyboardRow(List.of(
-                                InlineKeyboardButton.builder().text("🧠 " + spec + " бўйича тестни бошлаш").callbackData("start_test").build()
-                        ))
-                        .keyboardRow(List.of(
-                                InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("list_specialties").build()
-                        ))
-                        .build();
-                editMessage(chatId, msgId, "Сиз танладингиз: " + spec + "\n\nТестни бошлаш учун босинг:", markup);
+                showBlockSelectionMenu(chatId, msgId, spec);
             }
-        } catch (Exception ignored) {
+        } catch (Exception ignored) {}
+    }
+
+    private void showBlockSelectionMenu(String chatId, int msgId, String spec) {
+        List<Question> allQuestions = specialtyQuestionsMap.get(spec);
+        if (allQuestions == null || allQuestions.isEmpty()) {
+            editMessage(chatId, msgId, "Саволлар топилмади.", null);
+            return;
+        }
+
+        int totalQuestions = allQuestions.size();
+        int blockSize = 50;
+        int totalBlocks = (int) Math.ceil((double) totalQuestions / blockSize);
+
+        InlineKeyboardMarkup.InlineKeyboardMarkupBuilder kb = InlineKeyboardMarkup.builder();
+        for (int i = 0; i < totalBlocks; i++) {
+            int start = i * blockSize + 1;
+            int end = Math.min((i + 1) * blockSize, totalQuestions);
+            String buttonText = start + " - " + end;
+            String callbackData = "block_" + i;
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text(buttonText)
+                            .callbackData(callbackData)
+                            .build()
+            ));
+        }
+
+        kb.keyboardRow(List.of(
+                InlineKeyboardButton.builder().text("орқага").callbackData("list_specialties").build()
+        ));
+
+        editMessage(chatId, msgId,
+                "\"" + spec + "\" учун блокни танланг (" + totalQuestions + " та умумий):",
+                kb.build()
+        );
+    }
+
+    private void handleBlockSelection(String chatId, int msgId, String data) {
+        try {
+            int blockIndex = Integer.parseInt(data.substring("block_".length()));
+            String spec = userSelectedSpecialty.get(chatId);
+            List<Question> allQuestions = specialtyQuestionsMap.get(spec);
+            if (allQuestions == null) return;
+
+            int blockSize = 50;
+            int startIndex = blockIndex * blockSize;
+            int endIndex = Math.min(startIndex + blockSize, allQuestions.size());
+            int batchSize = endIndex - startIndex;
+
+            if (startIndex >= allQuestions.size()) {
+                editMessage(chatId, msgId, "Бу блок бўш.", null);
+                return;
+            }
+
+            // Проверка на оплату: если блок > 50 и не оплачено
+            if (!userService.canTakeTest(chatId) && startIndex >= 50) {
+                editMessage(chatId, msgId,
+                        "Бу блок фақат тўловдан сўнг мавжуд бўлади.\n\n" +
+                                "Дастлабки 50 та савол — бепул.",
+                        InlineKeyboardMarkup.builder()
+                                .keyboardRow(List.of(
+                                        InlineKeyboardButton.builder().text("тулов").callbackData("pay_menu").build(),
+                                        InlineKeyboardButton.builder().text("орқага").callbackData("menu_main").build()
+                                ))
+                                .build()
+                );
+                return;
+            }
+
+            // Сохраняем блок
+            userBatchStart.put(chatId, startIndex);
+            userSpecialtyQuestions.put(chatId, new ArrayList<>(allQuestions.subList(startIndex, endIndex)));
+            userCurrentQuestion.put(chatId, startIndex + 1);
+            userScores.put(chatId, 0);
+
+            // Сохраняем прогресс
+            String batchKey = chatId + "_" + spec;
+            userNextBatch.put(batchKey, startIndex);
+            // 🔥 Обнуляем старый прогресс в БД
+
+            userProgressService.saveProgress(chatId, 0, startIndex + 1, spec, startIndex);
+
+            sendMessage(chatId, "Тест: саволлар " + (startIndex + 1) + " - " + endIndex + " умумий " + allQuestions.size() + " та саволдан.");
+            sendSpecialtyQuestion(chatId, 1, batchSize);
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
+
+
 
     // ---------- Результаты и О проекте ----------
     private void editMyResults(String chatId, int msgId) {
         var results = resultService.getResults(chatId);
         if (results.isEmpty()) {
-            editMessage(chatId, msgId, "📊 Сизда ҳали натижалар йўқ.", InlineKeyboardMarkup.builder()
+            editMessage(chatId, msgId, "📊 Сизда хали натижалар йўқ.", InlineKeyboardMarkup.builder()
                     .keyboardRow(List.of(InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()))
                     .build());
             return;
@@ -407,8 +496,8 @@ public class MyBot extends TelegramLongPollingBot {
     private void editAbout(String chatId, int msgId) {
         NumberFormat formatter = NumberFormat.getInstance(new Locale("ru", "RU"));
         String formattedPrice = formatter.format(botConfig.getSubscriptionPrice()).replace("\u00A0", ".");
-        String aboutText = "ℹ️ Лойиҳа ҳақида\n\n" +
-                "Тиббий тест бот - тиббий имтиҳонларга тайёргарлик платформаси.\n\n" +
+        String aboutText = "ℹ️ Лойиха хақида\n\n" +
+                "Тиббий тест бот - тиббий имтихонларга тайёргарлик платформаси.\n\n" +
                 "💰 Нархи: " + formattedPrice + " сўм (бир марта тўлов)\n\n" +
                 "✅ Тўловдан сўнг сиз оласиз:\n" +
                 "• Барча тестларга чекланмаган кириш\n" +
@@ -669,6 +758,8 @@ public class MyBot extends TelegramLongPollingBot {
     private void sendMessage(String chatId, String text) {
         sendMessage(chatId, text, null);
     }
+
+
 
     private void sendMessage(String chatId, String text, InlineKeyboardMarkup markup) {
         try {

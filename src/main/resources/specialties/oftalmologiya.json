@@ -1,0 +1,5315 @@
+[
+  {
+    "id": 1,
+    "question": "Ko‘z olmasining asosiy qobiqlari:",
+    "options": [
+      "Fibroz kapsula, xorioideya, to‘r parda",
+      "Ko'z oq pardasi va shilliq qavat",
+      "Yurak perikardi va miya qobig'i",
+      "Oshqozon osti bezi va jigar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Ko‘z olmasining orqa segmentidagi skleraning eng yupqa qismi:",
+    "options": [
+      "G‘alvirsimon plastinka",
+      "Qovurg'a suyagi",
+      "Miya yarim sharlari po'sti",
+      "Jigar parenximasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Shox pardaning funksiyalari:",
+    "options": [
+      "Qonni filtratsiya qilish",
+      "Sekretor",
+      "Trofik",
+      "Akommodativ"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Skleraning funksiyalari:",
+    "options": [
+      "Optik",
+      "Karkas, Himoya",
+      "Gormon ishlab chiqarish",
+      "Ovqat hazm qilish"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Siliar tana funksiyalari:",
+    "options": [
+      "Nurni qayta ishlash",
+      "Suyak hosil qilish",
+      "Himoya",
+      "Akommodativ, Ko‘z ichi suyuqligini ishlab chiqarish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 6,
+    "question": "Rangdor parda funksiyasi:",
+    "options": [
+      "Nurni sindirish",
+      "Akkomodatsiya",
+      "Diafragma",
+      "Ovqatni emulsiyalash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Xorioideya funksiyasi:",
+    "options": [
+      "Himoya",
+      "Tayanch",
+      "Trofik",
+      "Shikastlanishlarni tiklash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "To‘r parda funksiyalari:",
+    "options": [
+      "Nurni sezish, rangni idrok etish",
+      "Haroratni boshqarish",
+      "Tana muvozanatini saqlash",
+      "Qon bosimini o'lchash"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Gavxar funksiyalari:",
+    "options": [
+      "Nurni idrok etish",
+      "Diafragma.",
+      "Akkomodatsiya, Nurni sindirish",
+      "Ingichka ichakda ozuqa moddalarini singdirish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Shox pardaning nur sindirish kuchi:",
+    "options": [
+      "20 D",
+      "30 D",
+      "40 D",
+      "50 D"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Akkomodatsiya paralichida gavxar sindirish kuchi:",
+    "options": [
+      "20 D",
+      "30 D",
+      "40 D",
+      "50 D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Ko‘zning optik muhitining shaffofligini baholash usullariga quyidagilar kirmaydi:",
+    "options": [
+      "Biomikroskopiya",
+      "Qon tahlili",
+      "O‘tuvchan yorug‘likda o‘rganish",
+      "Refraktometriya, Skiaskopiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "mm 13 mm 8 mm 14 Shox pardaning shaffofligi quyidagilarga bog‘liq:",
+    "options": [
+      "Old kameradan namlikning tarqalishi",
+      "Tarkibida mukopolisaxaridlar bo’lishi",
+      "Miya faoliyati",
+      "Qon tomirlarining yo‘qligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 15,
+    "question": "Gavxarni tekshirish usullari:",
+    "options": [
+      "Yondan yoritish, biomikroskopiya",
+      "EKG",
+      "Gonioskopiya",
+      "Sikloskopiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Shox pardaning oziqlanishi quyidagilar orqali sodir bo‘ladi:",
+    "options": [
+      "Perilimbal halqali tomirlar tarmog‘idan , oldi kamera suyuqligidan",
+      "Oshqozon shirasi",
+      "Oldi konyunktival arteriyalardan",
+      "Orqa qisqa kipriksimon arteriyalardan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Shox parda rivojlanadigan embriogenetik tuzilma:",
+    "options": [
+      "mezoderma",
+      "tashqi ektoderma",
+      "nerv ektodermasi",
+      "Tashqi ektoderma va mezoderma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 18,
+    "question": "Gavhar rivojlanadigan embriogenetik tuzilma:",
+    "options": [
+      "mezoderma",
+      "tashqi ektoderma",
+      "nerv ektodermasi",
+      "Ichki epiteliy qatlami"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 19,
+    "question": "Shikastlangan ko‘z qovoqlarining shishishi quyidagi sabablarga ko‘ra tez rivojlana",
+    "options": [
+      "Kuchli vaskulyarizatsiya",
+      "Yupqa teri",
+      "Teri osti yog‘i yupqaligi",
+      "Teri osti to‘qimalarining yo‘qiligi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "Shox parda kserozi - bu:",
+    "options": [
+      "Shox parda yuzasini qurishi",
+      "Shaffoflikni buzilishi",
+      "Qon aylanishining susayishi",
+      "Sferiklikning buzilishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "Yuqori ko‘z qovog‘ini ko‘taruvchi mushakni (m. Levator palpaebrae superior) inn",
+    "options": [
+      "N. Facialis",
+      "N. Nasociliaris",
+      "N. Opticus",
+      "N. Oculomotorius"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 22,
+    "question": "Ko‘z pirillashida va yopilishida ishtirok etadigan ko‘z qovoqlarining orbikulyar m",
+    "options": [
+      "Palpebral",
+      "Orbital",
+      "Ko‘z yoshi qismi",
+      "Kon’yunktival"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "Ko‘zning aylana muskulini innervatsiya qiluvchi nerv (m. orbicularis oculi):",
+    "options": [
+      "N. Facialis",
+      "N. Nasociliaris",
+      "N. Opticus",
+      "N. Oculomotorius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "Shox pardaning sezgir innervatsiyasi amalga oshiriladi:",
+    "options": [
+      "N. Facialis",
+      "N. Nasociliaris",
+      "N. Ophthalmicus",
+      "N. Oculomotorius"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Qovoqning xarakatlantiruvchi innervatsiyasi amalga oshiriladi:",
+    "options": [
+      "N. Facialis, Oculomotorius",
+      "N. Nasociliaris",
+      "N. Ophthalmicus",
+      "N. Lacrimalis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "Kon'yunktivaning sezuvchi innervatsiyasida ishtirok etmaydigan nerv:",
+    "options": [
+      "N. maxillaris",
+      "N. nasociliaris",
+      "N. lacrimalis",
+      "N. frontalis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "Konyunktivani tekshirish usullari:",
+    "options": [
+      "Diafanoskopiya",
+      "Biomikroskopiya",
+      "EKG",
+      "Qon guruhini aniqlash"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 28,
+    "question": "Meybomiy bezlarining joylashuvi:",
+    "options": [
+      "Togay orasida",
+      "Qovoqlarning cheti bo‘ylab",
+      "Miqa suyagida",
+      "Yuqori o‘tish burmasida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 29,
+    "question": "Ko‘z qovoqlarida yog‘ va ter bezlarining joylashishi:",
+    "options": [
+      "Tog‘ay orasida",
+      "Ko‘z qovoqlarining chetida",
+      "Jigar hujayralarida",
+      "Yuqori o‘tish burmasida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "Ko‘zning mushak apparatining harakat innervatsiyasi amalga oshirilmaydi:",
+    "options": [
+      "N. Maxillaris",
+      "N. Trochlearis",
+      "N. Abducens",
+      "N. Oculomotorius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "Ko‘pgina ko‘z mushaklari quyidagilardan boshlanadi:",
+    "options": [
+      "Umumiy halqasimon paydan",
+      "Dumaloq teshikdan",
+      "Yuqori orbital yoriq",
+      "Pastki orbital yoriq"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "Ko‘z-motor nerv barcha ko‘zdan tashqari mushaklarni innervatsiya qiladi, bundan",
+    "options": [
+      "Ichki to’g’ri",
+      "Tepa qiyshiq, Tashqi to‘g‘ri",
+      "Pastki to‘g‘ri",
+      "Pastki qiyshiq"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Antagonist bo‘lmagan ko‘z olmasining mushaklari:",
+    "options": [
+      "Yuqori qiyshiq va pastki to’g’ri",
+      "To‘g‘ri tashqari va to‘g‘ri ichkari",
+      "Yuqori va pastki to‘g‘ri",
+      "Yuqori qiyshiq va yuqori to‘g‘ri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "Umumiy halqasimon paydan boshlanmaydigan ko‘z mushagi:",
+    "options": [
+      "Tashqari to‘g‘ri",
+      "Ichki to‘g‘ri",
+      "Yuqori to‘g‘ri",
+      "Pastki qiyshiq"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 35,
+    "question": "To‘r pardaning neyron bo‘lmagan hujayra elementlari:",
+    "options": [
+      "Fotoretseptorlar",
+      "Myullerning glial hujayralari",
+      "Bipolyar hujayralar",
+      "Ganglioz hujayralari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 36,
+    "question": "Old kameraning burchagi shakllanishida ishtirok etmaydigan anatomik tuzilma:",
+    "options": [
+      "Trabekulalar",
+      "Randor parda",
+      "siliar tana",
+      "sinn bog‘lami"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Ko‘zni tashqariga qaratadigan okulomotor mushaklar:",
+    "options": [
+      "Tashqi to‘g‘ri",
+      "Pastki to‘g‘ri",
+      "Yuqori to‘g‘ri",
+      "Ichki to’g’ri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "Ko‘zni ichkariga xarakatlantiradigan okulomotor mushaklar:",
+    "options": [
+      "Tashqi to‘g‘ri",
+      "Yuqori qiyshiq",
+      "Pastki qiyshiq",
+      "Ichki to’g’ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 39,
+    "question": "Ko‘zni yuqoriga harakatlantiradigan mushaklar:",
+    "options": [
+      "Tashqari to’g’ri",
+      "Pastki qiyshiq, Yuqori to‘g‘ri",
+      "Yuqori qiyshiq",
+      "Ichkari to’g’ri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 40,
+    "question": "Ko‘zni pastga harakatlantiradigan mushaklar:",
+    "options": [
+      "Tashqi to’g’ri",
+      "Pastki to‘g‘ri, Yuqori qiyshiq",
+      "Yuqori to‘g‘ri.",
+      "Ichki to’g’ri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "Yuqori qiyshiq mushakning funksiyalari:",
+    "options": [
+      "Tushirish, tashqariga burish",
+      "Ko‘tarish, tashqariga burish",
+      "Ko‘tarish, ichkariga burish",
+      "Pastga tushirish, ichkariga burish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Yuqori to‘g‘ri mushakning funksiyalari:",
+    "options": [
+      "tushirish, tashqariga burish",
+      "ko‘tarish, tashqariga burish",
+      "Ko‘tarish, olib kelish",
+      "Pastga tushirish, ichkariga burish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 43,
+    "question": "Ko‘z yoshini o‘tkazuvchi apparatga quyidagilar kiradi:",
+    "options": [
+      "Ko‘z yoshi bezi, yosh ko‘li, yosh xaltasi, ko‘z yosh-burun kanali",
+      "Krauzening yosh bezlari, yosh bezi, yosh nuqtasi",
+      "Yosh teshiklari, yosh kanalchalari, ko‘z yosh xaltasi, ko‘z yosh-burun kanali",
+      "Ko‘z yoshi bezi, ko‘z yosh xaltasi, ko‘z yosh-burun kanali"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 44,
+    "question": "Qorachiq sfinkterini innervatsiyasi qaysi nerv orqali amalga oshiriladi:",
+    "options": [
+      "Ko‘zni harakatlantiruvchi nervning parasimpatik tolalari",
+      "Uchlamchi nerv",
+      "Burun-kipriksimon nerv",
+      "Simpatik nerv tolalari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Qorachiq dilatatorini innervatsiyasi qaysi nerv orqali amalga oshiriladi:",
+    "options": [
+      "Ko‘zni harakatlantiruvchi nervning parasimpatik tolalari",
+      "Uchlamchi nerv",
+      "Burun-kipriksimon nerv",
+      "Simpatik nerv tolalari"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 46,
+    "question": "Qorachiqning torayishi:",
+    "options": [
+      "Mioz",
+      "Midriaz",
+      "Anizokoriya",
+      "Polikoriya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "Qorachiqning kengayishi:",
+    "options": [
+      "Mioz",
+      "Midriaz",
+      "Anizokoriya",
+      "Polikoriya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 48,
+    "question": "Ko‘z to‘r pardasi ko‘chishining sababi bo‘la olmaydi:",
+    "options": [
+      "To‘r pardaning kistozsimon degeneratsiyasi",
+      "To‘r pardani jaroxat tufayli yirtilishi",
+      "Ko‘ruv nervi nevriti",
+      "Vitreoretinal proliferatsiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "Polikoriya - bu:",
+    "options": [
+      "Qorachiqlarning teng bo‘lmasligi",
+      "Randor parda distrofiyasi tufayli paydo bo‘lgan defektlar",
+      "Qorachiqning torayishi",
+      "Vertikal oval shakldagi qorachiq"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "Anizokoriya - bu:",
+    "options": [
+      "Qorachiqlarning teng bo‘lmasligi",
+      "Randor parda distrofiyasi tufayli paydo bo‘lgan defektlar",
+      "Qorachiqning torayishi",
+      "Gorizontal oval shakldagi qorachiq"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 51,
+    "question": "Gavharning lotincha nomi:",
+    "options": [
+      "Phacus",
+      "Lens",
+      "Vitreum",
+      "Cornea"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 52,
+    "question": "Xorioideyani hosil qiluvchi siliar arteriyalar:",
+    "options": [
+      "Orqa uzun",
+      "Old uzun",
+      "Orqa qisqa",
+      "Old qisqa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 53,
+    "question": "Siliar tanasi qon bilan ta’minlanadi:",
+    "options": [
+      "Orqa uzun",
+      "Old uzun",
+      "Orqa qisqa",
+      "Old qisqa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 54,
+    "question": "To‘siq vazifasini bajaruvchi xorioideya qatlami:",
+    "options": [
+      "Bazal plastinka",
+      "Xoriokapillyar qavat",
+      "O‘rta tomirlar qavati",
+      "Katta tomirlar qavati"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 55,
+    "question": "Rangdor parda to‘qimasining qisman nuqsoni bu:",
+    "options": [
+      "Koloboma",
+      "Aniridiya",
+      "Geteroxromiya",
+      "Rubeoz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 56,
+    "question": "Rangdor parda to‘qimasining yo‘qligi bu:",
+    "options": [
+      "Koloboma",
+      "Aniridiya",
+      "Geteroxromiya",
+      "Rubeoz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 57,
+    "question": "Rangdor parda rangining o‘zgarishining lotincha nomi:",
+    "options": [
+      "Koloboma",
+      "Aniridiya",
+      "Geteroxromiya",
+      "Rubeoz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 58,
+    "question": "Rubeoz - rangdor pardaning patologiyasi, ya’ni:",
+    "options": [
+      "Qorachiq kengligini boshqaradigan mushakning yetishmovchiligi",
+      "Yangi hosil bo‘lgan tomirlar",
+      "Pigment epiteliysining o‘sishi",
+      "Qorachiqning notekis kengligi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "Rangdor pardaning lotincha nomi:",
+    "options": [
+      "Chorioidea",
+      "Retina",
+      "Cornea",
+      "Iris"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 60,
+    "question": "To‘r pardaning optik faol qismi joylashgan:",
+    "options": [
+      "Ko‘ruv nervining diskidan tishsimon chiziqgacha",
+      "Ko‘ruv nervining diskidan ekvatorgacha",
+      "Ko‘ruv nervining diskidan makulagacha",
+      "Ko‘ruv nervining diskidan randor pardagacha"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 61,
+    "question": "To‘r pardaning minimal qalinligi:",
+    "options": [
+      "To‘r pardaning ko‘ruv nervi diskiga birikish joyida",
+      "Tishsimon chiziqda",
+      "Makulyar sohada",
+      "Ekvatorial zonada"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 62,
+    "question": "To‘r pardanining xorioideyaga asosiy birikish joylari:",
+    "options": [
+      "Tishsimon chiziq, vortikoz venalarining chiqish proeksiyasi",
+      "To‘r pardaning yirik tomirlari bo‘ylab",
+      "Tishsimon chiziq, ko‘ruv nervi diski",
+      "siliar tananing ichki yuzasi, macula"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 63,
+    "question": "To‘r pardaning fotoretseptorlari quyidagilardir:",
+    "options": [
+      "Myuller hujayralari",
+      "Pigmentli epiteliy hujayralari",
+      "Bipolyar hujayralar",
+      "Tayoqchalar va kolbochkalar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 64,
+    "question": "To‘r pardadagi kolbochkalarning dominantlik soxasi:",
+    "options": [
+      "Makula",
+      "Ekvator",
+      "Periferiya",
+      "Ko‘ruv nervi diskining atrofi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 65,
+    "question": "To‘r pardadagi tayoqchalarning dominantlik sohasi:",
+    "options": [
+      "Makula",
+      "Ekvator",
+      "Periferiya",
+      "Ko‘ruv nervi diskining atrofi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 66,
+    "question": "To‘r pardaning eng yuqori ko‘rish o‘tkirligi soxasi:",
+    "options": [
+      "Makula",
+      "Fovea",
+      "Foveola",
+      "Paramakula"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 67,
+    "question": "Ko‘rish o‘tkirligi quyidagicha tekshiriladi:",
+    "options": [
+      "Rabkin jadvallari bilan",
+      "Reley formulasi bilan",
+      "Snellen formulasi, Polyak jadvallari bilan",
+      "Biomikroskopiya yordamida"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 68,
+    "question": "Ko‘rish o‘tkirligini uzoqqa tekshirish uchun quyidagilardan foydalanish kerak:",
+    "options": [
+      "Rabkin jadvallari bilan",
+      "Skiaskopik lineykalar bilan",
+      "Yustova -Volkov va xammualliflar jadvallari",
+      "Golovin-Sivsev jadvali bilan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 69,
+    "question": "Maktabgacha yoshdagi bolalar ko‘rish o‘tkirligini aniqlash uchun quyidagilardan f",
+    "options": [
+      "Rabkin jadvallari",
+      "Skiaskopik lineykalar",
+      "Yustova -Volkov va xammualliflar jadvallari",
+      "Orlovaning jadvali"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 70,
+    "question": "N. abducens falaj bo‘lganda qaysi mushak funksiyasi buziladi?",
+    "options": [
+      "Ichki to‘g‘ri mushak (m. rectus medialis)",
+      "Yuqori to‘g‘ri mushak (m. rectus superior)",
+      "Tashqi to‘g‘ri mushak (m. rectus lateralis)",
+      "Yuqori qiyshiq mushak (m. obliquus superior)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 71,
+    "question": "Kattalarda anizometropiyani korreksiyasida ikkala ko‘z uchun ko‘zoynak kuchinin",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0,5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 72,
+    "question": "Akkomodatsiyada eng ko‘p rol o‘ynaydigan ko‘z tuzilmalari:",
+    "options": [
+      "Shox parda va gavxar",
+      "Gavxar va siliar mushak",
+      "Sklera va shox parda",
+      "siliar mushak va shox parda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 73,
+    "question": "Troxlear nerv falajida qaysi mushak funksiyasi buziladi:",
+    "options": [
+      "Ichki to’g’ri",
+      "Yuqori qiyshiq",
+      "Pastki qiyshiq",
+      "Tashqi to’g’ri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "question": "Ametropiya tushunchasiga quyidagilar kirmaydi:",
+    "options": [
+      "Miopiya",
+      "Gipermetropiya",
+      "Astigmatizm",
+      "Presbiopiya, Diplopiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 75,
+    "question": "Ko‘z olmasi o‘lchamining ko‘zning fizik refraksiyasiga moslik darajasi tushuncha",
+    "options": [
+      "Akkomodatsiya hajmi",
+      "Astigmatizm",
+      "Presbiopiya",
+      "Klinik refraksiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 76,
+    "question": "Meybomiy bezini surunkali yallig‘lanishi nima deyiladi:",
+    "options": [
+      "Blefaroxalazis",
+      "Halyazion",
+      "Pingvekula",
+      "Ksantelazma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "question": "Ko‘z qovoqlarining yallig‘lanish kasalligi:",
+    "options": [
+      "Lagoftalm",
+      "Ksantelazma",
+      "Blefarit",
+      "Ptoz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 78,
+    "question": "Follikulalar paydo bo‘lishi bilan kechadigan konyunktivit:",
+    "options": [
+      "Traxomatoz",
+      "Difteriy",
+      "Demodekoz",
+      "Gonorrey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 79,
+    "question": "Ko‘z yoshi xaltasining yallig‘lanish kasalligi:",
+    "options": [
+      "Dakrioadenit",
+      "Dakriotsistit",
+      "Kanalikulit",
+      "Kon’yunktivit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 80,
+    "question": "Adenovirusli keratokon’yunktivit quyidagi belgilar bilan tavsiflanadi:",
+    "options": [
+      "Presipitatlar",
+      "Blenorreya",
+      "Shox pardaning \"tanga shaklidagi\" xiralashishi",
+      "sinexiyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "question": "Ko‘z qovoqlarining yallig‘lanishsiz kasalliklari:",
+    "options": [
+      "Govmichcha",
+      "Traxoma",
+      "Ptoz",
+      "Blefarit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 82,
+    "question": "Paralitik g‘ilaylikni xamkor g‘ilaylikdani farqlovchi belgilar:",
+    "options": [
+      "Ko‘z olmasi harakatchanligining buzilishi",
+      "Ptoz",
+      "Lagoftalm",
+      "Og‘ish burchagi 60°"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 83,
+    "question": "Norn sinamasi shuni ko‘rsatadi:",
+    "options": [
+      "Ko‘z yoshi hosil bo‘lishining ko‘payishi",
+      "Ko‘z yoshi hosil bo‘lishining yetishmasligi",
+      "Yosh meniskining balandligi darajasi",
+      "Ko‘z yoshi plyonkasining uzilish vaqti"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 84,
+    "question": "Chuqur gerpetik keratitlarning klinik turlari:",
+    "options": [
+      "Disksimon",
+      "Fliktulenez",
+      "Pannus",
+      "Daraxtsimon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "question": "Endogen keratitlarga quyidagilar kiradi:",
+    "options": [
+      "Tuberkulezli",
+      "Sudralib yuruvchi",
+      "Qirg‘oqli keratit",
+      "Travmatik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 86,
+    "question": "Oldingi uveitga xos simptomlar:",
+    "options": [
+      "Presipitatlar va orqa sinexiyalar",
+      "Ptoz",
+      "Ko‘z olmasining turg‘un in’eksiyasi",
+      "Gavhar lyuksatsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 87,
+    "question": "Shox parda sezuvchanligining pasayishi bilan kechadigan keratitlar:",
+    "options": [
+      "Tuberkulyoz- Allergik",
+      "Allergik",
+      "Neyroparalitik va Gerpetik",
+      "Zamburug’li"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 88,
+    "question": "Shegren kasalligining ko’zdagi xarakterli belgisi:",
+    "options": [
+      "sklerit",
+      "yuqori ko’z ichi bo’simi",
+      "quruq keratokonyunktivit",
+      "to’r parda ko’chishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 89,
+    "question": "To‘r pardada qon aylanishining o‘tkir buzilishlarida:",
+    "options": [
+      "Ko‘rish keskin kamayadi, rang ajratish pasayadi",
+      "Ko‘rish o‘zgarmaydi",
+      "Xorioideya kolobomasi",
+      "Kuchli angioskleroz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 90,
+    "question": "Ko‘rish maydoni quyidagi kasalliklarda o‘zgaradi:",
+    "options": [
+      "To‘r parda ko‘chishida, Ko‘ruv nervining nevritida",
+      "Keratitda",
+      "Iridosiklitda",
+      "Episkleritda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 91,
+    "question": "Shapko‘rlik quyidagi kasallikda kuzatiladi:",
+    "options": [
+      "To‘r pardaning pigmentli abiotrofiyasi",
+      "To‘r pardaning pigmentli nevusi",
+      "Keratit",
+      "Iridotsiklit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 92,
+    "question": "Sklera kasalliklari va shikastlanishlariga xos bo‘lmagan belgi:",
+    "options": [
+      "Fibroz kapsula rangini o‘zgarishi",
+      "Stafiloma",
+      "Fibroz kapsulaning to‘qimalarida nuqsonlar",
+      "Rangdor pardaning geteroxromiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 93,
+    "question": "Episkleritda ko‘rish funksiyalari quyidagicha o‘zgaradi:",
+    "options": [
+      "Markaziy ko‘rishning pasayishi",
+      "Rang ajratishning buzilishi",
+      "Ko‘rish maydonining torayishi",
+      "Ko‘rish funksiyalari o‘zgarmaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 94,
+    "question": "Skleritda ko‘z olmasining qizarishi tabiati:",
+    "options": [
+      "Mahalliy giperemiya",
+      "Kon’yunktival in’eksiya",
+      "Perikorneal in’eksiya",
+      "Dimlangan in’eksiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 95,
+    "question": "Shox parda kasalligiga xarakterli bo‘lmagan belgi:",
+    "options": [
+      "Oynasimon yaltirashni yo‘qolishi",
+      "Yorug‘likdan qo‘rqish",
+      "Yoshlanish",
+      "Konyunktival inyeksiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 96,
+    "question": "Qandli diabetda to‘r parda ko‘chishining asosiy sababi:",
+    "options": [
+      "To‘r pardada mikroanevrizmalar paydo bo‘lishi",
+      "Vitreoretinal proliferatsiya",
+      "To‘r parda shishi",
+      "Qon tomir pardada trofik o‘zgarishlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Ko‘ruv nervi disklarining dimlanish sabablari bo’la o’lmaydi:",
+    "options": [
+      "Bosh miya va uning pardalaridagi o‘sma kasalliklar",
+      "Bosh miya va uning pardalaridagi yallig‘lanish kasalliklari",
+      "Bosh miyaning shikastlanishi",
+      "Miyaning demielinatsiya jarayoni"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 98,
+    "question": "Ko‘rish o‘tkirligining pasayishi va korreksiya uni yaxshilamasligi, shox parda qab",
+    "options": [
+      "Keratit",
+      "Katarakta",
+      "Keratokonus",
+      "Sklerit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 99,
+    "question": "To‘r parda ko‘chishiga asosiy sabab quyidagidan iborat:",
+    "options": [
+      "To‘r pardaning teshilishi va proliferativ vitreoretinopatiya",
+      "To‘r pardaning shishishi",
+      "Shishasimon tana xiralanishi",
+      "To‘r parda ostiga qon quyilishi1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 100,
+    "question": "Ko’ruv nervi diskining dimlanishiga to’g’ri kelmaydi:",
+    "options": [
+      "Shox parda shishi",
+      "Disk prominentsiyasi",
+      "To’r parda venalar kengayishi",
+      "Ko’ruv nervi diski shishi, chegaralari notekisligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 101,
+    "question": "O‘qish jarayonida gavharning sindirish kuchi:",
+    "options": [
+      "Kuchayadi",
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Mo‘tadil kamayadi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 102,
+    "question": "5 yoshli bolada 3 yoshidan boshlab qiyshayish aniqlangan, lekin davolanmagan. K refraksiyasi - gipermetropiya +2,0 D, chap ko‘z - gipermetropiya +4,0. Vis OD = 1",
+    "options": [
+      "Tuzatish",
+      "Pleoptik davolash",
+      "Ortoptik davolash",
+      "Rag‘batlantiruvchi davolash"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 103,
+    "question": "Bemorni tekshirish chog‘ida aniqlangan: ko‘rish funksiyalarining asimmetriyasi va",
+    "options": [
+      "Keratit",
+      "Endoftalmit",
+      "Asoratlangan ko’ruv nervi diski shishi",
+      "Barcha sanab o‘tilganlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 104,
+    "question": "Ko’ruv nervi diski shishi boshlang‘ich bosqichida ko‘rish qanday o‘zgaradi?",
+    "options": [
+      "Biroz pasayadi",
+      "O‘zgarmaydi",
+      "0 gacha tushadi",
+      "Sezilarli darajada pasayadi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 105,
+    "question": "Ko‘ruv nervining disk shishi rivojlanishi bilan ko‘rish:",
+    "options": [
+      "O‘zgarmaydi",
+      "Keskin pasayadi",
+      "Sakrab o‘zgaradi",
+      "Asta-sekin pasayadi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 106,
+    "question": "Ko‘z yosh xaltasi joylashgan:",
+    "options": [
+      "Ko‘z chuqurchasi ichida",
+      "Ko‘z chuqurchasidan tashqarida",
+      "Qisman ichkarida va qisman tashqarida",
+      "Gaymor bo‘shlig‘ida"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 107,
+    "question": "Ko‘ruv nervlarining nevrit rivojlanish sabablarini ko‘rsating:",
+    "options": [
+      "Viruslar",
+      "Mikroblar florasi",
+      "Toksinlar, allergiyalar",
+      "Barcha sanab o‘tilganlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 108,
+    "question": "Ko‘ruv nervining nevriti qanday kasalliklarga kiradi?",
+    "options": [
+      "Surunkali",
+      "Yarim o‘tkir",
+      "Yashirin kechuvchi",
+      "O‘tkir"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 109,
+    "question": "Optik nevritning quyidagi turlarida og‘riq sindromi kuzatiladi:",
+    "options": [
+      "Retrobulbar periferik",
+      "Intrabulbar",
+      "Ko‘ruv nervining demiyelinizatsiya jarayonlari",
+      "Retrobulbar aksial"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 110,
+    "question": "Meybomiy bezlarining surunkali yallig‘lanishi:",
+    "options": [
+      "Go’micha",
+      "Xalazion",
+      "Qovoqning absessi",
+      "Ichki go’micha"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 111,
+    "question": "Retrobulbar nevritni o‘tkir davrda davolash quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "Tomir terapiyasi",
+      "Yallig‘lanishga qarshi terapiya",
+      "Jarrohlik aralashuvi",
+      "Lazert terapiyasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 112,
+    "question": "Ko‘ruv nervi nevritida ko‘rish:",
+    "options": [
+      "O‘zgarmaydi",
+      "Biroz pasayadi",
+      "Sezilarli va tez pasayadi",
+      "Sekin, lekin sezilarli darajada pasayadi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 113,
+    "question": "Ko‘ruv nervi nevritida diskning prominensiyasi:",
+    "options": [
+      "Keskin ifodalangan",
+      "Yengil, tekis",
+      "Yo‘q",
+      "Disk ekskavatsiyasi mavjud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 114,
+    "question": "Ko‘ruv nervi nevritida diskning rangi:",
+    "options": [
+      "O‘zgarmaydi",
+      "Gipereemiyalangan",
+      "Oqargan",
+      "Mumdek oqarib ketgan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 115,
+    "question": "Ko‘ruv nervi nevritida retinal tomirlarda kuzatiladi:",
+    "options": [
+      "Arteriolalarning kengayishi",
+      "Venulalarning kengayishi",
+      "Arteriola va venulalarning kengayishi",
+      "Venulalarning torayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 116,
+    "question": "Ko‘ruv nervining disk shishida",
+    "options": [
+      "Arteriolalar va venulalarning kengayishi",
+      "Arteriolalar va venulalarning torayishi",
+      "Venulalarning kengayishi va arteriolalarning torayishi",
+      "Venulalarning torayishi va arteriolalarning kengayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 117,
+    "question": "Ko‘ruv nervining disk druzalarida retinal tomirlarda tomonidan kuzatiladi:",
+    "options": [
+      "Arteriolalar va venulalarning kengayishi",
+      "Arteriolalar va venulalarning torayishi",
+      "Arteriolalarning kengayishi va venulalarning torayishi",
+      "Retina tomirlari o‘zgarmaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 118,
+    "question": "Ishemik neyropatiyada retinal tomirlarda tomonidan kuzatiladi:",
+    "options": [
+      "Arteriolalar va venulalarning kengayishi",
+      "Arteriolalar va venulalarning torayishi",
+      "Arteriolalarning torayishi va venulalarning kengayishi",
+      "Arteriolalarning kengayishi va venulalarning torayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 119,
+    "question": "Ko’ruv nervi nevritide shishasimon tana:",
+    "options": [
+      "Intakt holda saqlanadi",
+      "Qon ketishlar kuzatiladi",
+      "Eksudativ ajralma mavjud",
+      "Shishasimon tananing ajralishi kuzatiladi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 120,
+    "question": "Ko’ruv nervi nevritide qon quyilish quyidagi xususiyatga ega:",
+    "options": [
+      "Butun ko‘z tubida",
+      "Makulyar sohada",
+      "Diska yoki uning atrofida",
+      "Ko‘z tubi periferiyasida"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 121,
+    "question": "Ko‘ruv nervining (birlamchi) atrofiya holatida uning diski chegaralari:",
+    "options": [
+      "Noaniq bo‘lib qoladi",
+      "Aniq saqlanadi",
+      "Festonsimon shaklga ega bo‘ladi",
+      "Ko‘pburchak shaklga ega bo‘ladi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 122,
+    "question": "Aktsial shakldagi retrobulbar nevritda kuzatiladi:",
+    "options": [
+      "Markaziy skotoma",
+      "Konsentrik torayish",
+      "Sektorial yo‘qotishlar",
+      "Arkasimon skotomalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 123,
+    "question": "Transversal shakldagi retrobulbar nevritda kuzatiladi:",
+    "options": [
+      "Markaziy skotoma",
+      "Konsentrik torayish",
+      "Sektorial yo‘qotish",
+      "Konsentrik torayish va markaziy skotoma kombinatsiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 124,
+    "question": "Orqa ishemik neyropatiyada kuzatiladi:",
+    "options": [
+      "Markaziy skotoma",
+      "Konsentrik torayish",
+      "Sektorial ko‘rish maydonining yo‘qotilishi",
+      "Arkasimon skotomalar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 125,
+    "question": "Optik ishemik neyropatiya uchun xos:",
+    "options": [
+      "Keskin va sezilarli darajada ko‘rish pasayishi",
+      "Asta-sekin, lekin sezilarli darajada ko‘rish pasayishi",
+      "Ko‘rish darajasi o‘zgarmaydi",
+      "Sekin va yengil ko‘rish pasayishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 126,
+    "question": "Ishemik optic neyropatiyalarda ko’ruv nervi diski:",
+    "options": [
+      "To‘q pushti rang",
+      "Oqargan ishemik rang",
+      "Kulrang",
+      "Chuqur ekskavatsiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 127,
+    "question": "Optik ishemik neyropatiyalarda qon quyilishning lokalizatsiyasi odatda:",
+    "options": [
+      "Butun ko‘z tubida",
+      "Diska yoki uning atrofida",
+      "Makulyar sohada",
+      "Ko‘z tubi periferiyasida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 128,
+    "question": "Old ishemik neyropatiya va orqa ishemik neyropatiyada davo:",
+    "options": [
+      "Tomir terapiyasi",
+      "Yallig‘lanishga qarshi terapiya",
+      "Gormonal terapiya",
+      "Lazert terapiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 129,
+    "question": "Retrobulbar nevritlarning periferik shaklida kuzatiladi:",
+    "options": [
+      "Markaziy skotoma",
+      "Konsentrik torayish",
+      "Sektorial yo‘qotishlar",
+      "Arkasimon skotomalar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 130,
+    "question": "Ko‘ruv nervining ikkilamchi atrofiyasi holatida diskning chegaralari:",
+    "options": [
+      "Noaniq bo‘lib qoladi",
+      "Festonsimon shaklga ega bo‘ladi",
+      "Ko‘pburchak shaklga ega bo‘ladi",
+      "Aniq bo‘lib qoladi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 131,
+    "question": "Ko‘ruv nervi diskining shishishi natijasida ko‘rish maydonidagi ko‘r nuqta oshishi",
+    "options": [
+      "Xorikapillyarlar va ko‘rish hujayralari orasidagi bog‘lanishning buzilishi",
+      "Sensorli retina va pigment epiteliysi orasida oqsil eksudatining mavjudligi",
+      "Sensorli elementlarning peripapillyar zona bo‘ylab siljishi",
+      "Yuqoridagi barcha holatlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 132,
+    "question": "Fotopsiyaning sabablaridan biri bo‘lishi mumkin:",
+    "options": [
+      "Shishasimon tananing ajralishi",
+      "Ishemik neyropatiya",
+      "Ko‘ruv nervi nevriti",
+      "Ko‘ruv nervining atrofiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 133,
+    "question": "Yara shaklidagi blefaritda ko‘z qovoqlari o‘zgarishi quyidagicha:",
+    "options": [
+      "Yiringli qoplama bilan qon ketuvchi yaralar",
+      "Ko‘z qovoqlarining burilishi",
+      "Ko‘z qovoqlarining teskari burilishi",
+      "Pufaksimon toshmalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 134,
+    "question": "Descemet membranasi joylashgan:",
+    "options": [
+      "Shox pardasi epiteliyasi va stromasi orasida",
+      "Stroma va endoteliy qobig‘i orasida",
+      "Boumen qobig‘i va Descemet membranasi orasida",
+      "Retina qatlamlari orasida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 135,
+    "question": "Ko‘ruv nervining retrobulbar nevritlari quyidagi turlarga bo‘linadi:",
+    "options": [
+      "Periferik",
+      "Transversal",
+      "Aktsial",
+      "Yuqoridagi barcha shakllar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 136,
+    "question": "Ko‘ruv nervining periferik shakldagi retrobulbar nevritida kuzatiladi:",
+    "options": [
+      "Markaziy skotoma",
+      "Arkasimon skotomalar",
+      "Konsentrik torayish",
+      "Ko‘rish maydoni o‘zgarmaydi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 137,
+    "question": "Markaziy retina arteriyasining emboliyasida:",
+    "options": [
+      "Ko‘rish darhol pasayadi va bir ko‘zda to‘liq yo‘qolishi mumkin",
+      "Ikkala ko‘zda ham ko‘rish pasayishi yoki yo‘qolishi",
+      "Metamorfopsiya paydo bo‘lishi",
+      "Bir ko‘zda ko‘rish asta-sekin pasayishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 138,
+    "question": "Markaziy vena trombozida kuzatilmaydigan simptom:",
+    "options": [
+      "Arteriola va venulalarning kengayishi va bukilishi",
+      "Keskin ko‘rish pasayishi",
+      "Butun ko‘z tubida qon ketishlar kuzatiladi",
+      "Ko‘zda keskin og‘riq"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 139,
+    "question": "Qaysi kasallikda ko‘zning optik nevriti umumiy holsizlik, paresteziyalar bilan birg",
+    "options": [
+      "Tarqoq skleroz",
+      "Vogt-Koyanagi-Harada sindromi",
+      "Behterev sindromi",
+      "Sturge-Weber sindromi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 140,
+    "question": "Epikantus – bu:",
+    "options": [
+      "Yuqori qovoqning tushishi",
+      "Yuqori va pastki qovoqni bog‘lovchi teri burmasi",
+      "Tor ko‘z yorig‘i",
+      "Yuqori qovoqda zich shakllangan tuzilma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 141,
+    "question": "Pulsatsiyalanuvchi ekzoftalm kuzatiladi:",
+    "options": [
+      "Ichki uyqu arteriyasi va kavernoz sinus o‘rtasidagi arterio-venoz anastomozda",
+      "Mukotseleda",
+      "Absolyut og‘riqli glaukoma holatida",
+      "Dakrioadenitda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 142,
+    "question": "Ko‘z chuqurchasi nervi:",
+    "options": [
+      "Sezuvchan nerv",
+      "Harakatlantiruvchi nerv",
+      "Aralash nerv",
+      "Parasempatik nerv"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 143,
+    "question": "Yuqori ko‘z chuqurchasi yorig‘i orqali o‘tadi:",
+    "options": [
+      "Ko‘z chuqurchasi nervi",
+      "Ko‘z harakatlantiruvchi nervlar",
+      "Asosiy venoz kollektor, olib ketuvchi va blok nervlari",
+      "Yuqoridagi barcha javoblar to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 144,
+    "question": "Qovoqlardan qon oqib ketishi quyidagi tomirlardan amalga oshiriladi:",
+    "options": [
+      "Ko‘z chuqurchasi venalari, yuz venalari yo‘nalishda, har ikki yo‘nalishda",
+      "Yuz venalari yo‘nalishda",
+      "Har ikki yo‘nalishda",
+      "Yuqori jag‘ yo‘nalishda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 145,
+    "question": "Old kameradan suyuqlik oqib ketishi quyidagi qismdan amalga oshiriladi:",
+    "options": [
+      "Qora pardani",
+      "Linza kapsulasini",
+      "Tsinnov bog‘lamlarini",
+      "Trabekulyar zonani"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 146,
+    "question": "To’r parda flebopatiyasi uchun xos:",
+    "options": [
+      "Qandli diabet",
+      "Gipertonik kasallik",
+      "Simptomatik gipertenziya",
+      "Ateroskleroz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 147,
+    "question": "Ko’z olmasining qon bilan ta’minlanishi quyidagi tomirlardan amalga oshiriladi:",
+    "options": [
+      "Ko‘z chuqurchasi arteriyasi",
+      "Markaziy retina arteriyasi, old tsiliar arteriyalar",
+      "Yuqoridagi barcha javoblar to‘g‘ri",
+      "Orqa qisqa tsiliar arteriyalar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 148,
+    "question": "Venaning arteriya ostida qisilishi:",
+    "options": [
+      "Arteriovenoz kesishma simptomi 1-daraja",
+      "Arteriovenoz kesishma simptomi 2-daraja",
+      "Arteriovenoz kesishma simptomi 3-daraja",
+      "Arteriovenoz kesishma simptomi 4-daraja"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 149,
+    "question": "Gipertonik retinopatiya uchun xos bo‘lmagan belgi:",
+    "options": [
+      "Arteriyalar va venalarning kesishishi",
+      "Arteriolalar spazmi",
+      "Neovaskulyarizatsiya",
+      "Yuzaki qon ketishlar, olov shaklida va vata kabi o‘choqlar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 150,
+    "question": "Tizimli arterial gipotenziyada retina arteriyalari:",
+    "options": [
+      "Toraygan",
+      "Bo‘shashgan",
+      "Kengaygan",
+      "O‘zgarmagan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 151,
+    "question": "Orqa qisqa tsiliar arteriyalar oziqlantiradi:",
+    "options": [
+      "Shox pardani",
+      "Irisni",
+      "Sklerani",
+      "Retina tashqi qatlamlarini"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 152,
+    "question": "Quyidagi sabablar bilan kelib chiqadigan retina tomirlarining shikastlanishlari: ate",
+    "options": [
+      "Markaziy retina arteriyasining o‘tkir qon aylanishining buzilishi",
+      "Markaziy vena trombozi",
+      "Retinit",
+      "Markaziy seroz xorioretinit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 153,
+    "question": "Markaziy retina arteriyasining okklyuziyasida kuzatilmaydigan simptom:",
+    "options": [
+      "Anamnezda odatda o‘tkinchi qorong‘ilashish bo‘ladi",
+      "Tomirlar juda ingichka va arteriyalar shoxlarni eslatadi",
+      "Qorachiq kengaygan va yorug‘likka reaktsiya bermaydi",
+      "Ko‘rish asta-sekin pasayadi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 154,
+    "question": "Retrobulbar nevritlarning davosi:",
+    "options": [
+      "Antibiotiklar",
+      "Simptomatik vositalar",
+      "Sulfo preparatlar",
+      "Yuqoridagi barcha vositalar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 155,
+    "question": "Markaziy arteriya okkluziyasida kuzatilmaydi:",
+    "options": [
+      "To‘satdan ko‘rish yo‘qolishi",
+      "Retina shishi",
+      "“Olcha urug‘i” simptomi",
+      "Retinada qon ketish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 156,
+    "question": "Markaziy vena trombozida kuztilmaydi:",
+    "options": [
+      "Ko‘rish pasayishi",
+      "Retina venalari bo‘ylab gemorragiyalar",
+      "“Ezilgan pomidor” simptomi",
+      "“Olcha urug‘i” simptomi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 157,
+    "question": "Markaziy arteriya okkluziyasida zaruriy qo’llaniladigan dori vositalari:",
+    "options": [
+      "Vazotoniklar",
+      "Spazmolitiklar, fibrinolitiklar",
+      "Vitaminlar",
+      "Beta-adrenoblokatorlar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 158,
+    "question": "Markaziy vena trombozida uzoq muddatli asorati bo’lishi mumkin:",
+    "options": [
+      "Ko‘z soqqasining subatrofiyasi",
+      "Ikkilamchi glaukoma",
+      "Retina ajralishi",
+      "Oftalmoplegiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 159,
+    "question": "\"Kumush sim\" simptomi quyidagilar natijasida paydo bo‘ladi:",
+    "options": [
+      "Tomir devori fibrozi",
+      "Tomir devorida lipidlarning to‘planishi",
+      "Tomir devorining gialinozi",
+      "Disproteinemiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 160,
+    "question": "Optik nevritni davolash quyidagilarni o‘z ichiga oladi (noto‘g‘ri javobni tanlang):",
+    "options": [
+      "Yallig‘lanishga qarshi dorilar",
+      "Detoksikatsiya dorilari",
+      "Desensibilizatsiya dorilari",
+      "Lazer stimulyatsiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 161,
+    "question": "Markaziy retina arteriyasining qon aylanishining o‘tkir buzilishi spazm tipida:",
+    "options": [
+      "Ko‘rish pasayishi va tiklanishi",
+      "Ikkala ko‘zda ko‘rish yo‘qolishi",
+      "Ko‘zda og‘riq paydo bo‘lishi",
+      "Gemiанopsiyaning yuzaga kelishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 162,
+    "question": "Ikkala ko‘ruv nervining turg‘un disklari uchun xos:",
+    "options": [
+      "Disk to‘qimalarining shishi, uning chegaralarining xiralashishi, diskning bo‘rtib ch",
+      "Endoftalmit",
+      "Keratit",
+      "Uveit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 163,
+    "question": "Ko‘ruv nervining turg‘un disklari rivojlanishining sabablari:",
+    "options": [
+      "Miyadagi o‘smalar",
+      "Miyadagi va uning qobig‘idagi yallig‘lanish jarayonlari",
+      "Miyaga shikast yetishi",
+      "Yuqoridagi barcha sabablar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 164,
+    "question": "Flegmonada zaruriy chora:",
+    "options": [
+      "Ochish va drenajlash",
+      "Issiqlik",
+      "Mahalliy kortikosteroidlar",
+      "Dinamik kuzatuv"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 165,
+    "question": "Absesda zaruriy chora:",
+    "options": [
+      "Konservativ terapiya",
+      "Magnitoterapiya",
+      "\"Fluktuatsiya\" simptomi mavjud bo‘lsa, ochish va yiringni drenajlash",
+      "Dinamik kuzatuv"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 166,
+    "question": "Ko’ruv nerv diski shishi boshlang’ich davrida ko’ruv o’tkirligi:",
+    "options": [
+      "O‘zgarmaydi",
+      "Sezilarli darajada pasayadi",
+      "0 gacha tushadi",
+      "Biroz pasayadi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 167,
+    "question": "Orbitaning eng yupqa qismi:",
+    "options": [
+      "Tashqi devor",
+      "Yuqori devor",
+      "Ichki devor",
+      "Pastki devor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 168,
+    "question": "Ko’ruv nerv nevritida kuzatiladi:",
+    "options": [
+      "Keskin ko‘rish pasayishi",
+      "Ko‘ruv nervi diskining gipereemiyasi",
+      "Yuqoridagi barcha simptomlar",
+      "Ko‘ruv nervi diskining shishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 169,
+    "question": "Ko’ruv nervlarining r/b nevritlarining rivojlanish sabablari:",
+    "options": [
+      "Viruslar",
+      "Mikrob florasi",
+      "Toksinlar",
+      "Yuqoridagi barcha omillarning turli kombinatsiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 170,
+    "question": "Ko’ruv nervi nevriti quyidagi kasalliklar turiga kiradi:",
+    "options": [
+      "Surunkali",
+      "Yarim o‘tkir",
+      "Yashirin kechuvchi",
+      "O‘tkir"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 171,
+    "question": "Nevritning quyidagi shakllarida og‘riq sindromi kuzatiladi:",
+    "options": [
+      "Intrabulbar",
+      "Retrobulbar periferik",
+      "Ko‘ruv nervining demiyelinizatsiya jarayonlari",
+      "Retrobulbar aksial"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 172,
+    "question": "Markaziy retina arteriyasining okklyuziyasi sabab bo‘la olmaydi:",
+    "options": [
+      "Oftalmoplegiya",
+      "Amavroz",
+      "Ko‘rish o‘tkirligining pasayishi",
+      "Markaziy scotoma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 173,
+    "question": "“Ezilgan pomidor” simptomi xos:",
+    "options": [
+      "Ilza kasalligi",
+      "Markaziy vena o‘tkir tutilishi",
+      "Markaziy retina arteriyasi o‘tkir tutilishi",
+      "Retina distrofiyasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 174,
+    "question": "Markaziy retina venasi trombozi uchun xos bo‘lgan simptomlar, bundan mustasno",
+    "options": [
+      "Ko‘ruv nervi diskining shishi",
+      "Sariq nuqta sohasida “yulduz” shakli",
+      "Retina shishi",
+      "Ko‘rish pasayishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 175,
+    "question": "Xiazma qismida ...% nerv tolalari kesishadi:",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 176,
+    "question": "Qovoqlar:",
+    "options": [
+      "Cho‘qqi orbita qismi",
+      "Ko‘rish organining yordamchi, himoya qismi",
+      "Yuqoridagi barcha javoblar",
+      "Orbita yon devori"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 177,
+    "question": "Perikorneal ineksiyalar quyidagilar uchun belgi:",
+    "options": [
+      "Keratit",
+      "Ko‘z ichi bosimining oshishi",
+      "Ko‘z ichi yot jismining yallig‘lanishi",
+      "Ko‘ruv organining yallig‘lanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 178,
+    "question": "Kumush sim simptomi quyidagi uchun misol:",
+    "options": [
+      "Gipertonik kasallikda angioskleroz",
+      "Gipertonik kasallikda angiopatiya",
+      "Simptomatik gipertenziyada angiopatiya",
+      "Patologik homiladorlikda angiopatiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 179,
+    "question": "Shishasimon tana quyidagi funksiyalarni bajaradi:",
+    "options": [
+      "Trofik funktsiya",
+      "\"Buffer funktsiya\"",
+      "Yorug‘likni o‘tkazuvchi va tayanch funktsiya",
+      "Yuqoridagi barcha funktsiyalar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 180,
+    "question": "Sizga 4 yoshli bolani olib kelgan ona murojaat qildi. Ona bolaning o‘ng ko‘zi buru",
+    "options": [
+      "Do‘stona qiyshayish",
+      "Falajli qiyshayish",
+      "Ekzoftalm",
+      "Enoftalm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 181,
+    "question": "5 yoshli bolada 3 yoshidan beri qiyshayish aniqlangan. 2 yil davomida pleoptik va bilan 20° ichkariga qiyshayadi, ko‘zoynakda. Oldingi optik muhitlar va ko‘z tubi n",
+    "options": [
+      "Tuzatish",
+      "Pleoptik davolash",
+      "Ortoptik davolash",
+      "Jarrohlik davolash"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 182,
+    "question": "Tomir parda quyidagidan shakllanadi:",
+    "options": [
+      "Mezoderma",
+      "Ektoderma",
+      "Aralash tabiat",
+      "Neyroektoderma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 183,
+    "question": "Arterial gipotenziyada to’r parda arteriyalarida kuzatiladi:",
+    "options": [
+      "Kengaygan",
+      "Toraygan",
+      "Bo‘shashgan",
+      "O‘zgarmagan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 184,
+    "question": "Arteriya va vena tomirlarining nisbati:",
+    "options": [
+      "1:01",
+      "3:01",
+      "2:03",
+      "2:01"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 185,
+    "question": "Angiosklerozaning oftalmoskopik belgisi:",
+    "options": [
+      "\"Kumush sim\" va \"mis sim\" simptomlari",
+      "Mikroanevrizmalar mavjudligi",
+      "Gvist simptomi",
+      "Ko‘ruv nervi diskining turg‘unligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 186,
+    "question": "Qandli diabetda ko’z tubidagi boshlang’ich o’zgarishlar:",
+    "options": [
+      "Mikroanevrizmalar",
+      "Retina ajralishi",
+      "Vitreoretinal proliferatsiya",
+      "Yangi hosil bo‘lgan tomirlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 187,
+    "question": "Gipertonik angiopatiyada to’r parda vena tomirlarining holati:",
+    "options": [
+      "Burishgan va toraygan",
+      "Burishgan va kengaygan",
+      "Sklerozlangan",
+      "To‘silgan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 188,
+    "question": "Shox parda qalinligini aniqlash uchun qo’llaniladi:",
+    "options": [
+      "Oftalmometr",
+      "Keratopaxometr",
+      "Keratometr",
+      "Refraktometr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 189,
+    "question": "Shox pardasi sezuvchanligining buzilishi quyidagi nervlar shikastlanishida sodir b",
+    "options": [
+      "Yuz nervi",
+      "Ko‘z harakatlantiruvchi nerv",
+      "Uch shoxli nerv",
+      "Blok nervi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 190,
+    "question": "Markaziy to’r parda venasining o‘tkir qon aylanishi buzilishi patogenezi:",
+    "options": [
+      "Angiospazm",
+      "Tromboz",
+      "Emboliya",
+      "Angioskleroz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 191,
+    "question": "Arteriovenoz kesishma simptomi xos:",
+    "options": [
+      "Vaskulit",
+      "Qandli diabet",
+      "Gipertonik kasallik",
+      "Xorioidit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 192,
+    "question": "Markaziy retina venasinin o‘tkir qon aylanishi buzilishi sabab bo‘la olmaydi:",
+    "options": [
+      "Gemoftalm",
+      "Venalar bo‘ylab qon ketishi",
+      "Ko‘ruv nervi diskining shishi",
+      "Retina ajralishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 193,
+    "question": "To’r parda funksional markazi:",
+    "options": [
+      "Ko‘ruv nervi diski",
+      "Markaziy chuqurcha",
+      "Tishsimon chiziq sohasi",
+      "Tomir to‘plami"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 194,
+    "question": "Ko’ruv nervi diski joylashadi:",
+    "options": [
+      "Ko‘z tubi markazida",
+      "Ko‘z tubining burun tomonida",
+      "Ko‘z tubining chakka tomonida",
+      "Ko‘z tubining yuqori qismida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 195,
+    "question": "To’r parda quyidagi funksiyani bajaradi:",
+    "options": [
+      "Yorug‘likni sinish",
+      "Trofik funktsiya",
+      "Yorug‘likni qabul qilish",
+      "Himoya funktsiyasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 196,
+    "question": "Ko’ruv nervi nevritida shishasimon tanada kuzatiladi:",
+    "options": [
+      "Intakt holda saqlanadi",
+      "Qon ketishlar kuzatiladi",
+      "Eksudativ ajralma mavjud",
+      "Shishasimon tananing ajralishi kuzatiladi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 197,
+    "question": "Ko’ruv nervi nevritida qon quyilish joylashuvi:",
+    "options": [
+      "Butun ko‘z tubida",
+      "Makulyar sohada",
+      "Diska yoki uning atrofida",
+      "Ko‘z tubi periferiyasida"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 198,
+    "question": "Ko’ruv nervi diski shishi uchun quyidagilar xos:",
+    "options": [
+      "Perikorneal inyeksiya va ekzoftalm",
+      "Ekzoftalm va diskining chegaralarining xiralashishi",
+      "Disk chegaralarining xiralashishi va diskining bo‘rtib chiqishi",
+      "Kon'yunktival inyeksiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 199,
+    "question": "Gipofiz o‘smasida aniqlanadi:",
+    "options": [
+      "Ko‘ruv maydonning konsentrik torayishi",
+      "Markaziy mutlaq skotoma",
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 200,
+    "question": "Ichki uyqu arteriyalarining sklerozida aniqlanadi:",
+    "options": [
+      "Ko‘ruv maydonning konsentrik torayishi",
+      "Markaziy mutlaq skotoma",
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 201,
+    "question": "Bemorda o‘ng tomonlama gemianopsiya mavjud. O‘choq qaerda joylashgan:",
+    "options": [
+      "o‘ng ko‘ruv nervida",
+      "xiazmada",
+      "o‘ng ko‘ruv traktida",
+      "chap ko‘ruv traktida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 202,
+    "question": "Ko‘ruv nervi diski dimlanishi qachon sodir bo‘ladi:",
+    "options": [
+      "Ishemik insultda",
+      "Bosh miya qon tomirlari aterosklerozida",
+      "KND nevritida",
+      "Intrakranial o’smada"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 203,
+    "question": "Ko‘ruv nervi diski dimlanishi quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "ko‘z oq, qorachiq qora, ko‘z tubida ko‘ruv nervi diskining atrofiyasi va ekskavatsi",
+      "ko‘z oq, ko‘z harakat og‘riqli, ko‘ruv o‘tkirligining pasayishi, ko‘ruv nervi disk gi",
+      "ko‘z oq, harakatlar og‘riqsiz, ko‘z tubida ko‘ruv nervi diskining chegaralari noaniq",
+      "ko‘z oq, ko‘z harakat og‘riqsiz, ko‘ruv o‘tkirligining o’zgarishsiz, ko‘ruv nervi dis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 204,
+    "question": "Ko‘ruv nervi zararlanishiga quyidagilar xos:",
+    "options": [
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya",
+      "To‘liq ko‘rlik",
+      "Gomonim gemianopsiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 205,
+    "question": "Ko‘ruv nervi papillomakulyar tutamining shikastlanishi quyidagilar bilan tavsiflan",
+    "options": [
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya",
+      "Markaziy skotoma",
+      "To‘liq ko‘rlik"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 206,
+    "question": "Xiazmaning markaziy qismi zararlanishi quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "To‘liq ko‘rlik",
+      "Markaziy skotoma",
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 207,
+    "question": "Xiazmaning tashqi qismi shikastlanishi quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "To‘liq ko‘rlik",
+      "Markaziy skotoma",
+      "Bitemporal gemianopsiya",
+      "Binazal gemianopsiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 208,
+    "question": "O‘ng tomonlama ko‘ruv traktining shikastlanishi quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "To‘liq ko‘rlik",
+      "Markaziy skotoma",
+      "Geteronim gemianopsiya",
+      "Chap tomonlama gemianopsiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 209,
+    "question": "Chap tomonlama ko‘ruv traktining shikastlanishi quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "To‘liq ko‘rlik",
+      "Markaziy skotoma",
+      "Chap tomonlama gemianopsiya",
+      "O‘ng tomonlama gemianopsiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 210,
+    "question": "Tarqoq sklerozning o‘ziga xos belgilari:",
+    "options": [
+      "ko‘z oq, markaziy skotoma; ko‘ruv nervi diskining chakka tomonining oqarishi; K",
+      "ko‘z oq, ko‘rish o‘tkirligining pasayishi, ko‘z tubida mikroanevrizmalar, qon quyil",
+      "ko‘z oq, ekzoftalm, pastga qaraganida yuqori ko‘z qovog‘i orqada qoladi; ko‘rish o",
+      "perikorneal in’eksiya, orqa sinexiyalar, ko‘ruv nervining ekskavatsiyasi va atrofiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 211,
+    "question": "Tashqi oftalmoplegiya quyidagilar bilan bog‘liq:",
+    "options": [
+      "n.abducens, n.facialis, n.opticus",
+      "n.opticus, n.trigeminus, n.facialis",
+      "n.abducens, n.trochlearis, n.oculomotorius",
+      "n.oculomotorius, n.facialis, n.opticus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 212,
+    "question": "Oftalmoskopiyada: disk to'qimalarining shishishi, uning chegaralarining xiralashis",
+    "options": [
+      "Keratit",
+      "Nevrit KND",
+      "KND dimlanishi",
+      "Barchasi to’g’ri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 213,
+    "question": "Foster-Kennedi uchun xos:",
+    "options": [
+      "bir ko'zning KND shishi va boshqa ko'zning ko’ruv nervi atrofiyasi",
+      "bir tomonlama disk dimlanishi",
+      "ikkala ko'zda optik nerv atrofiyasi",
+      "ikki tomonlama disklar shishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 214,
+    "question": "KND dimlanishi rivojlanishining dastlabki bosqichida ko'rish:",
+    "options": [
+      "Bir oz kamayadi",
+      "Sezilarli darajada kamayadi",
+      "0 ga tushadi",
+      "O'zgarmaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 215,
+    "question": "Optiknerv kanali… o'tish uchun xizmat qiladi:",
+    "options": [
+      "optik nervlarni",
+      "n.abducens",
+      "okulomotor nervlarni",
+      "retinaning markaziy venasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 216,
+    "question": "Optik nevritlarda ko’ruv nervda kuzatiladi:",
+    "options": [
+      "Barchasi tog’ri",
+      "optik diskning giperemiyasi",
+      "optik diskning shishishi",
+      "ko'rishning keskin pasayishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 217,
+    "question": "Shox pardaning qatlamlari joylashgan:",
+    "options": [
+      "shox parda yuzasiga parallel",
+      "xaotik",
+      "konsentrik",
+      "qiya yo'nalishda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 218,
+    "question": "Ko'ruv nervi orbitadan chiqadi:",
+    "options": [
+      "yuqori ko'z yorig'i orqali",
+      "foramen opticum orqali",
+      "pastki ko'z yorig'i orqali",
+      "yumaloq teshik orqali"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 219,
+    "question": "Oldingi iskemik neyropatiyada to’r parda tomirlar tomonidan quyidagilar kuzatilad",
+    "options": [
+      "Arteriolalar va venulalarning kengayishi",
+      "Arteriolalar va venulalarning torayishi",
+      "Venulalarning kengayishi va arteriolalarning torayishi",
+      "Arteriolalarning kengayishi va venulalarning torayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 220,
+    "question": "Ko'ruv nervi disk nevritida shishasimon tanasi:",
+    "options": [
+      "O'zgarmay qoladi",
+      "Qon quyilishlari mavjud",
+      "Ekssudatsiya mavjud",
+      "Shishasimon tananing ajralishi bo'ladi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 221,
+    "question": "Boumen qavati quyidagilar orasida joylashgan:",
+    "options": [
+      "shox parda epiteliyasi va stromasi o'rtasida",
+      "stroma va descemet qavati o'rtasida",
+      "descemet qavati va endoteliy o'rtasida",
+      "to'r parda qavatlari orasida"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 222,
+    "question": "Xorioidea quyidagini oziqlantiradi:",
+    "options": [
+      "To'r pardarning tashqi qatlamlarini",
+      "To'r pardaning ichki qatlamlari",
+      "Butun to'r pardani",
+      "Ko'ruv nervini"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 223,
+    "question": "Ko'z harakat apparati ... ekstraokulyar mushaklardan iborat:",
+    "options": [
+      "to'rttadan",
+      "beshtadan",
+      "oltitadan",
+      "sakkiztadan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 224,
+    "question": "Gippus quyidagi holat uchun xosdir:",
+    "options": [
+      "irit va iridosiklit uchun",
+      "glaukoma neyropatiya uchun",
+      "ko'rish nervining retrobulyar nevriti uchun",
+      "ko'rish nervi atrofiyasi uchun"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 225,
+    "question": "Galler arterial doirasi quyidagilardan hosil qilinadi:",
+    "options": [
+      "uzoq orqa siliyar arteriyalar",
+      "to'r parda markaziy venasi",
+      "etmoidal arteriyalar, mushak arteriyalari",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 226,
+    "question": "Ko'rish nervi diski shishida quyidagilar xos emas:",
+    "options": [
+      "disk atrofida to'r pardaning traksiyalari",
+      "disk atrofida yangi tomirlarning paydo bo'lishi",
+      "chegaralarning noaniqlashishi",
+      "diskning qizarishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 227,
+    "question": "Ko'zning rivojlanishi boshlanadi:",
+    "options": [
+      "1-2 haftalik homiladorlik davrida",
+      "3 haftalik homiladorlik davrida",
+      "4 haftalik homiladorlik davrida",
+      "5 haftalik homiladorlik davrida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 228,
+    "question": "Ko'z orbitasi arteriyasining shoxlari hisoblanadi:",
+    "options": [
+      "to'r pardaning markaziy arteriyasi",
+      "ko'z yoshi arteriyasi",
+      "ko'z usti arteriyasi, peshona arteriyasi, suprablok arteriyasi",
+      "yuqoridagilarning barchasi to'g'ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 229,
+    "question": "Ko'z yoshi bezining innervatsiyasi amalga oshiriladi:",
+    "options": [
+      "parasimpatik nerv sistemasi orqali",
+      "simpatik nerv sistemasi orqali",
+      "aralash turdagi orqali",
+      "yuz va uch shox nervlari orqali"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 230,
+    "question": "Ora serrataning joylashuvi mos keladi:",
+    "options": [
+      "limba proyeksiya zonasiga",
+      "to'g'ri mushaklarning payi birikadigan joyga",
+      "trabekula proyeksiya zonasiga",
+      "siliyar tana proyeksiya zonasidan tashqarida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 231,
+    "question": "\"Mushak huni\" doirasida joylashgan:",
+    "options": [
+      "ko'rish nervi",
+      "ko'z orbitasi arteriyasi",
+      "ko'z harakat nervi, olib chiqish nervi",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 232,
+    "question": "Quyidagi belgilar birgaligi – nurdan qo‘rqish, ko‘z yoshi oqishi, blefarospazm, ko'z",
+    "options": [
+      "katarakta",
+      "keratit",
+      "to'r pardaning yorilishi",
+      "ko'rish nervi atrofiyasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 233,
+    "question": "Ko'z orbitasi to'qimalaridan qon chiqishi qanday yo'llar orqali amalga oshadi?",
+    "options": [
+      "yuqoridagilarning barchasi to'g'ri",
+      "pastki ko'z orbitasi venasi",
+      "to'r parda markaziy venasi, uning yuqori temporal shoxi",
+      "yuqori ko'z orbitasi venasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 234,
+    "question": "To'r parda qaysi qatlamdan hosil bo'ladi?",
+    "options": [
+      "ektoderma",
+      "neyroektoderma",
+      "mezoderma",
+      "endoderma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 235,
+    "question": "To‘r parda markaziy arteriyasi berkilib qolganda qolganida qaysi simptom kuzatilm",
+    "options": [
+      "ko‘rishning asta-sekin yo‘qolishi",
+      "tomirlar juda tor, arteriyalar shoxlargao‘xshaydi",
+      "ko‘z qorachig‘i kengaygan va yorug‘likka reaksiyasi yo‘q",
+      "anamnezida ko‘z qorong‘ilashishi xolatlari bor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 236,
+    "question": "To‘r parda markaziy venasi trombozida qaysi simptom kuzatilmasligini ko`rsating",
+    "options": [
+      "ko‘zning o‘tkir og‘rig‘i",
+      "ko‘rishning keskin pasayishi",
+      "ko‘z tubida qon quyilishlar ko‘rinadi",
+      "venalar kengayishi va egri bugriligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 237,
+    "question": "To‘r parda markaziy arteriyasi emboliyasiga xos bo`lgan bemordagi shikoyat:",
+    "options": [
+      "Bir ko‘zda ko‘rishning bir zumda to‘liq yo‘qolgunga qadar pasayishi",
+      "Ikkala ko‘zda ham ko‘rishning pasayishi yoki yo‘qolishi",
+      "Metamorfopsiyaning paydo bo‘lishi",
+      "Bir ko‘zda ko‘rishning asta-sekin pasayishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 238,
+    "question": "Old kamera suyuqligi quyidagilar uchun xizmat qiladi:",
+    "options": [
+      "shox parda va gavharning oziqlanishi",
+      "moddalar almashinuvining chiqindi mahsulotlarini chiqarish",
+      "normal oftalmotonusni saqlash",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 239,
+    "question": "Koʻrish nervi diskining dimlanishi quyidagi belgilarni koʻrsating:",
+    "options": [
+      "tor tomir venalarining kengayishi",
+      "diskning koʻtarilishi",
+      "yuqoridagilarning barchasi",
+      "disk toʻqimasining shishi, chegaralarining noaniqligi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 240,
+    "question": "Koʻz mushaklarinin harakat innervatsiyasi quyidagi tuzilmalar orqali amalga osh",
+    "options": [
+      "III, VI va IV",
+      "VI",
+      "IV",
+      "III"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 241,
+    "question": "Oftalmik arteriya quyidagilarning tarmog‘i hisoblanadi:",
+    "options": [
+      "Ichki uyqu arteriyasi",
+      "Miyaning oldingi arteriyasi",
+      "tashqi uyqu arteriyasi",
+      "yuqori jag‘ arteriyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 242,
+    "question": "To‘r parda markaziy arteriyasi okklyuziyasida quyidagilar kuzatilmaydi:",
+    "options": [
+      "markaziy skotoma",
+      "Amavroz",
+      "Ko‘rish o‘tkirligining pasayishi",
+      "Oftalmoplegiya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 243,
+    "question": "Gipertonik angiopatiyada tor tomirlarining venalari:",
+    "options": [
+      "egri va toraygan",
+      "egri va kengaygan",
+      "sklerozlangan",
+      "obturatsiyalangan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 244,
+    "question": "Optik nevritlarda quyidagi belgilar kuzatiladi:",
+    "options": [
+      "ko‘rishning keskin pasayishi",
+      "ko‘rish nervi diskining giperemiyasi",
+      "ko‘rish nervi diskining shishi",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 245,
+    "question": "Ko‘rish nervi nevritlarining rivojlanish etiologiyasiga quyidagilar kiradi:",
+    "options": [
+      "viruslar",
+      "mikrobli flora",
+      "toksik moddalar, allergiyalar",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 246,
+    "question": "Ko‘rish nervi nevriti quyidagi kasalliklar guruhiga kiradi:",
+    "options": [
+      "surunkali",
+      "yarim o‘tkir",
+      "yashirin kechadigan",
+      "o‘tkir"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 247,
+    "question": "Og‘riq sindromi ko‘rish nervining quyidagi nevrit shakllarida kuzatiladi:",
+    "options": [
+      "retrobulbar va periferik",
+      "intrabulbar",
+      "ko‘ruv nervlarining demiyelinizatsilovchi jarayonlari",
+      "retrobulbar aksial"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 248,
+    "question": "Optik nevritlarni davolash quyidagi preparatlarni o‘z ichiga oladi:",
+    "options": [
+      "yallig‘lanishga qarshi",
+      "desensibilizatsiyalovchi",
+      "vitaminli",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 249,
+    "question": "Retrobulbar nevritlarning o‘tkir bosqichida quyidagilar buyuriladi:",
+    "options": [
+      "qon tomir terapiyasi",
+      "yallig‘lanishga qarshi terapiya",
+      "jarrohlik choralari",
+      "lazer terapiyasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 250,
+    "question": "Ko’z yoshlarni ishlab chiqaruvchi organlarga quyidagilar kiradi:",
+    "options": [
+      "ko‘z yoshi bezi va qo‘shimcha ko‘z yoshi bezlari",
+      "ko‘z yoshi nuqtalari",
+      "ko‘z yoshi kanallari",
+      "burun-ko‘z yoshi kanali"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 251,
+    "question": "Burun-ko‘z yoshi kanali quyidagiga ochiladi:",
+    "options": [
+      "quyi ko‘z yoshi kanali",
+      "o‘rta burun yo‘li",
+      "yuqori burun yo‘li",
+      "gaymor bo‘shlig‘iga"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 252,
+    "question": "Skleraning eng katta qalin zonasi:",
+    "options": [
+      "limb",
+      "ekvator",
+      "optik disk",
+      "to'g'ri mushak payi ostida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 253,
+    "question": "Shox parda quyidagilardan iborat:",
+    "options": [
+      "ikki qatlam",
+      "uch qatlam",
+      "to'rt qatlam",
+      "besh qatlam"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 254,
+    "question": "Qon tomir trakti … bajaradi:",
+    "options": [
+      "trofik funktsiya",
+      "yorug'likning sindirish funktsiyasi",
+      "yorug'likni o’tkazish funktsiyasi",
+      "himoya funktsiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 255,
+    "question": "To‘r parda qon tomirlari xolati ko‘ruv nervi oldingi ishemik neyropatiyasida:",
+    "options": [
+      "Arteriolalar va venulalarning kengayishi",
+      "Arteriolalar va venulalarning torayishi",
+      "Arteriolalarning torayishi va venulalarning kengayishi",
+      "Arteriolalarning kengayishi va venulalarning torayishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 256,
+    "question": "Ko‘ruv nervi nevriti o‘tkir davrida shishasimon tana:",
+    "options": [
+      "intakt holatda",
+      "qon quyilishlar mavjud",
+      "ekssudatsiya mavjud",
+      "shishasimon tana ko‘chishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 257,
+    "question": "Ko‘ruv nervi nevritida qon quyilish o‘choqlari qayerda joylashadi:",
+    "options": [
+      "butun ko‘z tubi bo‘yicha",
+      "makula sohasida",
+      "diskda yoki uning yonida",
+      "ko‘z tubi periferiyasida"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 258,
+    "question": "Ko'z ichi suyuqligi asosan qayerda ishlab chiqariladi:",
+    "options": [
+      "rangdor parda",
+      "xorioideya",
+      "gavhar",
+      "siliar tana"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 259,
+    "question": "Retrobulbar nevritning aksial shaklida qanday xolat kuzatiladi:",
+    "options": [
+      "ko‘rish maydonining konsentrik torayishi",
+      "ko‘ruv maydoni sektoral buzilishi",
+      "arkasimon scotoma",
+      "markaziy skotoma"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 260,
+    "question": "Retrobulbar nevritning transverzal shaklida kuzatiladi:",
+    "options": [
+      "markaziy skotoma",
+      "ko‘rish maydonining konsentrik torayishi",
+      "ko‘ruv maydoni sektoral buzilishi",
+      "ko‘rish maydonining konsentrik torayishi bilan markaziy skotoma birga aniqlanish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 261,
+    "question": "Tenon kapsulasini ajratib turadi:",
+    "options": [
+      "skleradan tomirli qavatni",
+      "shishasimon tanadan to’r pardani",
+      "ko'z olmasini orbita kletchatkasidan",
+      "to'g'ri javob yo'q"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 262,
+    "question": "Qon quyilish o‘choqlarining joylashuvi ishemik optik neyropatiyada:",
+    "options": [
+      "butun to‘r parda bo‘ylab",
+      "makula sohasida",
+      "ko‘z tubi periferiyasida",
+      "ko‘ruv nervi diskida yoki uning yonida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 263,
+    "question": "Ishemik optik neyropatiyada ko‘ruv nervi diskdagi o‘zgarishlarga quyidagilar xos:",
+    "options": [
+      "to‘q pushti rang",
+      "oqish ishemik rang",
+      "kulrang",
+      "chuqur eksskavatsiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 264,
+    "question": "Orqa ishemik optik neyropatiyada kuzatiladi:",
+    "options": [
+      "ko‘ruv nervi diski oqish shishgan",
+      "diskda qon quyilishlar",
+      "to‘r pardaning shishi",
+      "ko‘z tubida o‘zgarishlar yo‘q"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 265,
+    "question": "Ishemik optik neyropatiyani davolash quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "qon tomirlarni kengaytiruvchi preparatlar",
+      "yallig‘lanishga qarshi",
+      "gormonal",
+      "lazer terapiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 266,
+    "question": "Optik nervning birlamchi atrofiyasida uning disk chegaralari:",
+    "options": [
+      "Xiralashgan",
+      "Aniq bo'ladi",
+      "Taroqsimon ko'rinishga ega bo'ladi",
+      "Poligonal konturlarga ega bo'ladi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 267,
+    "question": "Shox stromasi qaysi qavatlar orasida joylashgan:",
+    "options": [
+      "Shox parda epiteliyasi va stroma",
+      "boumen va descemet qobig'i",
+      "descemet qobig'i va endoteliy",
+      "to’r parda qavatlari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 268,
+    "question": "Retrobulbar nevritga quyidagilar xosdir:",
+    "options": [
+      "Konsentrik torayish, markaziy va parasentral skotomalar",
+      "Ko‘rish maydonining arkasimon yo‘qolishi",
+      "Gomonim gemianopsiya",
+      "Geteronim gemianopsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 269,
+    "question": "Gippus ko‘rinishidagi qorachiq reaksiyalarining buzilishi quyidagilarga xosdir:",
+    "options": [
+      "Retrobulbar nevrit",
+      "Glaukomatoz neyropatiya",
+      "Irit va iridotsiklit",
+      "Ko‘ruv nervi atrofiyasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 270,
+    "question": "Retinaning markaziy arteriyasi… oziqlantiradi:",
+    "options": [
+      "xoroideyani",
+      "retinaning ichki qatlamlari",
+      "retinaning tashqi qatlamlari",
+      "shishasimon tanani"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 271,
+    "question": "Ko‘ruv nervi diski shishiga xos emas:",
+    "options": [
+      "disk giperemiyasi",
+      "disk atrofida qon tomirlar sonining ortishi",
+      "disk chegaralarining noaniqligi",
+      "disk atrofida to‘r pardaning traksiyalari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 272,
+    "question": "Ko‘ruv nervi nevritiga xos emas:",
+    "options": [
+      "disk shishi 2,0 D dan ortiq",
+      "disk chegaralarining noaniqligi",
+      "ko‘rish qobiliyatining pasayishi",
+      "disk atrofida qon tomirlar sonining ortishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 273,
+    "question": "O‘tkir qon aylanishi buzilishining to‘r parda markaziy arteriyasida spazm turiga xo",
+    "options": [
+      "Ko‘rishni qisqa vaqt pasayishi va tiklanishi epizodlari",
+      "Ikkala ko‘zning ko‘rish qobiliyatini yo‘qotish",
+      "Ko‘zda og‘riq paydo bo‘lishi",
+      "Gemianopsiyaning paydo bo‘lishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 274,
+    "question": "Ko‘ruv nervi diski dimlanishi quyidagilar bilan kechadi:",
+    "options": [
+      "disk to‘qimalarining shishi, uning chegaralarining noaniqligi",
+      "diskningbo‘rtib chiqishi",
+      "qon quyilishi",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 275,
+    "question": "Insonning perimetrik tekshiruvi bilan aniqlangan fiziologik skotoma odatda fiksats",
+    "options": [
+      "Burun tomondan 15 gradusda",
+      "Burun tomondan 20 gradusda",
+      "Temporal tomondan 15 gradusda",
+      "Temporal tomondan 25 gradusda"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 276,
+    "question": "Foster-Kennedi sindromi quyidagi belgilar bilan tavsiflanadi:",
+    "options": [
+      "ikki tomonlama ko‘ruv nervi diski dimlanishi",
+      "bir tomonlama ko‘ruv nervi diski dimlanishi",
+      "ikkala ko‘zda ko‘ruv nervining atrofiyasi",
+      "bir ko‘zda ko‘ruv nervining atrofiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 277,
+    "question": "Asoratlangan ko‘ruv nervi diski dimlanishiga xos:",
+    "options": [
+      "ko‘ruv funksiyalarining assimetriyasi",
+      "oftalmoskopik tasvirning assimetriyasi",
+      "gomonim va geteronim gemianopsiya",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 278,
+    "question": "Ko‘ruv nervi diski dimlanishining dastlabki bosqichida ko‘rish o‘tkirligi:",
+    "options": [
+      "biroz pasayadi",
+      "sezilarli darajada pasayadi",
+      "0 ga tushadi",
+      "o‘zgarmaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 279,
+    "question": "Ko‘ruv nervi diski dimlanishida, kasallik rivojlanishida ko‘rish o‘tkirligi:",
+    "options": [
+      "o‘zgarmaydi",
+      "keskin kamayadi",
+      "to‘lqinsimon o‘zgaradi",
+      "asta-sekin kamayadi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 280,
+    "question": "\"Olcha danagi\" simptomi quyidagi kasallikda kuzatiladi:",
+    "options": [
+      "Ilsa kasalligi",
+      "to‘r parda distrofiyalari",
+      "o‘tkir obstruksiya",
+      "to‘r parda markaziy arteriyasida o‘tkir qon aylanishi buzilishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 281,
+    "question": "Oftalmoskopiyadagi \"ezilgan pomidor\" belgisi qaysi kasallikka xos:",
+    "options": [
+      "Ilsa kasalligi",
+      "to‘r parda distrofiyalari",
+      "o‘tkir obstruksiya",
+      "to‘r parda markaziy venasida o‘tkir qon aylanishi buzilishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 282,
+    "question": "To‘r parda markaziy venasi trombozida quyidagi belgi kuzatilmaydi:",
+    "options": [
+      "ko‘ruv nervining shishishi",
+      "ko‘rishning yo‘qolishi",
+      "tomirlar bo‘ylab va ko‘z tubining markaziy qismida qon quyilishlar",
+      "sariq dog‘ sohasidagi \"yulduz\" figurasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 283,
+    "question": "Agar to‘r parda venasi arteriya ostida egilib qolsa, u holda bu simptom quyidagich",
+    "options": [
+      "Sallyus -Gunn 2",
+      "Sallyus-Gunn 3",
+      "Gvista",
+      "Sallyus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 284,
+    "question": "Limbning dilatatsion angiopatiyasi quyidagilarga xosdir:",
+    "options": [
+      "Gipertoniya kasalligi",
+      "Simptomatik gipertenziya",
+      "Qandli diabet",
+      "Revmatizm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 285,
+    "question": "Limbning ishemik angiopatiyasi quyidagilarga xosdir:",
+    "options": [
+      "Gipertenziya",
+      "Qandli diabet",
+      "Simptomatik gipertoniya",
+      "Aorta-arteriit"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 286,
+    "question": "Choiroideya qatlamdan iborat:",
+    "options": [
+      "kichik tomirlar",
+      "o'rta tomirlar",
+      "katta tomirlar",
+      "barcha javoblar to'g'ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 287,
+    "question": "Optik nervning quydagi qobig'lari bor:",
+    "options": [
+      "yumshoq qobig'i",
+      "barcha javoblar to'g'ri",
+      "ichki elastik",
+      "o'rgimchak qobig'i"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 288,
+    "question": "Paxtasimon o‘choqlar - bu qanday xolat:",
+    "options": [
+      "Distrofik jarayon",
+      "Mahalliy giperemiya",
+      "Mahalliy ishemiya",
+      "Atrofik jarayon"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 289,
+    "question": "Qattiq o‘choqlar quyidagilarga xosdir:",
+    "options": [
+      "gipertoniya kasalligi",
+      "simptomatik gipertenziya",
+      "pigmentli retinit",
+      "aorto-arterit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 290,
+    "question": "Gipertonik retinopatiyaga xos emas:",
+    "options": [
+      "neovaskulyarizatsiya",
+      "arteriolalarning spazmi",
+      "arteriya va venalarning kesishishi",
+      "Olov ko'rinishidagi yuzaki qon ketishlar va paxtasimon o‘choqlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 291,
+    "question": "Akkomodatsiya falajining belgilari:",
+    "options": [
+      "Yaqin ko‘rish yaxshilanadi, qorachiqning torayishi",
+      "Yaqin ko‘rishning keskin yomonlashishi, qorachiqning kengayishi",
+      "uzoqni ko‘rishning yaxshilanishi",
+      "Uzoqqa va yaqinga ko‘rishning yaxshilanishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 292,
+    "question": "Shox pardaning sindirish kuchi - ko‘zning optik tizimining umumiy sindirish kuch",
+    "options": [
+      "20-30% gacha",
+      "40-50% gacha",
+      "65-70% gacha",
+      "80-85% gacha"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 293,
+    "question": "Ko'zning ba'zi patologik holatlarida perikorneal in'ektsiyaning paydo bo'lishi quyd",
+    "options": [
+      "marginal halqa tarmog'ining tomirlarida normal qon aylanishi",
+      "ko'z ichi bosimining oshishi",
+      "ko'zning qon tomir kanalida qon bosimining ko'tarilishi",
+      "marginal halqa tarmog'ining vazodilatatsiyasi va qon tomirlarining bu qismining q"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 294,
+    "question": "Astenopiyaning qanday turlari mavjud:",
+    "options": [
+      "Akomodativ va mushak",
+      "Neyrogen va simptomatik",
+      "disbinokulyar",
+      "Yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 295,
+    "question": "Gavxarning nur sidirish kuchi yoshi katta odamlarda o’rtacha nechaga teng?",
+    "options": [
+      "10D",
+      "20D",
+      "30D",
+      "40D"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 296,
+    "question": "To‘r pardaning arteriyalari va venalari kalibrlarining normal nisbati:",
+    "options": [
+      "1:01",
+      "3:01",
+      "2:03",
+      "2:01"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 297,
+    "question": "Sog’lom odamda fizik refraktsiya normada:",
+    "options": [
+      "10 dan 20 D gacha",
+      "21 dan 51 D gacha",
+      "52 dan 71 D gacha",
+      "72 dan 91 D gacha"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 298,
+    "question": "Emmetrop ko’zda uzoqni aniq ko’rish nuqtasi qancha masofada bo’lish kerak?",
+    "options": [
+      "Ko’zdan 5 m",
+      "Ko’zdan 4 m",
+      "Ko’zdan 3 m",
+      "nisbiy cheksizlik"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 299,
+    "question": "Miyopik ko'zda aniq ko'rishning keyingi nuqtasi:",
+    "options": [
+      "cheksizlikda",
+      "to’ pardada",
+      "ko'z oldida (oxirgi masofada)",
+      "shox pardada"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 300,
+    "question": "Gipermetropik ko'zda aniq ko'rishning keyingi nuqtasi:",
+    "options": [
+      "cheksizlikda",
+      "ko'z oldida (oxirgi masofada)",
+      "shox parda sohasida",
+      "ko'z orqasida (salbiy bo'shliqda)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 301,
+    "question": "Ko’z toliqish bilan bog’liq buzulushlar mavjud:",
+    "options": [
+      "yorug'lik qabul qiluvchi qurilma",
+      "harakatlantiruvchi tizim",
+      "akkomodatsiya apparati",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 302,
+    "question": "\"Parket\" tipidagi ko‘z tubini quyidagicha tushuntirish mumkin:",
+    "options": [
+      "to‘r parda pigmentning oz miqdorda bo‘lishi",
+      "Xorioidal pigmentning ko‘p miqdorda bo‘lishi",
+      "Ko‘z tubining ma’lum joylarida tomirli pardaning ko‘rinishi",
+      "Yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 303,
+    "question": "Astigmatizmning quyidagi turlari mavjud",
+    "options": [
+      "oddiy, murakkab, aralash",
+      "to‘g‘ri, teskari, qiyshiq o‘qlar bilan",
+      "to‘g‘ri, noto‘g‘ri, shoxparda , gavxar",
+      "Yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 304,
+    "question": "To‘r pardaning fokal chiziqlarga nisbatan joylashishiga qarab, astigmatizmning qu",
+    "options": [
+      "Oddiy va murakkab gipermetropik",
+      "Oddiy va murakkab miopik",
+      "aralash",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 305,
+    "question": "Asosiy meridianlarning joylashishiga qarab, astigmatizmning quyidagi turlari ajrat",
+    "options": [
+      "To‘g‘riga",
+      "orqaga",
+      "Qiyshiq o‘qlari bilan",
+      "hammasi sanab o‘tilgan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 306,
+    "question": "Shox pardaning tashqi yuzasi egriligining o‘zgarishi, xamda ko‘z refraksiyasining",
+    "options": [
+      "Shoxparda epiteliysining o‘zgarishi",
+      "Shox pardaning butunlay yupqalashishi va uning \"botishi\"",
+      "Endoteliyning proliferatsiyasi",
+      "Faqat to’r parda ko’chishida"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 307,
+    "question": "Akkomodatsiya paralichining belgilar:",
+    "options": [
+      "Yaqinga ko’rish oshishi,qorachiq torayishi",
+      "Keskin yaqinga ko’rish o’tkirligi pasayishi,qorachiq kengayishi",
+      "Uzoqqa ko’rish o’tkirligi oshishi",
+      "Uzoqqa va yaqinga ko’rishning oshishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 308,
+    "question": "Nisbiy akkomadatsiyaning salbiy qismi o‘rtacha qiymati quyidagiga teng yani:",
+    "options": [
+      "1,0 dioptriy",
+      "2,0 dioptriy",
+      "3,0 dioptriy",
+      "4,0 dioptriy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 309,
+    "question": "Ortokeratologiyaga tavsif bering:",
+    "options": [
+      "Ko‘rishni to‘g‘rilashning boshqa vositalariga o‘tishni, shu jumladan keyingi refrak",
+      "Ko‘rishni to‘g‘rilashning boshqa vositalariga o‘tishni, shu jumladan keyingi refrak",
+      "Miopiyani davolashning boshqa har qanday tibbiy va funktsional usullarni birga q",
+      "Barcha javoblar to‘g‘ri."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 310,
+    "question": "Ortokeratologik terapiya nima:",
+    "options": [
+      "Davolovchi shifokorning ixtiyoriga ko‘ra miopiyani davolashning boshqa har qand",
+      "Davolovchi shifokorning ixtiyoriga ko‘ra miopiyani davolash uchun faqat medikam",
+      "Miopiyani davolashning boshqa har qanday tibbiy va funktsional usullarni birga q",
+      "Barcha javoblar to‘g‘ri."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 311,
+    "question": "Agar birinchi marta linzaning xolati nomaqbul deb hisoblansa u xolda linza:",
+    "options": [
+      "Ushbu linzada bemor bir kecha uxlashi mumkin, ammo ertalab linza xolati to‘g‘ril",
+      "Linzani darhol yeching va OKL dizaynini tanlash algoritmi qoidalariga muvofiq o",
+      "Miopiyani davolashning boshqa har qanday tibbiy va funktsional usullarni birga q",
+      "Barcha javoblar to‘g‘ri."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 312,
+    "question": "Sferik ekvivalent deb ataladi:",
+    "options": [
+      "astigmatik ko‘zning asosiy meridianlaridagi refraksiya",
+      "cferik ko‘zning refraksiyasi",
+      "shox pardaning refraksiyasi",
+      "astigmatik ko‘zning ikkita asosiy meridianining o‘rtacha arifmetik refraksiyasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 313,
+    "question": "Ijobiy linza bu:",
+    "options": [
+      "fokusni oldinga siljitadi va tasvirni kattalashtiradi",
+      "gipermetropiyani korreksiyalaydi",
+      "Akkomodatsiyani zaiflashtiradi va ekzoforiyani oshiradi",
+      "yuqoridagilarning hammasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 314,
+    "question": "Salbiy linza bu:",
+    "options": [
+      "fokusni orqaga siljitadi va tasvirni kichiklashtiradi",
+      "miopiyani korreksiyalaydi",
+      "Akkomodatsiyani kuchaytiradi va ekzoforiyani oshiradi",
+      "yuqoridagilarning hammasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 315,
+    "question": "Refraksiyani tekshirishning ob’ektiv usullariga quyidagilar kiradi:",
+    "options": [
+      "skiaskopiya",
+      "refraktometriya",
+      "avtorefraktometriya",
+      "yuqoridagilarning hammasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 316,
+    "question": "Yassi oyna bilan skiaskopiya paytida bir xil tomonga yorug‘lik nuqtasining haraka",
+    "options": [
+      "gipermetropik",
+      "emmetropik",
+      "miopik 1 dioptriydan past",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 317,
+    "question": "Bolalar va o‘smirlarda sikloplegiklarni qo‘llashdan oldin ko‘zning refraksiyasini te",
+    "options": [
+      "har bir ko‘zning ko‘rish o‘tkirligini aniqlash",
+      "skiaskopiya",
+      "ijobiy va salbiy linzalar bilan test o‘tkazish",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 318,
+    "question": "Refraktometr quyidagilar uchun ishlatiladi:",
+    "options": [
+      "Ko‘zning refraksiyasini ob’ektiv aniqlash uchun",
+      "Refraksiyaning sferik va astigmatik komponentlarini aniqlash uchun",
+      "Astigmatik ko‘zning asosiy o‘qlarini aniqlash uchun",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 319,
+    "question": "Refraktometriyani o‘tkazish tavsiya etiladigan akkomodatsiya xolati:",
+    "options": [
+      "Medikamentoz akkomodatsiya falaji",
+      "Akkomodatsiyani qisman bloklash xolati",
+      "Akkomodatsiyani bo‘shashtirilmagan xolati",
+      "Faqat medekamentoz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 320,
+    "question": "Oftalmometr quyidagilar uchun ishlatiladi:",
+    "options": [
+      "shox parda oldingi yuzasining egrilik radiusini o‘lchash",
+      "shox parda oldingi yuzasini sindirish kuchini o‘lchash",
+      "yuqoridagilarning barchasi",
+      "shox parda astigmatizmini o‘lchash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 321,
+    "question": "Gipermetropiyani optik korreksiyalash quyidagi xolatlarda buyuriladi:",
+    "options": [
+      "yosh bolalarda 3,5 dioptriydan ortiq gipermetropiya xolatida",
+      "astenopik shikoyatlarda yoki bir ko‘zda ko‘rishning pasayishida",
+      "doimiy yoki davriy g‘ilaylikda",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 322,
+    "question": "Miopiyani optik korreksiyalash quyidagi xolatlarda buyuriladi:",
+    "options": [
+      "1-2 dioptriyli miopiyada zarur xolatlarda korreksiya berish mumkin",
+      "2 dioptriydan yuqori miopiyada to‘liq korreksiyalash foydali emas",
+      "1-2 dioptriyli miopiyada doimiy to‘liq korreksiyalanadi",
+      "barchasi to‘g‘ri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 323,
+    "question": "Anizometropiya uchun quyidagilar xos:",
+    "options": [
+      "doimiy optik korreksiya tayinlanadi",
+      "korreksiyalashda o‘ng va chap ko‘zlar uchun linzalarning kuchi o‘rtasidagi farqni",
+      "anizometriyaning yuqori darajasida (5,0 dioptriy va undan yuqori) kontakt korreks",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 324,
+    "question": "50 yoshli 1 dioptriyga ega gipermetropga o‘qish uchun quyidagi dioptriyli ko‘zoyn",
+    "options": [
+      "+1 dioptriy",
+      "+2 dioptriy",
+      "+3 dioptriy",
+      "+4 dioptriy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 325,
+    "question": "60 yoshdagi emmetropga o‘qish uchun quyidagi dioptriyli ko‘zoynak tanlash kerak",
+    "options": [
+      "+1 dioptriy",
+      "+2 dioptriy",
+      "+3 dioptriy",
+      "+4 dioptriy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 326,
+    "question": "Akkomodatsiya bu:",
+    "options": [
+      "statik refraksiya",
+      "shox pardaning sindirish kuchi",
+      "ko‘zning old-orqa o‘qi",
+      "ko‘ruv apparatini ko‘zdan turli masofadagi narsalarni ko‘rishga moslashtirish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 327,
+    "question": "Absolyut akkomodatsiya - bu akkomodatsiyaning quyidagi xolatlardagi o‘lchovi:",
+    "options": [
+      "har bir ko‘z uchun alohida, ya’ni konvergensiya o‘chirilgan holati",
+      "ikki ko‘z uchun",
+      "konvergensiyaning aktiv xolati",
+      "qisman o‘chirilgan konvergensiya xolati"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 328,
+    "question": "Akkomodatsiya maydoni yoki uzunligi bu:",
+    "options": [
+      "shox pardaning refraksiyasi",
+      "gavxarning sindirish kuchi",
+      "ko‘zning umumiy refraksiyasi",
+      "chiziqli ko‘rinishda ifodalangan, aniq ko‘rishning eng yaqin va eng uzoq nuqtalari"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 329,
+    "question": "Mutlaq akkomodatsiya hajmi quyidagicha tushuniladi:",
+    "options": [
+      "shox parda astigmatizmi",
+      "gavxarning astigmatizmi",
+      "dioptriylarda ifodalangan aniq ko‘rishning eng yaqin va eng uzoq nuqtalarining xo",
+      "ko‘zning umumiy astigmatizmi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 330,
+    "question": "Nisbiy akkomodatsiya - bu akkomodatsiyaning quyidagi xolatlardagi o‘lchovi:",
+    "options": [
+      "har bir ko‘z uchun alohida o‘tkazilgan o‘lchov",
+      "bir vaqtda ikkala ko‘z bilan ko‘rgandagi o‘lchov",
+      "qisman o‘chirilgan konvergensiya xolatidagi o‘lchov",
+      "faqat bitta ko’z bilan ko’rgandagi o’lchov"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 331,
+    "question": "Nisbiy akkomadatsiyaning salbiy qismi deyiladi:",
+    "options": [
+      "Nisbiy akkomadatsiyaning ko‘rishga sarflanadigan qismi",
+      "qisman o‘chirilgan konvergensiya xolatida",
+      "ko‘zning optik muhitining umumiy sindirish kuchi",
+      "yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 332,
+    "question": "Gavxar funksiyasi:",
+    "options": [
+      "Nurni idrok etish",
+      "Diafragma",
+      "Akkomodatsiya",
+      "Ko’z ichi muhitini saqlash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 333,
+    "question": "Soglom odamda gavxarning nur sindirish kuchi:",
+    "options": [
+      "20-21 D",
+      "30 D",
+      "40 D",
+      "50 D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 334,
+    "question": "Gavxarni tekshirish usuli:",
+    "options": [
+      "O‘tuvchi yorug‘likda",
+      "Oftalmoskopiya",
+      "Gonioskopiya",
+      "Sikloskopiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 335,
+    "question": "Shishasimon tananing lotincha nomi:",
+    "options": [
+      "Phacus",
+      "Lens",
+      "Vitreum",
+      "Cornea"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 336,
+    "question": "Gavxarning yo’q bo`lishi:",
+    "options": [
+      "Afakiya",
+      "Aniridiya",
+      "Anizometropiya",
+      "Ambliopiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 337,
+    "question": "Tungi ko‘rishning nomlanishi:",
+    "options": [
+      "Fotopik",
+      "Mezopik",
+      "Skotopik",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 338,
+    "question": "Kunduzgi ko‘rishning nomlanishi:",
+    "options": [
+      "Fotopik",
+      "Mezopik",
+      "Skotopik",
+      "Barcha javoblar to’g’ri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 339,
+    "question": "1% li pilokarpin eritmasini ko‘zga tomizilganda gavxarning nur sindirish kuchi:",
+    "options": [
+      "O‘zgarmaydi",
+      "Ortadi",
+      "Susayadi",
+      "To’g’ri javob yo’q"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 340,
+    "question": "1% li atropin eritmasini ko‘zga tomizilganda gavxarning nur sindirish kuchi:",
+    "options": [
+      "O‘zgarmaydi",
+      "Ortadi",
+      "Susayadi",
+      "To’g’ri javob yo’q"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 341,
+    "question": "Deksametazon eritmasini ko‘zga tomizilganda gavxarning nur sindirish kuchi:",
+    "options": [
+      "O‘zgarmaydi",
+      "Ortadi",
+      "Susayadi",
+      "To’g’ri javob yo’q"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 342,
+    "question": "Bemor uchun aniq ko‘rishning eng yaqin nuqtasi 10 sm. Qaysi holatda akkomodat",
+    "options": [
+      "Emmetropiyada",
+      "Miopiyada",
+      "Gipermetropiyada",
+      "To’g’ri javob yo’q"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 343,
+    "question": "Gavxar xiralashuvi:",
+    "options": [
+      "Korektopiya",
+      "Keratofakiya",
+      "Katarakta",
+      "Fakodonez"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 344,
+    "question": "To’g’ri okklyuziya – bu:",
+    "options": [
+      "\"Yaxshi ko’ruvchi\" ko’zni yopish",
+      "\"Yomon ko’ruvchi\" ko’zni o’chirish",
+      "Ko’zlarni galma-galdan o’chirish",
+      "Barcha javob to’g’ri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 345,
+    "question": "Keratokonusga xos:",
+    "options": [
+      "gipermetropiya",
+      "to'g'ri astigmatizm",
+      "noto'g'ri astigmatizm",
+      "ko'z ichi bosimining oshishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 346,
+    "question": "Yallig'lanishli shish uchun ko'z qovoqlarining o'zgarishi quyidagilarni o'z ichiga o",
+    "options": [
+      "ko'z qovoqlari terisining giperemiyasi, isitma,palpatsiya og'riq",
+      "teri haroratining ko'tarilishi",
+      "palpatsiya paytida og'riq",
+      "krepitatsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 347,
+    "question": "qovoqning saramas yallig’lanishi klinik shakli:",
+    "options": [
+      "yaqqol giperemiya",
+      "qichishish hisi, harorat",
+      "ko'z qovoqlarining shishishi va oddiy to'qimalar bilan aniq chegara",
+      "yuqoridagilarning barchasi to’g’ri"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 348,
+    "question": "Qipiqsimon blefarit quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "ko'z qovoqlarida kuchli qichishish",
+      "kuchli qichishish, quruq qipiq",
+      "kirpik ildizlari quruq qipiq bilan qoplangan",
+      "meibomeit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 349,
+    "question": "Lagoftalm bilan yuzaga kelishi mumkin:",
+    "options": [
+      "trichiaz tufayli shox eroziyasi",
+      "uveit",
+      "ekzoftalm",
+      "shox pardaning kserozi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 350,
+    "question": "Shox pardaning yuzaki vaskulyarizatsiyasi uchraydi:",
+    "options": [
+      "Fliktenulyoz keratitda",
+      "Adenovirus konyunktivitda",
+      "Skleritda",
+      "Episkleritda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 351,
+    "question": "Ko'z qovoqlarining chandiq inversiyasi natijada rivojlanadi:",
+    "options": [
+      "jarohatlar",
+      "ko'z qovoqlarining kuyishi",
+      "sibir yarasi",
+      "yuqoridagilarning barchasi to’gri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 352,
+    "question": "Ko'zning adenovirus infektsiyasida:",
+    "options": [
+      "konyunktivit follikulyar bo'lib, pastki svodga ta'sir qiladi, shox parda xiralashishi m",
+      "konyunktivit deyarli har doim pastki svodni zararlaydi",
+      "shox pardaning yuzaki va chuqur xiralashish mumkin",
+      "daraxtsimon keratit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 353,
+    "question": "Orbita flegmonasida kuzatiladi:",
+    "options": [
+      "ko'z qovoqlarining shishishi va giperemiyasi, xemoz, olftalmoplegiya",
+      "konyunktiva xemozi",
+      "Oftalmoplegiya",
+      "ko'z qovog'ining terisi ostidagi krepitatsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 354,
+    "question": "Ko'z qovoqlarining travmatik shishishi quyidagilar bilan birga keladi:",
+    "options": [
+      "keng teri osti qon ketishi va ko’karish bilan",
+      "blefarospazm va yoshlanish",
+      "qichishish",
+      "krepitatsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 355,
+    "question": "Ko'z qovog'ining absessi klinik belgilariga quyidagilar kiradi:",
+    "options": [
+      "teri oddiy rangda bo’lishi",
+      "ko'z qovoqlari gematomasi",
+      "aniq chegaraga ega bo’lmagan giperemiya va ko'z qovoqlari infiltratsiyasi",
+      "krepitatsiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 356,
+    "question": "Ko'z qovog'ining absessini ochish uchun ko'rsatmalar:",
+    "options": [
+      "fluktuatsiyaning paydo bo'lishi",
+      "ko'z qovoqlarining aniq giperemiyasi",
+      "qovoq siqilishi",
+      "palpatsiya paytida og'riq"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 357,
+    "question": "Yetilgan kataraktani o‘tuvchi nur yordamida tekshirilganda ko‘z tubidagi refleks:",
+    "options": [
+      "Pushti ragnda",
+      "Sariq tusga kiradi",
+      "Refleks yo‘q",
+      "Faqat optik zonada o‘zgaradi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 358,
+    "question": "Tug‘ma kataraktaga xos xususyat:",
+    "options": [
+      "Gavxar to‘liq xiralashuvigacha rivojlanadi",
+      "Rivojlanmaydi",
+      "Faqat gavxar yadrosi to‘liq xiralashuvigacha rivojlanadi",
+      "Faqat bolalik davrida rivojlanadi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 359,
+    "question": "Orttirilgan kataraktaga olib keladi:",
+    "options": [
+      "Gavxar to‘liq xiralashuvigacha rivojlanadi",
+      "Rivojlanmaydi",
+      "Etiologik omil ta’siriga ko‘ra rivojlanadi",
+      "Etiologik omilga ko‘ra rivojlanadi yoki rivojlanmaydi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 360,
+    "question": "Travmatik kataraktaga olib keladigan zararlanish:",
+    "options": [
+      "sinn boylami tolalari zararlanishidan",
+      "Gavxar kapsulasi zararlanishidan",
+      "siliar tana kontuziyasidan",
+      "Shishasimon tana zararlanishidan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 361,
+    "question": "Radiatsion katarakta yuzaga kelishida muhim urin tutadi:",
+    "options": [
+      "Ultrabinafsha nurlar ta’siridan",
+      "Ko‘rinadigan yorug‘lik nurlari ta’siridan",
+      "Ionli nurlanish ta’siridan",
+      "Ultratovush nurlanishning past dozalari ta’siridan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 362,
+    "question": "Gavxarda xiralashuvning lokalizatsiyasiga ko‘ra katarakta turlari quydagilar:",
+    "options": [
+      "Kapsulyar, qutbli, yadroli",
+      "Qavatli, markaziy",
+      "Epikapsulyar, subkortikal",
+      "Periferik, intrakortikal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 363,
+    "question": "FEK operatsiyasidan keyin gavxar orqa kapsulasining xiralashuvi … deb ataladi:",
+    "options": [
+      "Soxta katarakta",
+      "Asoratli katarakta",
+      "Ikkilamchi katarakta",
+      "Orqa kapsulyar katarakta"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 364,
+    "question": "Kataraktani bartaraf qilish uchun davo usuli nima:",
+    "options": [
+      "Proteolitik fermenlar elektroforezi",
+      "Vitamin tomchilarini tomizish",
+      "Operatsiya",
+      "Osmoterapiya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 365,
+    "question": "Xiralashgan gavxarni olib tashlash operatsiyasi nomlanashi qaysi javobda to`g`ri k",
+    "options": [
+      "Katarakta ekssiziyasi",
+      "Katarakta evakuatsiyasi",
+      "Katarakta ekstraksiyasi",
+      "Katarakta elevatsiyasi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 366,
+    "question": "Intrakapsulyar kataraktani olib tashlashda katarakta ekstraksiyasi … deb ataladi:",
+    "options": [
+      "Oldingi kapsula bilan",
+      "Orqa kapsula bilan",
+      "Kapsulada",
+      "Kapsulasiz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 367,
+    "question": "Ekstrakapsulyar kataraktani ekstraksiya qilishda saqlab qolinishi kerak bo`lgan ga",
+    "options": [
+      "Gavxarning old kapsulasini",
+      "Gavxarning orqa kapsulasini",
+      "Gavxar kapsulasining ikkala qismini",
+      "Qisman orqa kapsulani"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 368,
+    "question": "Monokulyar afakiyada binokulyar ko'rishni tiklash tuzatish bilan mumkin:",
+    "options": [
+      "Oddiy silindrsimon shisha",
+      "Oddiy sharsimon shisha",
+      "Kontakt linzalari",
+      "Ko'z ichi linzalari"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 369,
+    "question": "Monokulyar afakiyani oddiy ko‘zoynak bilan korreksiya qilishda binokulyar ko‘ris",
+    "options": [
+      "Ko‘zoynakning afakiyali ko‘zga ko‘r-ko‘rona ta’siri",
+      "Diplopiyaning yaqqol belgilari",
+      "Anizometropiyaning yuqori bo‘lishi",
+      "Xromatik aberratsiyaning paydo bo‘lishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 370,
+    "question": "Shishasimon tananing destruksiyasi namoyon bo‘ladi:",
+    "options": [
+      "Kalsifikatsiya va giperpigmentatsiya",
+      "Suyulyilish, ajralish, fibroz",
+      "Patologik bo‘yalishning paydo bo‘lishi",
+      "Klinik refraksiyaning kuchayishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 371,
+    "question": "Shishasimon tanadagi dag‘al shvartalar xosil bo‘lishiga sabab:",
+    "options": [
+      "Surunkali iridosiklit",
+      "Akkomodatsiyaning zo‘riqishi",
+      "Ko‘z ichi qon ketishi, yiringlash va jarohatlar",
+      "Ko‘z olmasining kimyoviy kuyishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 372,
+    "question": "To‘r parda yirtilishiga ko‘ra quyidagilarga bo‘linadi:",
+    "options": [
+      "Ellipsoid, to‘rtburchak",
+      "Klapanli, teshikli, ora serata ajralishi",
+      "Trapezoidal, yumaloq, dumalok",
+      "Xanjar shaklidagi, yulduzchasimon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 373,
+    "question": "Ko‘z gavxarining o‘sishi to‘xtaydi:",
+    "options": [
+      "2 yoshda",
+      "18 yoshga kelib",
+      "5 yoshga kelib",
+      "Hayot davomida o‘sadi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 374,
+    "question": "Tinch holatida linzaning nur sindishi kuchi:",
+    "options": [
+      "25-32 dioptriya",
+      "19-21 diopterlar",
+      "5-12 diopter",
+      "12-18 diopter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 375,
+    "question": "Voyaga etgan odamda gavxar :",
+    "options": [
+      "U sharsimon shaklga ega",
+      "Yumshoq mustahkamlikka ega",
+      "Shaffof",
+      "Zich sarg'ish rang"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 376,
+    "question": "Katta sisterna (suboksipital) punksiyasi ko‘pincha quyidagilar uchun ishlatiladi:",
+    "options": [
+      "Orqa kranial chuqurchada o‘smalar diagnostikasi",
+      "Miya ichi suyuqligini o‘rganish uchun",
+      "Gipertenziya sindromini davolash uchun",
+      "Tushayotgan mielografiya uchun"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 377,
+    "question": "Terapevtik manipulyatsiya sifatida miyaning lateral qorinchalarini punksiya kilish",
+    "options": [
+      "Intraventrikulyar o‘smalar",
+      "Okklyuziv gidrotsefalik kriz",
+      "Gemorragik insult",
+      "Epileptik status"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 378,
+    "question": "Limbal yetishmovchilikning klinik belgisi bulib xisoblanmaydi:",
+    "options": [
+      "Limbda palisada Fogta yo‘qligi",
+      "Shox parda ustida fibrovaskulyar pannusning ko‘payishi",
+      "Shox parda stromasining xiralashishi",
+      "Shox pardaning doimiy eroziyasi mavjudligi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 379,
+    "question": "Ikkilamchi glaukoma quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "yallig‘lanishdan keyingi, fakogen, qon tomirli",
+      "fakogen",
+      "qon tomirli",
+      "psevdoeksfoliativ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 380,
+    "question": "Yomon sifatli glaukomani davolash quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "laziksni tayinlanishi",
+      "linzalarni olib tashlash",
+      "adrenalin yuborish",
+      "yuqoridagilarning barchasi to‘g‘ri"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 381,
+    "question": "Qaysi tekshirish usullariga asoslanib, rangdor parda ildizi bilan burchakning organ",
+    "options": [
+      "shox pardani bosish bilan gonioskopiya",
+      "transillyuminatsiya bilan gonioskopiya",
+      "tonografiya",
+      "kunlik tonometriya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 382,
+    "question": "Birlamchi yopiq burchakli glaukomaning eng keng tarqalgan shakli:",
+    "options": [
+      "nisbatan ko‘z qorachig‘i blokirovkasi bo‘lgan glaukoma",
+      "gavxar blokirovkasi bilan glaukoma",
+      "yassi rangdor pardali glaukoma",
+      "sudraluvchi glaucoma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 383,
+    "question": "Xolinomimetiklarning nojo‘ya ta’siri quyidagilardan iborat:",
+    "options": [
+      "kam yorug‘likda ko‘rishning xiralashishi, miopiyaning paydo bo‘lishi, ko‘zda og‘r",
+      "refraktiv miopiyani paydo bo‘lishi",
+      "ko‘zdagi og‘riq",
+      "ko‘zning old kamerasini chuqurlashishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 384,
+    "question": "Qorachig‘ bloki bilan kechadigan BYoBGning klinik ko‘rinishlariga quyidagilar k",
+    "options": [
+      "o‘tkir boshlanish, old kameraning sayozligi, old kameraning burchagini yopiqligi",
+      "oldingi kamerani sayozligi",
+      "old kamera burchagini yopiqligi",
+      "rangdor pardani sezilarli distrofiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 385,
+    "question": "Gipotenziv dorilar guruxiga quyidagilar kiradi:",
+    "options": [
+      "xolinomimetiklar, antikolinesteraza, beta-blokatorlar",
+      "antixolinesteraza preparatlari",
+      "beta-blokatorlar",
+      "yurak glikozidlari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 386,
+    "question": "Glaukomaning dastlabki bosqichiga xos bo‘lgan ko‘rish maydoni soqasidagi o‘zga",
+    "options": [
+      "Berrum qududidagi yoysimon skotomalar",
+      "ko‘rish maydonining 15 gradusga konsentrik torayishi",
+      "sektoral gemianopsiya",
+      "trubkasimon ko‘rish maydoni"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 387,
+    "question": "BYoBG uchun xos:",
+    "options": [
+      "old kameraning sayozligi, ko‘zning old-orqa o‘lchamining qisqarishi, gipermetrop",
+      "ko‘z olmasining old-orqa ulchamlarini kamayishi",
+      "gipermetrop yoki emetropik refraksiya",
+      "old kamera burchagining ochiqligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 388,
+    "question": "\"Ko‘z qorachig‘i blokadasi\" uchun quyidagi barcha klinik belgilar xarakterli:",
+    "options": [
+      "ko‘z ichi bosimining oshishi, kameralar orasidagi aloqaning buzilishi, old kamera",
+      "old va orqa kamera o‘rtasidagi aloqani buzilishi",
+      "old kameraning sayozligi",
+      "old kameraning chuqurligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 389,
+    "question": "Chin KIB ning yuqori chegarasi:",
+    "options": [
+      "19 mm qg",
+      "21 mm qg",
+      "25 mm qg",
+      "17 mm qg"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 390,
+    "question": "Gidroftalmning asosiy belgilari:",
+    "options": [
+      "ko‘z olmasining o‘lchami va shox pardaning kattalashishi,KIBning oshishi",
+      "ko‘z olmasining kattalashishi",
+      "KIB ortishi, perikorneal in’eksiya, shox pardaning shishishi",
+      "shox parda endoteliyasining polimegetiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 391,
+    "question": "Glaukoma bilan og‘rigan bemorlarda timololni buyurish quyidagi hollarda qarshi k",
+    "options": [
+      "gepatit",
+      "sistit",
+      "urolitiyaz",
+      "bronxial astma"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 392,
+    "question": "Fakomorfik glaukomada shifokorning taktikasi:",
+    "options": [
+      "umumiy va maqalliy antigipertenziv terapiyadan foydalanish",
+      "katarakta ekstraksiyasi",
+      "bazal iridektomiya",
+      "sinus trabekulektomiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 393,
+    "question": "Glaukomani o‘tkir xurujidan keyin angdor pardaning segmentlarini atrofiyasini riv",
+    "options": [
+      "skleral sinusning kollapsi",
+      "rangdor parda qon tomirlarining strangulyatsiyasi",
+      "quruq ko‘z sindromining rivojlanishi",
+      "vortikoz venalarining trombozi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 394,
+    "question": "Glaukomaning o‘tkir xurujini davolash quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "miotiklar, beta-blokatorlar, simpatomimetiklar",
+      "beta-blokatorlarni tayinlash",
+      "simpatomimetiklarni instillatsiya qilish",
+      "kortikosteroidlarni yuborish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 395,
+    "question": "Yopiq burchakli glaukomani erta aniqlashda qo‘llaniladigan yuklama sinamalari:",
+    "options": [
+      "Xaymsning holatli sinamasi, orqa halqali bosimli sinama, suvli sinama",
+      "Orqa halqali bosimli sinama",
+      "Suvli sinama",
+      "Pilokarpinli sinama"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 396,
+    "question": "O‘smirlar glaukomasi qanday sindromlarda rivojlanadi:",
+    "options": [
+      "Frank-Kamenetskiy, Riger, Styuj-Veber sindromi",
+      "Riger sindromi",
+      "Styurj-Veber sindromi",
+      "Gorner sindromi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 397,
+    "question": "Birlamchi glaukomaning rivojlangan bosqichidagi KND ning ekskavatsiyasi kuyid",
+    "options": [
+      "0,3",
+      "0,5",
+      "0,8",
+      "0,4"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 398,
+    "question": "Birlamchi glaukoma bosqichlari kuyidagi ko‘rsatkichlarda baxolanadi:",
+    "options": [
+      "ko‘rish o‘tkirligi",
+      "KIB darajasi",
+      "KND gi laukomatoz ekskavatsiyaning maydoni",
+      "ko‘rish maydonining qolati"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 399,
+    "question": "Xolinomimetiklarga quyidagilar kiradi:",
+    "options": [
+      "pilokarpin, aseklidin, ezerin",
+      "aseklidin",
+      "ezerin",
+      "toisilen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 400,
+    "question": "Glaukomani umumiy davolash uchun buyuriladi:",
+    "options": [
+      "qon tomir preparatlari, angioprotektorlar, antioksidantlar",
+      "angioprotektorlar",
+      "antioksidantlar",
+      "sitostatiklar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 401,
+    "question": "Jaroxatdan keyingi ikkilamchi glaukomaning sabablari quyidagilar bo‘lishi mumki",
+    "options": [
+      "ko‘z ichiga qon quyilishi, linzalarning dislokatsiyasi, old kamera burchagining rets",
+      "gavxarning dislokatsiyasi va shikastlanishi",
+      "Mold kamera burchagining retsessiyasi",
+      "periferik vitreoxorioretinal distrofiyalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 402,
+    "question": "Glaukomani erta tashxislashda eng kam ma’lumot beradi:",
+    "options": [
+      "kunlik tonometriya",
+      "tonografiya",
+      "ko‘rish maydonini tekshirish",
+      "ekzooftalmometriya"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 403,
+    "question": "Antixolinesteraza dori vositalariga quyidagilar kiradi:",
+    "options": [
+      "armin, fosfakol, tosmilen",
+      "fosfakol",
+      "demekarium bromidi(tomsilen)",
+      "ezerin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 404,
+    "question": "Birlamchi glaukomaning quyidagi klinik turlari mavjud:",
+    "options": [
+      "yopiq burchakli, ochiq burchakli",
+      "ochiq burchakli, psevdoeksfoliativ",
+      "neovaskulyar, travmatik",
+      "aralash, fakogen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 405,
+    "question": "Ko‘z ichki suyuqligini ishlab chiqarishni kamaytiradigan vositalar:",
+    "options": [
+      "timolol, diakarb, betaksolol",
+      "asetazolamid (diakarb)",
+      "betaksolol (betoptik)",
+      "emoksipin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 406,
+    "question": "Glaukoma uchun xarakterli alomatlar triadasi:",
+    "options": [
+      "suyuqlikning chiqishiga qarshilikni kuchayishi, ko‘rish maydonining o‘zgarishi, qo",
+      "KIB beqarorligi, geteroxromiya, asoratli katarakta",
+      "KIB oshishi, perikorneal in’eksiya, shox pardaning shishi",
+      "ko‘rish maydonining o‘zgarishi, KND oqarishi, angioretinoskleroz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 407,
+    "question": "BOBGda gonioskopiya tekshiruvi shuni ko‘rsatadi:",
+    "options": [
+      "korneoskleral trabekulalar shaffofligining pasayishi, burchakning ekzogen pigmen",
+      "old kameraning burchagida ekzogen pigmentatsiya mavjudligi",
+      "old kamera burchagining torayishi",
+      "yangi qosil bo‘lgan tomirlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 408,
+    "question": "Oftalmogipertenziyani shaklaridan biri:",
+    "options": [
+      "essensial",
+      "ochiq burchakli, psevdoeksfoliativ",
+      "yopiq burchakli",
+      "o‘smirlarlar glaukomasida"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 409,
+    "question": "Ko‘z ichki suyuqligini oqib chiqish koefitsentini quyi chegarlari:",
+    "options": [
+      "0,17 mm3 / (mm sm ust) min",
+      "0,20 mm3 / (mm sm ust) min",
+      "0,13 mm3 / (mm sm ust) min",
+      "0,25 mm3(mm sm ust) min"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 410,
+    "question": "Gipotenziv ko‘z operatsiyalari quyidagilardan iborat:",
+    "options": [
+      "fistulizatsiya qiluvchi aralashuvlar, siklodializ, siklokriodestruksiya",
+      "siklokriodestruksiya",
+      "siklodializ",
+      "vitrektomiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 411,
+    "question": "Adrenalinli ko‘z tomchilarining nojo‘ya ta’siri quyidagilardan iborat:",
+    "options": [
+      "tixakardiya, kon’yunktiva giperemiyasi, kon’yunktivaning adenoxrom pigmentatsi",
+      "kon’yunktivaning reaktiv giperemiyasi",
+      "kon’yunktivaning adenoxrom pigmentatsiyasi",
+      "assitlar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 412,
+    "question": "Glaukomada B' erumning parasentral xududida skotomalarning eng erta paydo bo‘",
+    "options": [
+      "to‘r pardaning qon aylanishining xususiyatlari",
+      "ganglioz qujayralari aksonlari yo‘lining xususiyatlari",
+      "KND nerv tolalarining joylashuvi xususiyatlari",
+      "KND individual o‘lchamlari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 413,
+    "question": "BOBG quyidagi sabablarga ko‘ra eng xavfli qisoblanadi:",
+    "options": [
+      "uning ko‘p uchrashi",
+      "simptomlarsiz kechishi",
+      "ko‘rishni yo‘qolishi",
+      "qorong‘uda moslashuvning pasayishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 414,
+    "question": "Fakomorfik glaukoma quyidagilar bilan tavsiflanadi:",
+    "options": [
+      "po‘stloqli katarakta",
+      "yetilib o‘tadigan katarakta",
+      "bo‘rtgan katarakta",
+      "yadroli katarakta"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 415,
+    "question": "Glaukomatoz jarayonning barqarorlashuvi quyidagilardan dalolat beradi:",
+    "options": [
+      "KIB me’yorlashuvi",
+      "burun meridianlari bo‘ylab ko‘rish maydoni chegaralarining torayishi",
+      "KND da glaukomatoz ekskavatsiyaning chuqurlashuvi",
+      "to‘r pardani nerv tolalari qatlamidagi nuqsonlarning ko‘payishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 416,
+    "question": "Esansial oftalmogipertenziya belgilari:",
+    "options": [
+      "ko‘z ichi bosimining oshishi, normal ko‘rish maydoni, KND da glaukomatoz eksk",
+      "normadagi ko‘rish maydoni",
+      "KND glaukomatoz ekskavatsiyaning yo‘qligi",
+      "ko‘zning oldingi segmentida psevdoeksfoliatsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 417,
+    "question": "BOBG tashxisi uchun eng muqimi:",
+    "options": [
+      "kunlik tonometriya",
+      "tonografiya",
+      "gonioskopiya",
+      "markaziy ko‘rish maydonini o‘rganish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 418,
+    "question": "Birlamchi yopiq burchakli glaukomaning o‘tkir xurujlari quyidagilar bilan tavsifla",
+    "options": [
+      "shox pardaning shishishi, oldingi kamerani sayozligi, keng ellipssimon ko‘z qorac",
+      "ko‘z qorachig‘i tor, ko‘z qorachig‘ining yorug‘likka reaksiyasi saqlangan, shox pa",
+      "shox pardaning shishishi, chuqur oldingi kamera, iridofakodonez, ko‘z olmasining",
+      "fotofobiya, lakrimatsiya, zerikarli shox parda, cho‘kmalar, tor ko‘z qorachig‘i"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 419,
+    "question": "Ikkilamchi qon tomirli glaukoma quyidagilar kiradi:",
+    "options": [
+      "neovaskulyar",
+      "psevdogipertenziya",
+      "glaukoma xuruji",
+      "geteroxrom uveopatiya (Fuchs)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 420,
+    "question": "Ko‘z ichki suyuqligini ishlab chiqishi amalga oshadi:",
+    "options": [
+      "siliar tananing yassi qismida",
+      "siliar tana o‘simtalarida",
+      "rangdor parda epiteliysida",
+      "yuqoridagi barcha tuzilmalar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 421,
+    "question": "Glaukomaning o‘tkir xuruji va gipertenziyali o‘tkir iridosiklitning differensial tash",
+    "options": [
+      "shikoyatlar",
+      "oldingi kameraning xolati",
+      "qorachig‘ning kattaligi",
+      "presipitatlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 422,
+    "question": "Oldingi kamera burchagi xolati quyidagicha aniqlanadi:",
+    "options": [
+      "siliar tananing joylashishi, rangdor parda va trabekulalar ildizining nisbati, Shlemm",
+      "rangdor parda ildizining korneoskleral trabekulalarga nisbati",
+      "Shlemm kanalining joylashishi",
+      "psevdoeksfoliatsiyaning mavjudligi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 423,
+    "question": "Maklakov tonometri bilan o‘lchanganida normal KIB ning yuqori chegarasi:",
+    "options": [
+      "20 mm sm ust",
+      "24 mm sm ust",
+      "26 mm sm ust",
+      "27 mm sm ust"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 424,
+    "question": "Glaukomada KN atrofiyasi quyidagilarga bog‘liq:",
+    "options": [
+      "KIB oshishi darajasi",
+      "KND ni ta’minlaydigan tomirlardagi bosim va KIB ni nisbati",
+      "KI suyuqligini ishlab chiqarishning kamayishi",
+      "ko‘ruv nervining astroglial qavatini yo‘qolishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 425,
+    "question": "Tug‘ma glaukomaning patogenezi quyidagilarga asoslanadi:",
+    "options": [
+      "OKB tuzilmalarining noto‘g‘ri pozitsiyasi",
+      "korneoskleral trabekulalarning yetarli darajada rivojlanmaganligi",
+      "OKBda mezodermal to‘qimalarning mavjudligi",
+      "silier tana tomonidan ko‘z ichki suyuqligini ortiqcha ishlab chiqarilishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 426,
+    "question": "Lazerli gipotenziv aralashuvlar quyidagilarni o‘z ichiga oladi:",
+    "options": [
+      "lazerli trabekuloplastika, lazer iridektomiya, gonioplastika",
+      "lazerli iridektomiya",
+      "gonioplastika",
+      "lazerli keratokoagulyatsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 427,
+    "question": "\"Kobra simptomi\" quyidagilarni anglatadi:",
+    "options": [
+      "ko‘z ichi bosimining oshishi",
+      "TMA tarmoqlarida qon aylanishining buzilishi",
+      "TMV trombozi",
+      "gipertonik angiopatiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 428,
+    "question": "Antixolinesterazali miotiklarining nojo‘ya ta’siri quyidagilardan iborat:",
+    "options": [
+      "ko‘zning nur sindirishini kuchayishi, kataraktning rivojlanishi, senil makulopatiya",
+      "katarakta rivojlanishi",
+      "keksalik makulopatiyasining paydo bo‘lishi",
+      "shishasimon tananing xiralashishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 429,
+    "question": "Fistulizatsiya operatsiyalarini bajarishda asoratlar paydo bo‘lishi mumkin:",
+    "options": [
+      "kon’yunktiva qobig‘ining penetratsiyasi, old kameraga qon quyilishi, shishasimon",
+      "ko‘zning old kamerasiga qon quyilishi",
+      "shishasimon tanani chiqishi",
+      "ko‘ruv nervining shikastlanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 430,
+    "question": "Glaukomatoz jarayonning turg‘un emasligi quyidagilardan dalolat beradi:",
+    "options": [
+      "ko‘rish o‘tkirligini pasayishi",
+      "ko‘zda og‘riq paydo bo‘lishi",
+      "ko‘rish maydonining torayishi",
+      "ko‘zning qizarishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 431,
+    "question": "Klofelin saqlovchi ko‘z tomchilarining nojo‘ya ta’sirlari quyidagilarni o‘z ichiga o",
+    "options": [
+      "arterial bosimning pasayishi",
+      "bradikardiya",
+      "bronxial spazm",
+      "qo‘zg‘aluvchanlik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 432,
+    "question": "Ko‘z ichki bosimining (KIB) sutkalik tebranish turlari quyidagilardan iborat:",
+    "options": [
+      "ertalabki tur",
+      "kechki tur",
+      "kunduzgi tur",
+      "yuqorida ko‘rsatilgan barcha turlar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 433,
+    "question": "Yallig‘lanishdan keyingi ikkilamchi glaukomaning sabablari quyidagilardir:",
+    "options": [
+      "oldingi uveitlar, xorioiditlar, skleritlar",
+      "xorioiditlar",
+      "skleritlar",
+      "markaziy vena trombozi (MVT)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 434,
+    "question": "Glaukomatoz jarayonning rivojlanishini baholashda quyidagilar muhim hisoblanad",
+    "options": [
+      "ko‘z ichki bosimining darajasi",
+      "suvli namlik chiqishining osonligi ko‘rsatkichi",
+      "ko‘rish maydonining holati",
+      "gemodinamika holati"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 435,
+    "question": "Neovaskulyar glaukoma quyidagi kasalliklar natijasida rivojlanadi:",
+    "options": [
+      "markaziy vena trombozi",
+      "neyroretinit",
+      "artifakiya",
+      "senil makulopatiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 436,
+    "question": "Glaukoma uchun xarakterli alomatlar triadasi:",
+    "options": [
+      "suyuqlikning chiqishiga qarshilikni kuchayishi, ko‘rish maydonining o‘zgarishi, qo",
+      "KIB beqarorligi, geteroxromiya, asoratli katarakta",
+      "KIB oshishi, perikorneal in’eksiya, shox pardaning shishi",
+      "ko‘rish maydonining o‘zgarishi, KND oqarishi, angioretinoskleroz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 437,
+    "question": "Qaysi belgilar asosida OBG va YoBG ning differensial diagnostikasi amalga oshir",
+    "options": [
+      "Oldingi kamera chuqurligi",
+      "Oldingi kamera burchagini ochiqligi",
+      "rangdor pardaning xolati",
+      "To’g’ri javob yo’q"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 438,
+    "question": "Glaukoma bosqichi quyidagi ko‘rsatkichlar bilan baxolanadi:",
+    "options": [
+      "ko‘rish o‘tkirligi",
+      "ko‘rish maydonining xolati",
+      "ekskavatsiyaning xolati",
+      "ichki suyuqlikni chiqib ketish xolati bo‘yicha"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 439,
+    "question": "Birlamchi ochiq burchakli glaukomada rangdor pardaga quyidagi o'zgarishlar xos",
+    "options": [
+      "ko‘z qorachig‘i qirg‘oqlarining diffuz atrofiyasi, pigmentli xoshiyasining chegaras",
+      "ko‘z qorachig’ halkasidagi pigmentning yuvilishi",
+      "Yuzasidagi pigment dispersiya",
+      "Rangdor pardaning stromasining sektoral atrofiyasi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 440,
+    "question": "Yomon sifatli BYBG shakli quyidagi holatlarda paydo bo'lishi mumkin:",
+    "options": [
+      "Vitreal blokda",
+      "Gavhar blokida",
+      "Shlemm kanal blokida",
+      "Bloklar rivojlanoshi bilan bo'liq emas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 441,
+    "question": "Risk omillariga ega oftalmogipertensiya tashxisi qo'yilgandan keyingi shifokor tak",
+    "options": [
+      "Hech qanday davolash belgilanmaydi, davriy ko'rik o'tkaziladi",
+      "Gipotenziv ko'z tomchilar buyuriladi",
+      "Lazerli operatsiya",
+      "jarrohlik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 442,
+    "question": "Birlamchi glaukomaning boshlangich bosqichida ko'rish maydoni quyidagicha tor",
+    "options": [
+      "450 gacha",
+      "200 gacha",
+      "100 gacha",
+      "toraymaydi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 443,
+    "question": "Ko'ruv nervining yuqori KIBga chidamliligi quyidagicha aniqlanadi:",
+    "options": [
+      "KNDda tayanch to'qimaning rivojlanish darajasi",
+      "disk va retrolaminar soha to'qimalarining qon aylanish intensivligi",
+      "DZN o'lchamlari bilan",
+      "perfuzion bosim darajasi bilan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 444,
+    "question": "Siklodestruktiv operatsiyalardan so'ng quyidagi asoratlar yuzaga kelishi mumkin:",
+    "options": [
+      "ko'z gipotoniyasi, subatrofiya, iridotsiklit",
+      "ko'z soqqasi subatrofiyasi",
+      "iridosiklit",
+      "alternatsiyalanuvchi g'ilaylikning rivojlanishi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 445,
+    "question": "Oftalmo-gipertenziyada xavf omillari quyidagilardir:",
+    "options": [
+      "yaqin qarindoshlari orasida glaukoma bilan og'rigan bemorlar, oftalmotonus 3 mm",
+      "oftalmotonus 30 mm simob ustunidan oshadi",
+      "ikki ko'zdagi oftalmostatus kattaligida assimetriya",
+      "ko'z gavharidagi katarakta o'zgarishlari"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 446,
+    "question": "BOBG shakllari quyidagilarni o'z ichiga oladi:",
+    "options": [
+      "psevdoeksfoliativ, pigmentli, past KIBli glaukoma",
+      "pigmentli glaukoma",
+      "KIB past bo'lgan glaukoma",
+      "episkleral bosim oshgan glaukoma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 447,
+    "question": "Old kamera burchagi bloki chaqirilishi mumkin:",
+    "options": [
+      "so'rilmagan mezodermal to'qima, rangdor parda ildizi, yangi hosil bo'lgan tomirla",
+      "rangdor parda ildizi bilan",
+      "yangi hosil bo'lgan tomirlar",
+      "begona jism bilan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 448,
+    "question": "Siklodestruktiv operatsiyalarga quyidagilar kiradi:",
+    "options": [
+      "siklodestruksiya, siklodiatermiya, lazerli siklodestruksiya",
+      "siklodiatermiya",
+      "lazerli siklodestruksiya",
+      "vitreapiratsiya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 449,
+    "question": "Ambliopiyani davolashda teskari okklyuziya quyidagi bolalarga buyuriladi:",
+    "options": [
+      "markaziy barqaror fiksatsiya bilan",
+      "o'zgaruvchan fiksatsiya bilan",
+      "markaziy bo'lmagan noturg'un fiksatsiya bilan",
+      "markaziy bo'lmagan barqaror fiksatsiya bilan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 450,
+    "question": "Binokulyar ko'rish bilan mos keladigan ko'rish o'tkirligi hisoblanadi:",
+    "options": [
+      "0,1",
+      "0,2",
+      "0,3",
+      "0,4 va undan yuqori"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 451,
+    "question": "Quyidagilar binokulyar ko'rish bilan mos keladi:",
+    "options": [
+      "periferik",
+      "makulyar",
+      "markaziy barqaror",
+      "peripapillyar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 452,
+    "question": "Oftalmoskopdan keladigan yorug'lik refleksi qorachiqning tashqi cheti bo'ylab qiy",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylik",
+      "15° burchakli tashqariga qaragan g'ilaylik",
+      "30° burchakli ichkariga qaragan g'ilaylik",
+      "30° burchakli tashqariga qaragan g'ilaylik"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 453,
+    "question": "Oftalmoskopdan keladigan yorug'lik refleksi qorachiqning ichki cheti bo'ylab qiy",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylik",
+      "15° burchakli tashqariga qaragan g'ilaylik",
+      "30° burchakli ichkariga qaragan g'ilaylik",
+      "30° burchakli tashqariga qaragan g'ilaylik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 454,
+    "question": "Oftalmoskopdan kelayotgan yorug'lik refleksi qiyshiq ko'zning shox pardasida, qo",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylik",
+      "15° burchakli tashqariga qaragan g'ilaylik",
+      "30° burchakli ichkariga qaragan g'ilaylik",
+      "30° burchakli tashqariga qaragan g'ilaylik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 455,
+    "question": "Oftalmoskopdan yorug'lik refleksi qiyshiq ko'zning shox pardasida, qorachiq chet",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli tashqariga qaragan g'ilaylikka",
+      "45° burchakli ichkariga qaragan g'ilaylikka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 456,
+    "question": "Oftalmoskopdan keladigan yorug'lik refleksi qiyshiq ko'zning shox pardasida unin",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli tashqariga qaragan g'ilaylikka",
+      "45° burchakli ichkariga qaragan g'ilaylikka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 457,
+    "question": "Oftalmoskopdan keladigan yorug'lik refleksi qiyshiq ko'zning shox pardasida unin",
+    "options": [
+      "15° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli ichkariga qaragan g'ilaylikka",
+      "30° burchakli tashqariga qaragan g'ilaylikka",
+      "45° burchakli tashqariga qaragan g'ilaylikka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 458,
+    "question": "To'rt nuqtali rang sinovida tekshirilganda, binokulyar ko'rish qobiliyatiga ega bo'",
+    "options": [
+      "to'rtta doira",
+      "beshta doira",
+      "goh ikki, goh uch doira",
+      "ikki doira"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 459,
+    "question": "Hamroh g'ilaylik bilan og'rigan bolani jarrohlik yo'li bilan davolashga o'tish uchu",
+    "options": [
+      "1-3 yosh",
+      "4-6 yosh",
+      "7-9 yosh",
+      "10-12 yosh"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 460,
+    "question": "Binokulyar ko'rishning shakllanishi uchun quyidagi shart zarur:",
+    "options": [
+      "ikkala ko'z o'qlarining parallel joylashuvi",
+      "yaqin joylashgan buyumlarga qaralganda o'qlarning normal konvergensiyasi.",
+      "fiksatsiyalanayotgan buyum yo'nalishida ko'zlarning assotsiatsiyalangan harakatla",
+      "sanab o'tilganlarning barchasi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 461,
+    "question": "Strabizm etiologiyasiga quyidagilar kirmaydi:",
+    "options": [
+      "Bir ko'zning ko'rish qobiliyatining pasayishi",
+      "Anizeykoniya",
+      "kuchsiz fuziya qobiliyatidagi ametropiya",
+      "Anoftalm"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 462,
+    "question": "Maktabgacha yoshdagi bolalarda ko'rish o'tkirligini o'rganish uchun quyidagilard",
+    "options": [
+      "Rabkin jadvallari",
+      "Skiaskopik chizg'ichlar",
+      "Yustova jadvallari",
+      "Orlova jadvali"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 463,
+    "question": "Ekstraokulyar mushaklarni innervatsiya qilishda ishtirok etmaydigan bosh miya ne",
+    "options": [
+      "N. Okulomotorius",
+      "N. Trochlearis",
+      "N. Opticus, N. Facialis",
+      "N. Abducens"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 464,
+    "question": "Ambliopiya - bu:",
+    "options": [
+      "Ko'rish maydonining torayishi",
+      "To'r pardadagi anatomik o'zgarishlarsiz ko'rish o'tkirligining pasayishi",
+      "Ko'z olmasining yo'qligi",
+      "o'ng va chap ko'zdagi turli xil refraksiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 465,
+    "question": "Rang sezgisini o'rganish uchun quyidagilardan foydalanish mumkin emas:",
+    "options": [
+      "Rabkin jadvallari",
+      "Rautian va Nagel anomaloskopi",
+      "Rang testi, Yustova-Volkov jadvallari va boshqalar",
+      "Sivsev jadvallari"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 466,
+    "question": "Binokulyar ko'rishni o'rganish uchun quyidagilardan foydalanish kerak:",
+    "options": [
+      "Rabkin jadvallari",
+      "Sivsev jadvallari",
+      "Rautian va Nagel anomaloskopi",
+      "Rang testi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 467,
+    "question": "Monokulyar ko'rishda \"Rang sinovi\"da tekshirilganda bemor quyidagilarni ko'rad",
+    "options": [
+      "4 ta krujka",
+      "5 ta doiracha",
+      "2 ta yashil yoki 3 ta qizil doiracha",
+      "6 ta doiracha"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 468,
+    "question": "Hamkorlikdagi g'ilaylikning klinik tasnifiga kirmaydigan tushunchalar:",
+    "options": [
+      "Tashqariga og'uvchi, ichkariga og'uvchi",
+      "Doimiy, davriy",
+      "Alternatsiyalanuvchi, bir tomonlama",
+      "Astigmatik"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 469,
+    "question": "Akkomodatsiyada eng ko'p ishtirok etadigan ko'z tuzilmalari:",
+    "options": [
+      "Shox parda va ko'z gavhari",
+      "Ko'z gavhari va siliar mushak",
+      "Sklera va shox parda",
+      "Siliar mushak va shox parda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 470,
+    "question": "Artifakiyada ko'z akkomodatsiyasi:",
+    "options": [
+      "Zaiflashadi",
+      "Kuchayadi",
+      "O'zgarmaydi",
+      "Keskin kuchayadi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 471,
+    "question": "Akkomodatsiya jarayonida ko'z gavharining sindirish kuchi yaqinga qaraganda:",
+    "options": [
+      "Kuchayadi",
+      "Kamayadi",
+      "O'zgarmaydi",
+      "Keskin kamayadi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 472,
+    "question": "N. Trochlearis falajida mushak funksiyasi buziladi:",
+    "options": [
+      "Ichki to'g'ri",
+      "Tashqi to'g'ri",
+      "Pastki qiyshiq",
+      "Ustki qiyshiq"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 473,
+    "question": "Uzoqlashtiruvchi nerv falajida mushak funksiyasi buziladi:",
+    "options": [
+      "Ichki to'g'ri",
+      "Yuqori to'g'ri",
+      "Tashqi to'g'ri",
+      "Yuqori qiyshiq"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 474,
+    "question": "Markaziy to'r parda arteriyasi qon aylanishining keskin buzilishida bemorlarning a",
+    "options": [
+      "Kon'yunktiva ostiga qon quyilishi",
+      "Ko'rish o'tkirligining ikki tomonlama keskin pasayishi",
+      "Ko'rish o'tkirligining bir tomonlama keskin pasayishi",
+      "Ko'zdan yosh oqishi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 475,
+    "question": "Markaziy arteriya okklyuziyasi davolashni boshlash uchun optimal davr:",
+    "options": [
+      "Shoshilinch davolanish zarur emas",
+      "Birinchi sutka davomida",
+      "3-4 soat ichida",
+      "Dastlabki 40 daqiqa ichida"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 476,
+    "question": "Markaziy arteriya okklyuziyasida shoshilinch yordam quyidagilarni o'z ichiga olad",
+    "options": [
+      "Bo'yin umurtqa sohasi massaji",
+      "Ko'z olmasini massaji",
+      "1% atropin sulfat ko'z tomchilari instillyatsiya",
+      "Antibakterial terapiya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 477,
+    "question": "Oldingi optik neyropatiyasining sababi:",
+    "options": [
+      "To'r pardaning markaziy (makula) zonasida qon aylanishining keskin buzilishi",
+      "Ko'ruv nervi tomirlarida qon aylanishining keskin buzilishi",
+      "Ko'z harakat muskullarida qon aylanishining keskin buzilishi",
+      "Ko'z olmasidan venoz oqimining keskin buzilishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 478,
+    "question": "Ko'ruv nervida qon aylanishining keskin buzilishida bemorning asosiy shikoyatlar",
+    "options": [
+      "Ko'z olmasida yoki uning orqasida og'riq",
+      "Ko'rish o'tkirligining bir tomonlama keskin pasayishi",
+      "Ko'rish o'tkirligining ikki tomonlama keskin pasayishi",
+      "Kon'yunktiva ostiga qon quyilishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 479,
+    "question": "Oldingi ishemik optik neyropatiyaning klinik simptomlari:",
+    "options": [
+      "Ko'zda og'riq",
+      "Bir tomonlama gemianopsiya",
+      "Ko'z ichi bosimining oshishi",
+      "Ko'ruv nervining rangsizlanishi, chegaralari noaniq, hajmi kattalashgan, ko'rish o'"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 480,
+    "question": "Oldingi ishemik optik neyropatiyada shoshilinch yordam quyidagilarni o'z ichiga",
+    "options": [
+      "Bo'yin umurtqa sohasi massaji",
+      "1% atropin sulfat ko'z tomchilari instillyatsiya",
+      "Antibakterial terapiya",
+      "Ko'z olmasini massaji, 2.4% eufillin eritmasidan 10 ml vena ichiga yuborish"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 481,
+    "question": "To'r pardasi, xorioidea va ko'ruv nervi tomirlarida qon aylanishining keskin buzili",
+    "options": [
+      "Tomir devorida mahalliy o'zgarishlar",
+      "Yuqoridagilarning barchasi",
+      "Umumiy gemodinamik buzilishlar",
+      "Qon ivish tizimi buzilishi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 482,
+    "question": "Markaziy vena tizimida qon aylanishining keskin buzilishida asosiy shikoyat:",
+    "options": [
+      "Kon'yunktiva ostiga qon quyilishi",
+      "Ko'rish o'tkirligining ikki tomonlama keskin pasayishi",
+      "Ko'z olmasida yoki uning orqasida og'riq",
+      "Uyqudan keyin ertalab bir tomonlama ko'rishning keskin pasayishi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 483,
+    "question": "Markaziy vena trombozi uchun xos belgilar:",
+    "options": [
+      "Ko'zda og'riq",
+      "Ko'plab chiziqsimon qon quyilishlar (\"ezilgan pomidor\" sindromi)",
+      "Subkon'yunktival qon quyilishlar",
+      "To'r pardaning markaziy zonasida quruq distrofiya o'choqlari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 484,
+    "question": "Markaziy vena trombozining mumkin bo'lgan oqibatlari:",
+    "options": [
+      "Ikkilamchi neovaskulyar glaukomasi",
+      "Dastlabki ko'rish o'tkirligining tiklanishi",
+      "Ko'ruv nervi atrofiyasi",
+      "Yuqoridagilarning barchasi"
+    ],
+    "correctIndex": 3
+  }
+]
