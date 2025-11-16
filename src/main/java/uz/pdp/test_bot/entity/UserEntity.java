@@ -27,6 +27,9 @@
         @Column(nullable = false)
         private Boolean isPaid = false; // true - оплачено навсегда
 
+        @Column(nullable = false)
+        private Boolean isGroup = false;
+
         private LocalDateTime createdAt = LocalDateTime.now();
 
         private LocalDateTime firstTestDate; // дата первого бесплатного теста

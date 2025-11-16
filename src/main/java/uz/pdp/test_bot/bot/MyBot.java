@@ -232,6 +232,7 @@ public class MyBot extends TelegramLongPollingBot {
                         case "my_subscription" -> editSubscriptionStatus(chatId, msgId);
                         case "pay_menu" -> handlePaymentInfo(chatId, msgId);
                         case "start_test" -> startTest(chatId);
+                        case "premium_menu" -> handlePremiumMenu(chatId, msgId);
                         default -> sendMessage(chatId, "Номаълум буйруқ: " + data);
                     }
                 }
@@ -251,26 +252,65 @@ public class MyBot extends TelegramLongPollingBot {
 
     private InlineKeyboardMarkup getMainMenu(String chatId) {
         boolean canTest = userService.canTakeTest(chatId);
+
+        UserEntity user = userService.getUser(chatId).orElse(null);
+        boolean isGroup = user != null && Boolean.TRUE.equals(user.getIsGroup());
+
         InlineKeyboardMarkup.InlineKeyboardMarkupBuilder kb = InlineKeyboardMarkup.builder();
+
         if (canTest) {
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("📚 Сохалар").callbackData("list_specialties").build(),
-                    InlineKeyboardButton.builder().text("📊 Менинг натижаларим").callbackData("my_results").build()
+                    InlineKeyboardButton.builder()
+                            .text("📚 Сохалар")
+                            .callbackData("list_specialties")
+                            .build()
+            ));
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text("📊 Менинг натижаларим")
+                            .callbackData("my_results")
+                            .build()
             ));
         } else {
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("🔒 Тўлов килиш").callbackData("pay_menu").build()
+                    InlineKeyboardButton.builder()
+                            .text("🔒 Тўлов килиш")
+                            .callbackData("pay_menu")
+                            .build()
             ));
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("📊 Менинг натижаларим").callbackData("my_results").build()
+                    InlineKeyboardButton.builder()
+                            .text("📊 Менинг натижаларим")
+                            .callbackData("my_results")
+                            .build()
             ));
         }
+
+        // 🔥 ДОБАВЛЯЕМ НУЖНУЮ КНОПКУ В ОСНОВНОЙ МЕНЮ
+        if (!isGroup) {
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text("🟣 Олий тоифа")
+                            .callbackData("premium_menu")
+                            .build()
+            ));
+        } else {
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text("🟣 Олий тоифага қўшилиш")
+                            .url("https://t.me/+pbSbkE6Np7w2OWEy")
+                            .build()
+            ));
+        }
+
         kb.keyboardRow(List.of(
                 InlineKeyboardButton.builder().text("💳 Менинг обунaм").callbackData("my_subscription").build(),
                 InlineKeyboardButton.builder().text("ℹ️ Лойиҳа ҳақида").callbackData("about").build()
         ));
+
         return kb.build();
     }
+
 
     private void sendStartMenu(String chatId) {
         sendMessage(chatId, "📋 Асосий меню:", getMainMenu(chatId));
@@ -282,29 +322,47 @@ public class MyBot extends TelegramLongPollingBot {
 
     // ---------- Подписка и оплата ----------
     private void editSubscriptionStatus(String chatId, int msgId) {
+
+        UserEntity user = userService.getUser(chatId).orElse(null);
+
+        boolean isGroup = user != null && Boolean.TRUE.equals(user.getIsGroup());
+        boolean isPaid = user != null && Boolean.TRUE.equals(user.getIsPaid());
+
         String status = userService.getAccessStatus(chatId);
+
         InlineKeyboardMarkup.InlineKeyboardMarkupBuilder kb = InlineKeyboardMarkup.builder();
-        if (!userService.canTakeTest(chatId)) {
+
+        // Если человек ИСТЕКАЕТ — показываем кнопку оплаты
+        if (!isPaid) {
             kb.keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("💰 Обунaни тўлаш").callbackData("pay_menu").build()
+                    InlineKeyboardButton.builder().text("💰 Обунани тўлаш").callbackData("pay_menu").build()
             ));
         }
+
+        // 🔥 Добавляем кнопку Олий тоифа
+        if (!isGroup) {
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text("🟣 Олий тоифа")
+                            .callbackData("premium_menu")
+                            .build()
+            ));
+        } else {
+            kb.keyboardRow(List.of(
+                    InlineKeyboardButton.builder()
+                            .text("🟣 Олий тоифага қўшилиш")
+                            .url("https://t.me/+pbSbkE6Np7w2OWEy")
+                            .build()
+            ));
+        }
+
         kb.keyboardRow(List.of(
                 InlineKeyboardButton.builder().text("⬅️ Орқага").callbackData("menu_main").build()
         ));
-        String message = "💳 Обуна холати\n\n" + status;
-        if (!userService.canTakeTest(chatId)) {
-            NumberFormat formatter = NumberFormat.getInstance(new Locale("ru", "RU"));
-            String formattedPrice = formatter.format(botConfig.getSubscriptionPrice()).replace("\u00A0", ".");
-            message += "\n\n💰 Обуна нархи: " + formattedPrice + " сўм";
-            message += "\n\n✅ Тўловдан сўнг сиз қўлингизга ўтади:\n" +
-                    "• Тестларга чекланмаган кириш\n" +
-                    "• Барча ихтисослар\n" +
-                    "• Натижаларни сақлаш\n" +
-                    "• Абaдий (бир марта тўлов)";
-        }
-        editMessage(chatId, msgId, message, kb.build());
+
+        editMessage(chatId, msgId, "💳 Обуна холати\n\n" + status, kb.build());
     }
+
 
     private void handlePaymentInfo(String chatId, int msgId) {
         NumberFormat formatter = NumberFormat.getInstance(new Locale("ru", "RU"));
@@ -826,6 +884,59 @@ public class MyBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
+    private void handlePremiumMenu(String chatId, int msgId) {
+
+        UserEntity user = userService.getUser(chatId).orElse(null);
+
+        if (user != null && Boolean.TRUE.equals(user.getIsGroup())) {
+
+            // Если уже в группе — показываем кнопку перехода
+            InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder()
+                                    .text("🟣 Олий тоифага қўшилиш")
+                                    .url("https://t.me/+pbSbkE6Np7w2OWEy")
+                                    .build()
+                    ))
+                    .keyboardRow(List.of(
+                            InlineKeyboardButton.builder()
+                                    .text("⬅️ Орқага")
+                                    .callbackData("menu_main")
+                                    .build()
+                    ))
+                    .build();
+
+            editMessage(chatId, msgId,
+                    "Сиз олий тоифа рўйхатидасиз.\nГуруҳга қўшилиш учун тугмани босинг:",
+                    markup
+            );
+            return;
+        }
+
+        // Если не в группе — показываем оплату
+        String message =
+                "🟣 *Олий тоифа бўлимга кириш*\n\n" +
+                        "💰 Сумма: *200 000 сўм*\n\n" +
+                        "1. Пулни картага ўтказинг:\n" +
+                        " • Карта рақами: " + botConfig.getCardNumber() + "\n" +
+                        " • Эгаси: " + botConfig.getCardOwner() + "\n\n" +
+                        "2. Ўтказгандан сўнг чекни администраторга юборинг:\n" +
+                        " " + botConfig.getTelegramUsername() + "\n\n" +
+                        "Тўлов текширилгач, сизга \"Олий тоифа\" фаоллаштирилади.";
+
+        InlineKeyboardMarkup markup = InlineKeyboardMarkup.builder()
+                .keyboardRow(List.of(
+                        InlineKeyboardButton.builder()
+                                .text("⬅️ Орқага")
+                                .callbackData("menu_main")
+                                .build()
+                ))
+                .build();
+
+        editMessage(chatId, msgId, message, markup);
+    }
+
 
     @Override
     public String getBotToken() {
